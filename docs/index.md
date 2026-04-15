@@ -1,15 +1,15 @@
 ---
-title: 相侵相碍异家人
-titleTemplate: AlienFamilyHub
+title: 克喵の友链屋
+titleTemplate: KeMiaoHub
 layout: home
 
 hero:
-  name: 相侵相碍异家人
-  text: Alien Family Hub
+  name: 克喵の友链屋
+  text: KeMiao's Links Hub
   tagline:
   image:
-    src: https://wsrv.nl/?url=avatars.githubusercontent.com/u/197213591&mask=hexagon
-    alt: 相侵相碍异家人 GitHub 头像
+    src: https://wsrv.nl/?url=github.com%2FKemeow0815.png
+    alt: 克喵爱吃卤面
   actions:
     - link: /article
       text: 文章聚合
@@ -17,7 +17,7 @@ hero:
 ---
 
 <script setup>
-import MemberList from '@/components/MemberList.vue'
+import MemberList from '.vitepress/components/MemberList.vue'
 </script>
 
 <MemberList id="members" />

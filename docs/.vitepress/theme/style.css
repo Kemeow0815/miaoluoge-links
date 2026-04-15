@@ -97,3 +97,7 @@ svg:where(.iconify) {
 .tippy-box > .tippy-svg-arrow {
 	fill: var(--vp-c-bg-elv);
 }
+/* 圆形头像 */
+.VPHero .image-container img {
+    border-radius: 50%;
+}
