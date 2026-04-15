@@ -7,7 +7,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
 	lang: 'zh',
 	title: '克喵の友链屋',
-	titleTemplate: '克喵の友链屋 (Keiao links Hub)',
+	titleTemplate: '克喵の友链屋 (KeMiao links Hub)',
 	description: '克喵の友链屋',
 	lastUpdated: true,
 	// cleanUrls: true,
@@ -42,7 +42,7 @@ export default defineConfig({
 
 		footer: {
 			message: '<a href="https://github.com/Kemeow0815/miaoluoge-links" target="_blank"><i class="fa-brands fa-github-alt"></i>网站仓库</a>',
-			copyright: `© ${new Date().getFullYear()} 克喵の友链屋 (Keiao links Hub)`,
+			copyright: `© ${new Date().getFullYear()} 克喵の友链屋 (KeMiao links Hub)`,
 		},
 	},
 
