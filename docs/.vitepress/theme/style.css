@@ -102,13 +102,18 @@ svg:where(.iconify) {
 .VPHero .VPHeroImage .image-container {
 	border-radius: 50% !important;
 	overflow: hidden !important;
+	width: 200px !important;
+	height: 200px !important;
 }
 
 .VPHero .VPHeroImage .image-container .VPImage.image-src,
-.VPHero .image-src {
+.VPHero .image-src,
+.vp-doc .VPImage.image-src {
 	border-radius: 50% !important;
 	width: 200px !important;
 	height: 200px !important;
 	object-fit: cover !important;
 	display: block !important;
+	max-width: 200px !important;
+	max-height: 200px !important;
 }

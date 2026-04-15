@@ -21,3 +21,13 @@ import MemberList from '@/components/MemberList.vue'
 </script>
 
 <MemberList id="members" />
+
+<style>
+/* Hero 头像圆形样式 */
+.VPHero .VPImage.image-src {
+  border-radius: 50% !important;
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover !important;
+}
+</style>
