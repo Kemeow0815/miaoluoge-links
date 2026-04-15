@@ -98,13 +98,14 @@ svg:where(.iconify) {
 	fill: var(--vp-c-bg-elv);
 }
 
-/* Hero 头像圆形 */
-.VPHero .image-container {
-	border-radius: 50%;
-	overflow: hidden;
+/* Hero 头像圆形 - 使用更高优先级选择器 */
+.VPHero .VPHeroImage .image-container {
+	border-radius: 50% !important;
+	overflow: hidden !important;
 }
 
-.VPHero .image-container .VPImage.image-src {
+.VPHero .VPHeroImage .image-container .VPImage.image-src,
+.VPHero .image-src {
 	border-radius: 50% !important;
 	width: 200px !important;
 	height: 200px !important;
