@@ -1,5 +1,9 @@
 import type { DefaultTheme } from 'vitepress'
+import { dirname, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { defineConfig } from 'vitepress'
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
 
 // https://vitepress.dev/zh/reference/site-config
 export default defineConfig({
@@ -53,7 +57,7 @@ export default defineConfig({
 	vite: {
 		resolve: {
 			alias: {
-				'@': import.meta.dirname,
+				'@': resolve(__dirname),
 			},
 		},
 		server: {
