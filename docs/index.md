@@ -17,7 +17,7 @@ hero:
 ---
 
 <script setup>
-import MemberList from '.vitepress/components/MemberList.vue'
+import MemberList from '@/components/MemberList.vue'
 </script>
 
 <MemberList id="members" />
