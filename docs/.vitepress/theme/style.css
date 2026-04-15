@@ -99,9 +99,15 @@ svg:where(.iconify) {
 }
 
 /* Hero 头像圆形 */
-.VPHero .VPImage.image-src {
+.VPHero .image-container {
 	border-radius: 50%;
+	overflow: hidden;
+}
+
+.VPHero .image-container .VPImage.image-src {
+	border-radius: 50% !important;
 	width: 200px !important;
 	height: 200px !important;
-	object-fit: cover;
+	object-fit: cover !important;
+	display: block !important;
 }
