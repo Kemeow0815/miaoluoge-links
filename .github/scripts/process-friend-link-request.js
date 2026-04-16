@@ -20,281 +20,298 @@ const REPO_NAME = process.env.REPO_NAME;
 
 // 检测配置
 const CONFIG = {
-  maxRetries: 3,
-  retryDelay: 2000,
-  requestTimeout: 10000,
+	maxRetries: 3,
+	retryDelay: 2000,
+	requestTimeout: 10000,
 };
 
 /**
  * 解析议题内容，提取表单数据
  */
 function parseIssueBody(body) {
-  const data = {};
+	const data = {};
 
-  // 使用正则表达式提取各个字段
-  const patterns = {
-    name: /### 用户昵称\s*\n\s*([^\n]+)/,
-    title: /### 博客名称\s*\n\s*([^\n]+)/,
-    desc: /### 博客\/用户介绍\s*\n\s*([^#]+?)(?=###|$)/,
-    avatarType: /### 头像类型\s*\n\s*([^\n]+)/,
-    avatar: /### 头像标识\s*\n\s*([^\n]+)/,
-    github: /### GitHub 用户名\s*\n\s*([^\n#]+)?/,
-    website: /### 博客链接\s*\n\s*([^\n]+)/,
-    feed: /### 博客 RSS 订阅链接\s*\n\s*([^\n#]+)?/,
-  };
+	// 使用正则表达式提取各个字段
+	const patterns = {
+		name: /### 用户昵称\s*\n\s*([^\n]+)/,
+		title: /### 博客名称\s*\n\s*([^\n]+)/,
+		desc: /### 博客\/用户介绍\s*\n\s*([^#]+?)(?=###|$)/,
+		avatarType: /### 头像类型\s*\n\s*([^\n]+)/,
+		avatar: /### 头像标识\s*\n\s*([^\n]+)/,
+		github: /### GitHub 用户名\s*\n\s*([^\n#]+)?/,
+		website: /### 博客链接\s*\n\s*([^\n]+)/,
+		feed: /### 博客 RSS 订阅链接\s*\n\s*([^\n#]+)?/,
+	};
 
-  for (const [key, pattern] of Object.entries(patterns)) {
-    const match = body.match(pattern);
-    if (match && match[1]) {
-      data[key] = match[1].trim();
-    } else {
-      data[key] = "";
-    }
-  }
+	for (const [key, pattern] of Object.entries(patterns)) {
+		const match = body.match(pattern);
+		if (match && match[1]) {
+			data[key] = match[1].trim();
+		} else {
+			data[key] = "";
+		}
+	}
 
-  return data;
+	return data;
 }
 
 /**
  * 验证必填字段
  */
 function validateData(data) {
-  const required = ["name", "title", "desc", "avatarType", "avatar", "website"];
-  const missing = [];
+	const required = ["name", "title", "desc", "avatarType", "avatar", "website"];
+	const missing = [];
 
-  for (const field of required) {
-    if (!data[field] || data[field].trim() === "") {
-      missing.push(field);
-    }
-  }
+	for (const field of required) {
+		if (!data[field] || data[field].trim() === "") {
+			missing.push(field);
+		}
+	}
 
-  // 验证 avatarType
-  const validAvatarTypes = ["qq", "github", "url"];
-  if (!validAvatarTypes.includes(data.avatarType)) {
-    return { valid: false, error: `头像类型必须是: ${validAvatarTypes.join(", ")}` };
-  }
+	// 验证 avatarType
+	const validAvatarTypes = ["qq", "github", "url"];
+	if (!validAvatarTypes.includes(data.avatarType)) {
+		return {
+			valid: false,
+			error: `头像类型必须是: ${validAvatarTypes.join(", ")}`,
+		};
+	}
 
-  // 验证 website 是有效的 URL
-  if (!data.website.startsWith("http://") && !data.website.startsWith("https://")) {
-    return { valid: false, error: "博客链接必须以 http:// 或 https:// 开头" };
-  }
+	// 验证 website 是有效的 URL
+	if (
+		!data.website.startsWith("http://") &&
+		!data.website.startsWith("https://")
+	) {
+		return { valid: false, error: "博客链接必须以 http:// 或 https:// 开头" };
+	}
 
-  if (missing.length > 0) {
-    return { valid: false, error: `缺少必填字段: ${missing.join(", ")}` };
-  }
+	if (missing.length > 0) {
+		return { valid: false, error: `缺少必填字段: ${missing.join(", ")}` };
+	}
 
-  return { valid: true };
+	return { valid: true };
 }
 
 /**
  * 检测网站是否可访问
  */
 function checkWebsite(url) {
-  return new Promise((resolve) => {
-    if (!url || url.trim() === "") {
-      resolve({ success: true, message: "No URL provided" });
-      return;
-    }
+	return new Promise((resolve) => {
+		if (!url || url.trim() === "") {
+			resolve({ success: true, message: "No URL provided" });
+			return;
+		}
 
-    const client = url.startsWith("https:") ? https : http;
-    const req = client.get(url, { timeout: CONFIG.requestTimeout }, (res) => {
-      const success = res.statusCode >= 200 && res.statusCode < 400;
-      resolve({
-        success,
-        statusCode: res.statusCode,
-        message: success ? "OK" : `HTTP ${res.statusCode}`,
-      });
-    });
+		const client = url.startsWith("https:") ? https : http;
+		const req = client.get(url, { timeout: CONFIG.requestTimeout }, (res) => {
+			const success = res.statusCode >= 200 && res.statusCode < 400;
+			resolve({
+				success,
+				statusCode: res.statusCode,
+				message: success ? "OK" : `HTTP ${res.statusCode}`,
+			});
+		});
 
-    req.on("error", (error) => {
-      resolve({
-        success: false,
-        statusCode: null,
-        message: error.message,
-      });
-    });
+		req.on("error", (error) => {
+			resolve({
+				success: false,
+				statusCode: null,
+				message: error.message,
+			});
+		});
 
-    req.on("timeout", () => {
-      req.destroy();
-      resolve({
-        success: false,
-        statusCode: null,
-        message: "Request timeout",
-      });
-    });
-  });
+		req.on("timeout", () => {
+			req.destroy();
+			resolve({
+				success: false,
+				statusCode: null,
+				message: "Request timeout",
+			});
+		});
+	});
 }
 
 /**
  * 多次尝试检测网站
  */
 async function checkWithRetries(url, name) {
-  console.log(`🔍 检测网站: ${name} - ${url}`);
+	console.log(`🔍 检测网站: ${name} - ${url}`);
 
-  for (let attempt = 1; attempt <= CONFIG.maxRetries; attempt++) {
-    console.log(`  尝试 ${attempt}/${CONFIG.maxRetries}...`);
+	for (let attempt = 1; attempt <= CONFIG.maxRetries; attempt++) {
+		console.log(`  尝试 ${attempt}/${CONFIG.maxRetries}...`);
 
-    const result = await checkWebsite(url);
+		const result = await checkWebsite(url);
 
-    if (result.success) {
-      console.log(`  ✅ 成功 (${result.statusCode || "N/A"})`);
-      return { success: true, attempts: attempt };
-    }
+		if (result.success) {
+			console.log(`  ✅ 成功 (${result.statusCode || "N/A"})`);
+			return { success: true, attempts: attempt };
+		}
 
-    console.log(`  ❌ 失败: ${result.message}`);
+		console.log(`  ❌ 失败: ${result.message}`);
 
-    if (attempt < CONFIG.maxRetries) {
-      console.log(`  ⏳ 等待 ${CONFIG.retryDelay}ms 后重试...`);
-      await new Promise((resolve) => setTimeout(resolve, CONFIG.retryDelay));
-    }
-  }
+		if (attempt < CONFIG.maxRetries) {
+			console.log(`  ⏳ 等待 ${CONFIG.retryDelay}ms 后重试...`);
+			await new Promise((resolve) => setTimeout(resolve, CONFIG.retryDelay));
+		}
+	}
 
-  return { success: false, message: `三次检测均失败` };
+	return { success: false, message: `三次检测均失败` };
 }
 
 /**
  * 读取现有成员
  */
 function getMembers() {
-  try {
-    const data = fs.readFileSync(MEMBERS_FILE, "utf-8");
-    return JSON.parse(data);
-  } catch (error) {
-    console.error("❌ 读取 members.json 失败:", error.message);
-    return [];
-  }
+	try {
+		const data = fs.readFileSync(MEMBERS_FILE, "utf-8");
+		return JSON.parse(data);
+	} catch (error) {
+		console.error("❌ 读取 members.json 失败:", error.message);
+		return [];
+	}
 }
 
 /**
  * 保存成员列表
  */
 function saveMembers(members) {
-  try {
-    fs.writeFileSync(MEMBERS_FILE, JSON.stringify(members, null, 2) + "\n", "utf-8");
-    console.log("✅ 已保存到 members.json");
-    return true;
-  } catch (error) {
-    console.error("❌ 保存 members.json 失败:", error.message);
-    return false;
-  }
+	try {
+		fs.writeFileSync(
+			MEMBERS_FILE,
+			JSON.stringify(members, null, 2) + "\n",
+			"utf-8",
+		);
+		console.log("✅ 已保存到 members.json");
+		return true;
+	} catch (error) {
+		console.error("❌ 保存 members.json 失败:", error.message);
+		return false;
+	}
 }
 
 /**
  * 检查是否已存在
  */
 function checkExists(members, website) {
-  return members.some(
-    (m) => m.website.toLowerCase() === website.toLowerCase()
-  );
+	return members.some((m) => m.website.toLowerCase() === website.toLowerCase());
 }
 
 /**
  * 添加评论到议题
  */
 async function addComment(body) {
-  if (!GITHUB_TOKEN) {
-    console.error("❌ 没有 GITHUB_TOKEN，无法添加评论");
-    return false;
-  }
+	if (!GITHUB_TOKEN) {
+		console.error("❌ 没有 GITHUB_TOKEN，无法添加评论");
+		return false;
+	}
 
-  const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/issues/${ISSUE_NUMBER}/comments`;
+	const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/issues/${ISSUE_NUMBER}/comments`;
 
-  return new Promise((resolve) => {
-    const data = JSON.stringify({ body });
+	return new Promise((resolve) => {
+		// 构建请求体
+		const postData = JSON.stringify({ body: body });
 
-    const req = https.request(
-      url,
-      {
-        method: "POST",
-        headers: {
-          "Authorization": `token ${GITHUB_TOKEN}`,
-          "User-Agent": "GitHub Actions",
-          "Content-Type": "application/json",
-          "Content-Length": data.length,
-        },
-      },
-      (res) => {
-        let responseData = "";
-        res.on("data", (chunk) => (responseData += chunk));
-        res.on("end", () => {
-          if (res.statusCode >= 200 && res.statusCode < 300) {
-            console.log("✅ 评论添加成功");
-            resolve(true);
-          } else {
-            console.error("❌ 添加评论失败:", responseData);
-            resolve(false);
-          }
-        });
-      }
-    );
+		const options = {
+			method: "POST",
+			headers: {
+				Authorization: `Bearer ${GITHUB_TOKEN}`,
+				Accept: "application/vnd.github+json",
+				"X-GitHub-Api-Version": "2022-11-28",
+				"User-Agent": "GitHub-Actions",
+				"Content-Type": "application/json",
+				"Content-Length": Buffer.byteLength(postData),
+			},
+		};
 
-    req.on("error", (error) => {
-      console.error("❌ 请求失败:", error.message);
-      resolve(false);
-    });
+		const req = https.request(url, options, (res) => {
+			let responseData = "";
+			res.on("data", (chunk) => (responseData += chunk));
+			res.on("end", () => {
+				if (res.statusCode >= 200 && res.statusCode < 300) {
+					console.log("✅ 评论添加成功");
+					resolve(true);
+				} else {
+					console.error(
+						"❌ 添加评论失败 (状态码:",
+						res.statusCode + "):",
+						responseData,
+					);
+					resolve(false);
+				}
+			});
+		});
 
-    req.write(data);
-    req.end();
-  });
+		req.on("error", (error) => {
+			console.error("❌ 请求失败:", error.message);
+			resolve(false);
+		});
+
+		req.write(postData);
+		req.end();
+	});
 }
 
 /**
  * 重新打开议题
  */
 async function reopenIssue() {
-  if (!GITHUB_TOKEN) {
-    console.error("❌ 没有 GITHUB_TOKEN，无法重新打开议题");
-    return false;
-  }
+	if (!GITHUB_TOKEN) {
+		console.error("❌ 没有 GITHUB_TOKEN，无法重新打开议题");
+		return false;
+	}
 
-  const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/issues/${ISSUE_NUMBER}`;
+	const url = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/issues/${ISSUE_NUMBER}`;
 
-  return new Promise((resolve) => {
-    const data = JSON.stringify({ state: "open" });
+	return new Promise((resolve) => {
+		const postData = JSON.stringify({ state: "open" });
 
-    const req = https.request(
-      url,
-      {
-        method: "PATCH",
-        headers: {
-          "Authorization": `token ${GITHUB_TOKEN}`,
-          "User-Agent": "GitHub Actions",
-          "Content-Type": "application/json",
-          "Content-Length": data.length,
-        },
-      },
-      (res) => {
-        let responseData = "";
-        res.on("data", (chunk) => (responseData += chunk));
-        res.on("end", () => {
-          if (res.statusCode >= 200 && res.statusCode < 300) {
-            console.log("✅ 议题已重新打开");
-            resolve(true);
-          } else {
-            console.error("❌ 重新打开议题失败:", responseData);
-            resolve(false);
-          }
-        });
-      }
-    );
+		const options = {
+			method: "PATCH",
+			headers: {
+				Authorization: `Bearer ${GITHUB_TOKEN}`,
+				Accept: "application/vnd.github+json",
+				"X-GitHub-Api-Version": "2022-11-28",
+				"User-Agent": "GitHub-Actions",
+				"Content-Type": "application/json",
+				"Content-Length": Buffer.byteLength(postData),
+			},
+		};
 
-    req.on("error", (error) => {
-      console.error("❌ 请求失败:", error.message);
-      resolve(false);
-    });
+		const req = https.request(url, options, (res) => {
+			let responseData = "";
+			res.on("data", (chunk) => (responseData += chunk));
+			res.on("end", () => {
+				if (res.statusCode >= 200 && res.statusCode < 300) {
+					console.log("✅ 议题已重新打开");
+					resolve(true);
+				} else {
+					console.error(
+						"❌ 重新打开议题失败 (状态码:",
+						res.statusCode + "):",
+						responseData,
+					);
+					resolve(false);
+				}
+			});
+		});
 
-    req.write(data);
-    req.end();
-  });
+		req.on("error", (error) => {
+			console.error("❌ 请求失败:", error.message);
+			resolve(false);
+		});
+
+		req.write(postData);
+		req.end();
+	});
 }
 
 /**
  * 处理失败情况
  */
 async function handleFailure(reason) {
-  console.log("\n❌ 处理失败:", reason);
+	console.log("\n❌ 处理失败:", reason);
 
-  const comment = `## ❌ 友链申请未通过
+	const comment = `## ❌ 友链申请未通过
 
 **原因：** ${reason}
 
@@ -306,21 +323,21 @@ async function handleFailure(reason) {
 ---
 *此评论由自动化工作流生成*`;
 
-  await addComment(comment);
-  await reopenIssue();
+	await addComment(comment);
+	await reopenIssue();
 
-  // 设置输出
-  console.log("::set-output name=success::false");
-  process.exit(0);
+	// 设置输出
+	console.log("::set-output name=success::false");
+	process.exit(0);
 }
 
 /**
  * 处理跳过情况（已存在）
  */
 async function handleSkipped(reason) {
-  console.log("\n⏭️ 跳过处理:", reason);
+	console.log("\n⏭️ 跳过处理:", reason);
 
-  const comment = `## ⏭️ 友链申请已跳过
+	const comment = `## ⏭️ 友链申请已跳过
 
 **原因：** ${reason}
 
@@ -329,19 +346,19 @@ async function handleSkipped(reason) {
 ---
 *此评论由自动化工作流生成*`;
 
-  await addComment(comment);
+	await addComment(comment);
 
-  // 设置输出
-  console.log("::set-output name=success::true");
+	// 设置输出
+	console.log("::set-output name=success::true");
 }
 
 /**
  * 处理成功情况
  */
 async function handleSuccess(memberData) {
-  console.log("\n✅ 处理成功！");
+	console.log("\n✅ 处理成功！");
 
-  const comment = `## ✅ 友链申请已通过
+	const comment = `## ✅ 友链申请已通过
 
 您的博客已成功添加到友链列表！
 
@@ -355,90 +372,90 @@ async function handleSuccess(memberData) {
 ---
 *此评论由自动化工作流生成*`;
 
-  await addComment(comment);
+	await addComment(comment);
 
-  // 设置输出
-  console.log("::set-output name=success::true");
+	// 设置输出
+	console.log("::set-output name=success::true");
 }
 
 /**
  * 主函数
  */
 async function main() {
-  console.log("🚀 开始处理友链申请...\n");
-  console.log(`📋 议题编号: #${ISSUE_NUMBER}`);
-  console.log(`📋 议题标题: ${ISSUE_TITLE}\n`);
+	console.log("🚀 开始处理友链申请...\n");
+	console.log(`📋 议题编号: #${ISSUE_NUMBER}`);
+	console.log(`📋 议题标题: ${ISSUE_TITLE}\n`);
 
-  // 1. 解析议题内容
-  console.log("📖 解析议题内容...");
-  const data = parseIssueBody(ISSUE_BODY);
-  console.log("解析结果:", JSON.stringify(data, null, 2));
+	// 1. 解析议题内容
+	console.log("📖 解析议题内容...");
+	const data = parseIssueBody(ISSUE_BODY);
+	console.log("解析结果:", JSON.stringify(data, null, 2));
 
-  // 2. 验证数据
-  console.log("\n🔍 验证数据...");
-  const validation = validateData(data);
-  if (!validation.valid) {
-    await handleFailure(validation.error);
-    return;
-  }
-  console.log("✅ 数据验证通过");
+	// 2. 验证数据
+	console.log("\n🔍 验证数据...");
+	const validation = validateData(data);
+	if (!validation.valid) {
+		await handleFailure(validation.error);
+		return;
+	}
+	console.log("✅ 数据验证通过");
 
-  // 3. 检测 website 可访问性
-  console.log("\n🌐 检测博客链接...");
-  const websiteCheck = await checkWithRetries(data.website, "博客链接");
-  if (!websiteCheck.success) {
-    await handleFailure(`博客链接无法访问：${websiteCheck.message}`);
-    return;
-  }
+	// 3. 检测 website 可访问性
+	console.log("\n🌐 检测博客链接...");
+	const websiteCheck = await checkWithRetries(data.website, "博客链接");
+	if (!websiteCheck.success) {
+		await handleFailure(`博客链接无法访问：${websiteCheck.message}`);
+		return;
+	}
 
-  // 4. 检测 feed 可访问性（如果有）
-  if (data.feed && data.feed.trim() !== "") {
-    console.log("\n📡 检测 RSS 订阅链接...");
-    const feedCheck = await checkWithRetries(data.feed, "RSS 订阅链接");
-    if (!feedCheck.success) {
-      await handleFailure(`RSS 订阅链接无法访问：${feedCheck.message}`);
-      return;
-    }
-  }
+	// 4. 检测 feed 可访问性（如果有）
+	if (data.feed && data.feed.trim() !== "") {
+		console.log("\n📡 检测 RSS 订阅链接...");
+		const feedCheck = await checkWithRetries(data.feed, "RSS 订阅链接");
+		if (!feedCheck.success) {
+			await handleFailure(`RSS 订阅链接无法访问：${feedCheck.message}`);
+			return;
+		}
+	}
 
-  // 5. 检查是否已存在
-  console.log("\n📋 检查是否已存在...");
-  const members = getMembers();
-  if (checkExists(members, data.website)) {
-    console.log("⚠️ 该博客链接已存在于友链列表中，跳过添加");
-    await handleSkipped("该博客链接已存在于友链列表中");
-    return;
-  }
-  console.log("✅ 检查通过，未重复");
+	// 5. 检查是否已存在
+	console.log("\n📋 检查是否已存在...");
+	const members = getMembers();
+	if (checkExists(members, data.website)) {
+		console.log("⚠️ 该博客链接已存在于友链列表中，跳过添加");
+		await handleSkipped("该博客链接已存在于友链列表中");
+		return;
+	}
+	console.log("✅ 检查通过，未重复");
 
-  // 6. 构建新成员数据
-  const newMember = {
-    name: data.name,
-    title: data.title,
-    desc: data.desc,
-    avatarType: data.avatarType,
-    avatar: data.avatar,
-    github: data.github || "",
-    website: data.website,
-    feed: data.feed || "",
-  };
+	// 6. 构建新成员数据
+	const newMember = {
+		name: data.name,
+		title: data.title,
+		desc: data.desc,
+		avatarType: data.avatarType,
+		avatar: data.avatar,
+		github: data.github || "",
+		website: data.website,
+		feed: data.feed || "",
+	};
 
-  // 7. 添加到成员列表
-  console.log("\n💾 添加到成员列表...");
-  members.push(newMember);
+	// 7. 添加到成员列表
+	console.log("\n💾 添加到成员列表...");
+	members.push(newMember);
 
-  if (!saveMembers(members)) {
-    await handleFailure("保存数据失败，请稍后重试");
-    return;
-  }
+	if (!saveMembers(members)) {
+		await handleFailure("保存数据失败，请稍后重试");
+		return;
+	}
 
-  // 8. 处理成功
-  await handleSuccess(newMember);
+	// 8. 处理成功
+	await handleSuccess(newMember);
 
-  console.log("\n🎉 处理完成！");
+	console.log("\n🎉 处理完成！");
 }
 
 main().catch((error) => {
-  console.error("\n💥 程序异常:", error);
-  process.exit(1);
+	console.error("\n💥 程序异常:", error);
+	process.exit(1);
 });
