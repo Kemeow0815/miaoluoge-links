@@ -305,13 +305,34 @@ async function handleFailure(reason) {
 
 ---
 *此评论由自动化工作流生成*`;
-n
+
   await addComment(comment);
   await reopenIssue();
 
   // 设置输出
   console.log("::set-output name=success::false");
   process.exit(0);
+}
+
+/**
+ * 处理跳过情况（已存在）
+ */
+async function handleSkipped(reason) {
+  console.log("\n⏭️ 跳过处理:", reason);
+
+  const comment = `## ⏭️ 友链申请已跳过
+
+**原因：** ${reason}
+
+您的博客已经在友链列表中了，无需重复添加。
+
+---
+*此评论由自动化工作流生成*`;
+
+  await addComment(comment);
+
+  // 设置输出
+  console.log("::set-output name=success::true");
 }
 
 /**
@@ -384,7 +405,8 @@ async function main() {
   console.log("\n📋 检查是否已存在...");
   const members = getMembers();
   if (checkExists(members, data.website)) {
-    await handleFailure("该博客链接已存在于友链列表中");
+    console.log("⚠️ 该博客链接已存在于友链列表中，跳过添加");
+    await handleSkipped("该博客链接已存在于友链列表中");
     return;
   }
   console.log("✅ 检查通过，未重复");
