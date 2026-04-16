@@ -10,11 +10,11 @@ const shuffleMembers = () => members.value.sort(() => Math.random() - 0.5)
 onMounted(shuffleMembers)
 
 function modifyMembers() {
-	const confirmMsg = '跳转到在线文档修改成员列表？修改完成后，可从页脚网站仓库提交 PR。'
+	const confirmMsg = '跳转github仓库提交议题表单。'
 	// eslint-disable-next-line no-alert
 	if (!window?.confirm(confirmMsg))
 		return
-	window.open('https://docs.qq.com/sheet/DSnhYT3pIaEt2WUds')
+	window.open('https://github.com/Kemeow0815/miaoluoge-links/issues/new?template=friend-link-request.yml')
 }
 </script>
 
@@ -22,7 +22,7 @@ function modifyMembers() {
 <div>
 	<h2>
 		成员
-		<Badge text="修改" style="cursor: pointer;" @click="modifyMembers" />
+		<Badge text="申请" style="cursor: pointer;" @click="modifyMembers" />
 		<Icon class="shuffle-btn" icon="ri:shuffle-fill" @click="shuffleMembers" />
 	</h2>
 	<TransitionGroup tag="section" class="card-list" name="list">
