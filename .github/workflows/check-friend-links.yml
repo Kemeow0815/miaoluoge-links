@@ -1,26 +1,17 @@
-name: Check Website Availability
+name: Check Friend Links
 
 on:
   schedule:
-    # 每5天运行一次 (cron: 分钟 小时 日 月 星期)
-    # 这里设置为每5天的凌晨2点运行
-    - cron: "0 2 */5 * *"
+    # 每7天运行一次 (每周日凌晨2点)
+    - cron: "0 2 */7 * *"
   workflow_dispatch:
-    inputs:
-      dry_run:
-        description: '试运行模式 (不实际删除)'
-        required: false
-        default: 'false'
-        type: choice
-        options:
-          - 'true'
-          - 'false'
 
 jobs:
-  check-websites:
+  check-links:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
 
     steps:
       - name: Checkout repository
@@ -31,15 +22,22 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Check website availability
-        run: node .github/scripts/check-website-availability.js
-        timeout-minutes: 30
+      - name: Check friend links
+        id: check
+        run: node .github/scripts/check-friend-links.js
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPO_OWNER: ${{ github.repository_owner }}
+          REPO_NAME: ${{ github.event.repository.name }}
+        timeout-minutes: 60
 
       - name: Check for changes
         id: check-changes
         run: |
-          if git diff --quiet docs/.vitepress/data/members.json; then
+          git add docs/.vitepress/data/members.json
+          if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ 没有文件变更，跳过提交"
           else
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
@@ -49,24 +47,24 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add docs/.vitepress/data/members.json
-          git add check-website-log.json
-          git commit -m "chore: remove unreachable websites [skip ci]"
+          git commit -m "chore: remove unreachable friend links [skip ci]"
           git push
 
       - name: Upload logs as artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: check-website-logs
-          path: check-website-log.json
+          name: check-friend-links-logs
+          path: |
+            check-friend-links-log.json
+            backups/
           retention-days: 30
 
       - name: Report status
         if: always()
         run: |
           if [ "${{ job.status }}" == "success" ]; then
-            echo "✅ 网站通达性检测完成"
+            echo "✅ 友链检测完成"
           else
-            echo "❌ 网站通达性检测失败"
+            echo "❌ 友链检测失败"
           fi

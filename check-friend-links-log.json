@@ -1,0 +1,136 @@
+[
+  {
+    "startTime": "2026-04-16T07:46:47.862Z",
+    "endTime": "2026-04-16T07:46:50.505Z",
+    "totalChecked": 5,
+    "successful": [
+      {
+        "name": "纸鹿",
+        "website": "https://blog.zhilu.site/",
+        "feed": "https://blog.zhilu.site/atom.xml",
+        "websiteAttempts": 1,
+        "feedAttempts": 1
+      },
+      {
+        "name": "liushen",
+        "website": "https://www.liushen.fun/",
+        "feed": "https://blog.liushen.fun/atom.xml",
+        "websiteAttempts": 1,
+        "feedAttempts": 1
+      },
+      {
+        "name": "小康",
+        "website": "https://xiaokang.me/",
+        "feed": "",
+        "websiteAttempts": 1,
+        "feedAttempts": 0
+      },
+      {
+        "name": "鹊楠",
+        "website": "https://blog.quenan.cn/",
+        "feed": "https://blog.quenan.cn/atom.xml",
+        "websiteAttempts": 1,
+        "feedAttempts": 1
+      },
+      {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "feed": "https://blog.zhheo.com/rss.xml",
+        "websiteAttempts": 1,
+        "feedAttempts": 1
+      }
+    ],
+    "failed": [],
+    "removed": [],
+    "issuesReopened": [],
+    "errors": [],
+    "summary": {
+      "total": 5,
+      "success": 5,
+      "failed": 0,
+      "removed": 0,
+      "issuesReopened": 0
+    }
+  },
+  {
+    "startTime": "2026-04-16T07:44:33.462Z",
+    "endTime": "2026-04-16T07:46:39.863Z",
+    "totalChecked": 7,
+    "successful": [
+      {
+        "name": "纸鹿",
+        "website": "https://blog.zhilu.site/",
+        "feed": "https://blog.zhilu.site/atom.xml",
+        "websiteAttempts": 1,
+        "feedAttempts": 1
+      },
+      {
+        "name": "liushen",
+        "website": "https://www.liushen.fun/",
+        "feed": "https://blog.liushen.fun/atom.xml",
+        "websiteAttempts": 1,
+        "feedAttempts": 1
+      },
+      {
+        "name": "小康",
+        "website": "https://xiaokang.me/",
+        "feed": "",
+        "websiteAttempts": 1,
+        "feedAttempts": 0
+      },
+      {
+        "name": "鹊楠",
+        "website": "https://blog.quenan.cn/",
+        "feed": "https://blog.quenan.cn/atom.xml",
+        "websiteAttempts": 1,
+        "feedAttempts": 1
+      },
+      {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "feed": "https://blog.zhheo.com/rss.xml",
+        "websiteAttempts": 1,
+        "feedAttempts": 1
+      }
+    ],
+    "failed": [
+      {
+        "name": "天翔TNXG",
+        "website": "https://tnxg.top/",
+        "feed": "https://tnxgmoe.com/feed",
+        "reason": "博客链接无法访问：三次检测均失败"
+      },
+      {
+        "name": "啊不都",
+        "website": "https://www.oplog.cn/",
+        "feed": "https://www.oplog.cn/atom.xml",
+        "reason": "博客链接无法访问：三次检测均失败"
+      }
+    ],
+    "removed": [
+      {
+        "name": "天翔TNXG",
+        "website": "https://tnxg.top/",
+        "feed": "https://tnxgmoe.com/feed",
+        "reason": "博客链接无法访问：三次检测均失败",
+        "removedAt": "2026-04-16T07:46:39.859Z"
+      },
+      {
+        "name": "啊不都",
+        "website": "https://www.oplog.cn/",
+        "feed": "https://www.oplog.cn/atom.xml",
+        "reason": "博客链接无法访问：三次检测均失败",
+        "removedAt": "2026-04-16T07:46:39.859Z"
+      }
+    ],
+    "issuesReopened": [],
+    "errors": [],
+    "summary": {
+      "total": 7,
+      "success": 5,
+      "failed": 2,
+      "removed": 2,
+      "issuesReopened": 0
+    }
+  }
+]

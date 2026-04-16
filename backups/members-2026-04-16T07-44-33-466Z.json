@@ -20,6 +20,26 @@
     "feed": "https://blog.liushen.fun/atom.xml"
   },
   {
+    "name": "天翔TNXG",
+    "title": "iykrzu",
+    "desc": "明日尚未到来，希望凝于心上",
+    "avatarType": "qq",
+    "avatar": "2271225249",
+    "github": "TNXG",
+    "website": "https://tnxg.top/",
+    "feed": "https://tnxgmoe.com/feed"
+  },
+  {
+    "name": "啊不都",
+    "title": "嘟嘟！",
+    "desc": "求知若饥，虚心若愚",
+    "avatarType": "qq",
+    "avatar": "2753534031",
+    "github": "am-abudu",
+    "website": "https://www.oplog.cn/",
+    "feed": "https://www.oplog.cn/atom.xml"
+  },
+  {
     "name": "小康",
     "title": "",
     "desc": "",
