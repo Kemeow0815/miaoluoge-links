@@ -33,12 +33,23 @@ jobs:
           REPO_OWNER: ${{ github.repository_owner }}
           REPO_NAME: ${{ github.event.repository.name }}
 
-      - name: Commit and push changes
+      - name: Check for changes
+        id: check-changes
         if: steps.process.outputs.success == 'true'
+        run: |
+          git add docs/.vitepress/data/members.json
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+            echo "ℹ️ 没有文件变更，跳过提交"
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check-changes.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add docs/.vitepress/data/members.json
           git commit -m "chore: add friend link from issue #${{ github.event.issue.number }} [skip ci]"
           git push
 
