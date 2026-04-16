@@ -52,6 +52,8 @@ export default defineConfig({
 		['link', { rel: 'icon', href: 'https://wsrv.nl/?url=github.com%2FKemeow0815.png' }],
 		['link', { rel: 'stylesheet', href: 'https://lib.baomitu.com/font-awesome/7.0.0/css/all.min.css', media: 'none', onload: 'media="all"' }],
 		['link', { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css', media: 'print', onload: 'this.media="all"' }],
+		// RSS Feed 自动发现
+		['link', { rel: 'alternate', type: 'application/rss+xml', title: '克喵の友链屋 - 文章聚合', href: '/feed.xml' }],
 	],
 
 	vite: {

@@ -14,6 +14,9 @@ hero:
     - link: /article
       text: 文章聚合
       theme: alt
+    - link: /feed.xml
+      text: RSS订阅
+      theme: alt
 ---
 
 <script setup>

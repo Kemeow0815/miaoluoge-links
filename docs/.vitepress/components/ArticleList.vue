@@ -86,6 +86,10 @@ function formatDate(dateStr: string) {
 	<span v-if="articlesData.lastUpdated">
 		更新于 {{ formatDate(articlesData.lastUpdated) }}
 	</span>
+	<a href="https://www.268682.xyz/feed.xml" target="_blank" class="rss-link" title="RSS 订阅">
+		<Icon icon="ri:rss-fill" width="18" />
+		<span>RSS</span>
+	</a>
 
 	<Dropdown title="偏好设置">
 		<Icon icon="ri:list-settings-fill" class="cursor-pointer" width="20" />
@@ -147,6 +151,23 @@ h1 {
   justify-content: center;
   gap: 1em;
   flex-wrap: wrap;
+  align-items: center;
+}
+
+.rss-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+  font-size: 0.9em;
+  padding: 0.2em 0.5em;
+  border-radius: 0.3em;
+  transition: all 0.2s;
+}
+
+.rss-link:hover {
+  background-color: var(--vp-c-brand-soft);
 }
 
 .article-list {

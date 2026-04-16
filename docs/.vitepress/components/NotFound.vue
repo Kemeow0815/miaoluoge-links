@@ -1,6 +1,6 @@
 <template>
 <div class="not-found">
-	<img class="logo" src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/197213591&mask=hexagon" alt="">
+	<img class="logo" src="https://wsrv.nl/?url=github.com%2FKemeow0815.png" alt="">
 	<h1>页面未找到</h1>
 	<a class="button" href="/">返回主页</a>
 </div>
