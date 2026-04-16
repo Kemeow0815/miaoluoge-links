@@ -30,16 +30,6 @@
     "feed": ""
   },
   {
-    "name": "葱苓",
-    "title": "葱苓sama",
-    "desc": "Don't worry, be happy.",
-    "avatarType": "qq",
-    "avatar": "1298926752",
-    "github": "ciraos",
-    "website": "https://blog.ciraos.top/",
-    "feed": "https://blog.ciraos.top/feed.xml"
-  },
-  {
     "name": "liushen",
     "title": "群混子",
     "desc": "柳影曳曳，清酒孤灯，扬笔撒墨，心境如霜",
@@ -48,16 +38,6 @@
     "github": "willow-god",
     "website": "https://www.liushen.fun/",
     "feed": "https://blog.liushen.fun/atom.xml"
-  },
-  {
-    "name": "Marcus",
-    "title": "马库斯",
-    "desc": "人间值得，未来可期",
-    "avatarType": "github",
-    "avatar": "marcus-zh",
-    "github": "Marcus-zh",
-    "website": "https://blog.marcus233.top/",
-    "feed": "https://blog.marcus233.top/atom.xml"
   },
   {
     "name": "mio",
@@ -70,26 +50,6 @@
     "feed": ""
   },
   {
-    "name": "陈鑫磊",
-    "title": "cxl2020mc",
-    "desc": "当你能做出选择的时候，不要让自己后悔",
-    "avatarType": "qq",
-    "avatar": "1176503930",
-    "github": "cxl2020MC",
-    "website": "https://blog.cxl2020mc.top/",
-    "feed": "https://blog.cxl2020mc.top/atom.xml"
-  },
-  {
-    "name": "Redish101",
-    "title": "数据库",
-    "desc": "",
-    "avatarType": "qq",
-    "avatar": "3974549032",
-    "github": "Redish101",
-    "website": "https://redish101.top/",
-    "feed": "https://blog.redish101.top/feed"
-  },
-  {
     "name": "Ariasaka",
     "title": "嘟嘟嘟",
     "desc": "人有悲欢离合 月有阴晴圆缺",
@@ -98,16 +58,6 @@
     "github": "LYXOfficial",
     "website": "https://blog.yaria.top/",
     "feed": "https://blog.yaria.top/feed"
-  },
-  {
-    "name": "eastwind",
-    "title": "EW",
-    "desc": "东风不与周郎便",
-    "avatarType": "github",
-    "avatar": "WindyDante",
-    "github": "WindyDante",
-    "website": "https://blog.1wind.cn/",
-    "feed": "https://blog.1wind.cn/feed"
   },
   {
     "name": "天翔TNXG",
@@ -140,26 +90,6 @@
     "feed": "https://www.yt-blog.top/atom.xml"
   },
   {
-    "name": "Chinyuan Tai",
-    "title": "kd",
-    "desc": "LOVE&PEACE ",
-    "avatarType": "github",
-    "avatar": "Kindle-deep",
-    "github": "Kindle-deep",
-    "website": "https://blog.knlde.top/",
-    "feed": "https://blog.knlde.top/atom.xml"
-  },
-  {
-    "name": "taosu",
-    "title": "FATA Home",
-    "desc": "Daily Growing",
-    "avatarType": "qq",
-    "avatar": "2412211487",
-    "github": "taosu0216",
-    "website": "https://yblue.top/",
-    "feed": ""
-  },
-  {
     "name": "皓然",
     "title": "Horon",
     "desc": "分享生活和技术的点滴",
@@ -168,26 +98,6 @@
     "github": "HoronLee",
     "website": "https://blog.horonlee.com/",
     "feed": "https://blog.horonlee.com/atom.xml"
-  },
-  {
-    "name": "听风",
-    "title": "",
-    "desc": "近水楼台先得月，向阳花木易为春",
-    "avatarType": "github",
-    "avatar": "unify-z",
-    "github": "unify-z",
-    "website": "https://blog.ifeng.asia/",
-    "feed": "https://blog.ifeng.asia/index.xml"
-  },
-  {
-    "name": "Silvaire",
-    "title": "",
-    "desc": "君埋泉下泥销骨，我寄人间雪满头。",
-    "avatarType": "qq",
-    "avatar": "3624285658",
-    "github": "silvaire-qwq",
-    "website": "https://lunars.site/",
-    "feed": ""
   },
   {
     "name": "一个憨憨的电脑小白",
@@ -220,16 +130,6 @@
     "feed": "https://yuuu.org/atom.xml"
   },
   {
-    "name": "L1nSn0w",
-    "title": "",
-    "desc": "无限进步",
-    "avatarType": "github",
-    "avatar": "lin-snow",
-    "github": "lin-snow",
-    "website": "https://linsnow.cn/",
-    "feed": "https://linsnow.cn/index.xml"
-  },
-  {
     "name": "啊不都",
     "title": "嘟嘟！",
     "desc": "求知若饥，虚心若愚",
@@ -250,16 +150,6 @@
     "feed": ""
   },
   {
-    "name": "昔颜",
-    "title": "hackcr",
-    "desc": "",
-    "avatarType": "qq",
-    "avatar": "2973896519",
-    "github": "",
-    "website": "https://www.muzilix.cn/",
-    "feed": ""
-  },
-  {
     "name": "鹊楠",
     "title": "咕咕秃头楠",
     "desc": "世界那么大我想去看看",
@@ -270,16 +160,6 @@
     "feed": "https://blog.quenan.cn/atom.xml"
   },
   {
-    "name": "煮雪",
-    "title": "",
-    "desc": "如月之恒，如日之升",
-    "avatarType": "qq",
-    "avatar": "624058167",
-    "github": "Cent1pedee",
-    "website": "https://blog.cent1pedee.top/",
-    "feed": "https://blog.cent1pedee.top/atom.xml"
-  },
-  {
     "name": "幻梦晓寒",
     "title": "晓寒",
     "desc": "醉后不知天在水，满船清梦压星河",
@@ -288,16 +168,6 @@
     "github": "Dreamkaka",
     "website": "https://blog.xiaohan-kaka.top/",
     "feed": "https://blog.xiaohan-kaka.top/feed"
-  },
-  {
-    "name": "Teror Fox",
-    "title": "",
-    "desc": "方寸之间，深不见底",
-    "avatarType": "github",
-    "avatar": "sysfox",
-    "github": "sysfox",
-    "website": "https://blog.trfox.top/",
-    "feed": "https://blog.trfox.top/feed"
   },
   {
     "name": "Admibrill",
@@ -318,15 +188,5 @@
     "github": "Ziyang-Bai",
     "website": "https://ziyangbai.com",
     "feed": ""
-  },
-  {
-    "name": "Snowykami",
-    "title": "远野千束",
-    "desc": "轻思若水，雪化生香",
-    "avatarType": "github",
-    "avatar": "snowykami",
-    "github": "snowykami",
-    "website": "https://www.sfkm.me",
-    "feed": "https://blog.sfkm.me/rss.xml"
   }
 ]

@@ -1,3 +1,10 @@
+export interface ArticleSource {
+	name: string
+	website: string
+	avatar: string
+	avatarType: string
+}
+
 export interface Article {
 	_id: string
 	id: string
@@ -6,4 +13,5 @@ export interface Article {
 	date: string
 	author: string
 	summary: string
+	source?: ArticleSource
 }

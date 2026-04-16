@@ -1,0 +1,72 @@
+name: Check Website Availability
+
+on:
+  schedule:
+    # 每5天运行一次 (cron: 分钟 小时 日 月 星期)
+    # 这里设置为每5天的凌晨2点运行
+    - cron: "0 2 */5 * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: '试运行模式 (不实际删除)'
+        required: false
+        default: 'false'
+        type: choice
+        options:
+          - 'true'
+          - 'false'
+
+jobs:
+  check-websites:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Check website availability
+        run: node .github/scripts/check-website-availability.js
+        timeout-minutes: 30
+
+      - name: Check for changes
+        id: check-changes
+        run: |
+          if git diff --quiet docs/.vitepress/data/members.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.check-changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add docs/.vitepress/data/members.json
+          git add check-website-log.json
+          git commit -m "chore: remove unreachable websites [skip ci]"
+          git push
+
+      - name: Upload logs as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: check-website-logs
+          path: check-website-log.json
+          retention-days: 30
+
+      - name: Report status
+        if: always()
+        run: |
+          if [ "${{ job.status }}" == "success" ]; then
+            echo "✅ 网站通达性检测完成"
+          else
+            echo "❌ 网站通达性检测失败"
+          fi
