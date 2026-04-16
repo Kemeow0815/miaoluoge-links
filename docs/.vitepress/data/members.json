@@ -188,5 +188,15 @@
     "github": "Ziyang-Bai",
     "website": "https://ziyangbai.com",
     "feed": ""
+  },
+  {
+    "name": "张洪heo",
+    "title": "张洪heo",
+    "desc": "分享设计与科技生活",
+    "avatarType": "url",
+    "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+    "github": "zhheo",
+    "website": "https://blog.zhheo.com/",
+    "feed": "https://blog.zhheo.com/rss.xml"
   }
 ]
