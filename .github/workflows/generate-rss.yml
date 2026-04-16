@@ -1,57 +1,58 @@
 name: Generate RSS Feed
 
 on:
-  schedule:
-    # 每4小时运行一次（与文章抓取同步）
-    - cron: "0 */4 * * *"
-  push:
-    paths:
-      # articles.json 更新时触发
-      - "docs/.vitepress/data/articles.json"
-  workflow_dispatch:
+    schedule:
+        # 每4小时运行一次（与抓取文章同步）
+        - cron: "0 */4 * * *"
+    push:
+        paths:
+            # articles.json 更新时触发
+            - "docs/.vitepress/data/articles.json"
+    workflow_dispatch:
 
 jobs:
-  generate-rss:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
+    generate-rss:
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
 
-      - name: Generate RSS feed
-        run: node .github/scripts/generate-rss.js
+            - name: Generate RSS feed
+              run: node .github/scripts/generate-rss.js
 
-      - name: Check for changes
-        id: check-changes
-        run: |
-          git add docs/.vitepress/public/feed.xml
-          if git diff --cached --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-            echo "ℹ️ 没有文件变更，跳过提交"
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
+            - name: Check for changes
+              id: check-changes
+              run: |
+                  git add docs/feed.xml
+                  if git diff --cached --quiet; then
+                    echo "changed=false" >> $GITHUB_OUTPUT
+                    echo "ℹ️ 没有文件变更，跳过提交"
+                  else
+                    echo "changed=true" >> $GITHUB_OUTPUT
+                  fi
 
-      - name: Commit and push changes
-        if: steps.check-changes.outputs.changed == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git commit -m "chore: update RSS feed [skip ci]"
-          git push
+            - name: Commit and push changes
+              if: steps.check-changes.outputs.changed == 'true'
+              run: |
+                  git config --local user.email "github-actions[bot]@users.noreply.github.com"
+                  git config --local user.name "github-actions[bot]"
+                  git commit -m "chore: update RSS feed [skip ci]"
+                  git push
 
-      - name: Report status
-        if: always()
-        run: |
-          if [ "${{ job.status }}" == "success" ]; then
-            echo "✅ RSS Feed 生成成功"
-          else
-            echo "❌ RSS Feed 生成失败"
-          fi
+            - name: Report status
+              if: always()
+              run: |
+                  if [ "${{ job.status }}" == "success" ]; then
+                    echo "✅ RSS 订阅源生成完成"
+                    echo "📡 订阅地址: https://www.268682.xyz/feed.xml"
+                  else
+                    echo "❌ RSS 订阅源生成失败"
+                  fi

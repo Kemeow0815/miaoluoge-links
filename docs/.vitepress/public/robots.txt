@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# RSS Feed
+Sitemap: https://www.268682.xyz/feed.xml
+
+# 允许所有爬虫访问
+Disallow:
