@@ -17,6 +17,59 @@ const RESULTS = {
 };
 
 /**
+ * 从 HTML 内容中提取纯文本
+ */
+function htmlToText(html) {
+  if (!html) return "";
+  // 移除 HTML 标签
+  return html
+    .replace(/<script[^>]*>[\s\S]*?<\/script>/gi, "")
+    .replace(/<style[^>]*>[\s\S]*?<\/style>/gi, "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+/**
+ * 提取摘要，适配各种 RSS 格式
+ */
+function extractSummary(item) {
+  // 按优先级尝试各种可能的字段
+  const possibleFields = [
+    // 标准 RSS/Atom 字段
+    "contentSnippet",
+    "summary",
+    "description",
+    "subtitle",
+    // 内容字段（需要处理 HTML）
+    "content",
+    "content:encoded",
+    "encoded",
+    "fullText",
+    "body",
+    // 其他常见字段
+    "excerpt",
+    "teaser",
+    "intro",
+    "preview",
+  ];
+
+  for (const field of possibleFields) {
+    const value = item[field];
+    if (value && typeof value === "string" && value.trim()) {
+      // 如果是 HTML 内容，转换为纯文本
+      const text = htmlToText(value);
+      if (text.length > 10) {
+        return text.substring(0, 200);
+      }
+    }
+  }
+
+  // 如果都没找到，返回空字符串
+  return "";
+}
+
+/**
  * 读取 members.json 获取所有 RSS 源
  */
 function getRSSSources() {
@@ -44,10 +97,21 @@ function getRSSSources() {
 async function fetchRSS(source) {
   // 创建带超时的 parser
   const rssParser = new Parser({
-    headers: {
-      "User-Agent": "Mozilla/5.0 (compatible; RSS Fetcher/1.0)",
-    },
-  });
+  timeout: 10000,
+  headers: {
+    "User-Agent": "Mozilla/5.0 (compatible; RSS Fetcher/1.0)",
+  },
+  // 自定义字段提取，确保获取所有可能的摘要字段
+  customFields: {
+    item: [
+      "summary",
+      "content",
+      "content:encoded",
+      "description",
+      "excerpt",
+    ],
+  },
+});
 
   try {
     console.log(`📡 正在获取: ${source.name} - ${source.feed}`);
@@ -62,21 +126,26 @@ async function fetchRSS(source) {
       timeoutPromise,
     ]);
 
-    const articles = feed.items.slice(0, 10).map((item, index) => ({
-      _id: `${source.name}-${index}-${Date.now()}`,
-      id: item.guid || item.link || `${source.name}-${index}`,
-      title: item.title || "无标题",
-      link: item.link || "",
-      date: item.isoDate || item.pubDate || new Date().toISOString(),
-      author: source.name,
-      summary: item.contentSnippet || item.content?.substring(0, 200) || "",
-      source: {
-        name: source.name,
-        website: source.website,
-        avatar: source.avatar,
-        avatarType: source.avatarType,
-      },
-    }));
+    const articles = feed.items.slice(0, 10).map((item, index) => {
+      // 提取摘要，适配各种 RSS 格式
+      const summary = extractSummary(item);
+
+      return {
+        _id: `${source.name}-${index}-${Date.now()}`,
+        id: item.guid || item.link || `${source.name}-${index}`,
+        title: item.title || "无标题",
+        link: item.link || "",
+        date: item.isoDate || item.pubDate || new Date().toISOString(),
+        author: source.name,
+        summary: summary,
+        source: {
+          name: source.name,
+          website: source.website,
+          avatar: source.avatar,
+          avatarType: source.avatarType,
+        },
+      };
+    });
 
     RESULTS.success.push({ name: source.name, count: articles.length });
     console.log(`✅ ${source.name}: 获取到 ${articles.length} 篇文章`);
