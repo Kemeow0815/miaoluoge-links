@@ -55,9 +55,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: check-friend-links-logs
-          path: |
-            check-friend-links-log.json
-            backups/
+          path: backups/
           retention-days: 30
 
       - name: Report status

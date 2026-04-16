@@ -10,7 +10,7 @@ const __dirname = path.dirname(__filename);
 const DATA_DIR = path.join(__dirname, "../../docs/.vitepress/data");
 const MEMBERS_FILE = path.join(DATA_DIR, "members.json");
 const BACKUP_DIR = path.join(__dirname, "../../backups");
-const LOG_FILE = path.join(__dirname, "../../check-friend-links-log.json");
+const LOG_FILE = path.join(BACKUP_DIR, "check-friend-links-log.json");
 
 // 从环境变量获取 GitHub 信息
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
@@ -53,6 +53,11 @@ function saveLog() {
   };
 
   try {
+    // 确保 backups 目录存在
+    if (!fs.existsSync(BACKUP_DIR)) {
+      fs.mkdirSync(BACKUP_DIR, { recursive: true });
+    }
+
     let existingLogs = [];
     if (fs.existsSync(LOG_FILE)) {
       const content = fs.readFileSync(LOG_FILE, "utf-8");
