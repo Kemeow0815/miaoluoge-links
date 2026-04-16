@@ -1,4 +1,4 @@
-<img src="https://wsrv.nl/?url=avatars.githubusercontent.com/u/197213591?s=115&mask=hexagon" align="right" />
+<img src="https://wsrv.nl/?url=github.com%2FKemeow0815.png" align="right" />
 
 # 克喵の友链屋 | KeMiao's Links Hub
 
