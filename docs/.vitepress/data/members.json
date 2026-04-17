@@ -38,5 +38,15 @@
     "github": "zhheo",
     "website": "https://blog.zhheo.com/",
     "feed": "https://blog.zhheo.com/rss.xml"
+  },
+  {
+    "name": "二叉树树",
+    "title": "二叉树树",
+    "desc": "Protect What You Love.",
+    "avatarType": "url",
+    "avatar": "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0",
+    "github": "afoim",
+    "website": "https://2x.nz/",
+    "feed": "https://2x.nz/rss.xml"
   }
 ]
