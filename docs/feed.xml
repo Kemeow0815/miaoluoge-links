@@ -11,7 +11,7 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Thu, 16 Apr 2026 22:07:18 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 15:04:13 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -22,6 +22,15 @@
       <pubDate>Wed, 15 Apr 2026 04:52:52 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/bp85fpdb.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>让我们自建一个自己的CDN！</title>
+      <link>https://2x.nz/posts/self-host-cdn/</link>
+      <description>你有没有想过从0通过各种开源项目自己搭建一个CDN？今天就来教你！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sat, 11 Apr 2026 16:21:41 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/self-host-cdn/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>视频压缩软件 CompressO 3.0 MacOS 免费汉化版下载</title>
@@ -69,6 +78,15 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
+      <title>WTF？免费优质线路2c4g VPS！免费GLM模型无限用！免费Opus 4.6！</title>
+      <link>https://2x.nz/posts/what-the-fuck-claw-replit/</link>
+      <description>2026年4月6日，这天凌晨...神了...</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sun, 05 Apr 2026 18:17:20 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/what-the-fuck-claw-replit/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
       <title>使用 Magsafe 磁吸保护壳，但是磁力比较低，怎么办</title>
       <link>https://blog.zhheo.com/p/idp0qt15.html</link>
       <description>这篇文章介绍了通过自行更换高吸力磁铁解决廉价MagSafe手机壳磁力不足的方法。作者首先分享了自己日常使用MagSafe支架、泡泡骚、磁吸环等多种磁吸配件的体验，随后指出廉价手机壳普遍存在磁力弱的问题，通常只能退货处理。核心解决方案是单独购买MagSafe接收端磁铁替换壳内劣质磁铁。操作要点包括：推荐55毫米和70毫米两种常用尺寸，N52材质磁铁吸力可达2000高斯，搭配单面麦拉可增强磁力且让磁铁</description>
@@ -85,6 +103,24 @@
       <pubDate>Sat, 04 Apr 2026 16:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/381a41ac/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
+    </item>
+    <item>
+      <title>握草，用浏览器检测你的NAT类型？！</title>
+      <link>https://2x.nz/posts/check-nat-webrtc/</link>
+      <description>众所周知，NAT类型的检测并不是什么门槛，但是，如果我说纯浏览器也可以实现检测呢...</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sat, 04 Apr 2026 13:46:01 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/check-nat-webrtc/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>手搓一个电子邮件订阅器！</title>
+      <link>https://2x.nz/posts/email-posts-sub/</link>
+      <description>你可曾想过手搓一个基于邮件形式的文章订阅器？读者只需告诉系统邮箱，之后的文章更新都会发一封邮件来通知他们！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Fri, 03 Apr 2026 11:19:05 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/email-posts-sub/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>OpenClaw喧嚣过后，我最终选择了QClaw</title>
@@ -105,6 +141,24 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
+      <title>你在做全栈吗？你想要前后端统一的热重载吗？</title>
+      <link>https://2x.nz/posts/concurrently/</link>
+      <description>经常做全栈的小伙伴们都知道，写完后端看效果要dev，写完前端看效果也要dev，那么有没有一劳永逸的解决方案呢？</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Tue, 24 Mar 2026 11:51:17 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/concurrently/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>教你手搓网线！打好人生第一个水晶头！</title>
+      <link>https://2x.nz/posts/rj45/</link>
+      <description>现代生活离不开网络，你想要自己搓一根网线吗？</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Mon, 23 Mar 2026 07:21:29 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/rj45/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
       <title>洪绘星空发布：一个值得逛的博客友链朋友圈</title>
       <link>https://blog.zhheo.com/p/iu5f3hvj.html</link>
       <description>这篇文章介绍了博客在社交媒体和AI冲击下面临的衰落现状，以及作者对博客文化的坚守。文章指出，虽然写博客的人越来越少，但作者仍以记录生活和思考为目的坚持博客写作。为了解决博客互动不足的问题，作者重新开发了&quot;洪绘星空&quot;独立站，通过iframe方式展示友链文章，提供点赞、关注、推荐等功能，旨在为坚守博客的人创造更多交流机会。</description>
@@ -121,6 +175,33 @@
       <pubDate>Wed, 18 Mar 2026 16:31:04 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhilu.site/2026/beijing-intern</guid>
       <source url="https://blog.zhilu.site/">纸鹿</source>
+    </item>
+    <item>
+      <title>你...买 Cloudflare Pro 了吗？来玩超级牛逼的 Snippets ！</title>
+      <link>https://2x.nz/posts/snippets/</link>
+      <description>Snippets 是 Cloudflare 提供的不限量不计费的轻量Worker，我们可以拿她干不少有趣的业务！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Wed, 18 Mar 2026 10:53:50 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/snippets/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>终极版！国内免梯上Github！</title>
+      <link>https://2x.nz/posts/gh-cf/</link>
+      <description>巨简单！1分钟自建你的Github代理！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Tue, 10 Mar 2026 11:29:58 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/gh-cf/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>如何在直播中让你的观众实时了解你在用什么软件？</title>
+      <link>https://2x.nz/posts/obs-realtime-process-name/</link>
+      <description>通过持续监测当前前台进程和指定程序的窗口标题，并将结果写入 TXT 文件，就可以让 OBS 实时向观众展示你正在使用的软件或当前播放的内容。</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sat, 07 Mar 2026 19:19:43 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/obs-realtime-process-name/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>兰空图床深度美化</title>
@@ -265,6 +346,15 @@
       <pubDate>Tue, 10 Jun 2025 13:52:43 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhilu.site/2025/ai-abuse</guid>
       <source url="https://blog.zhilu.site/">纸鹿</source>
+    </item>
+    <item>
+      <title>加群向导</title>
+      <link>https://2x.nz/posts/pin/</link>
+      <description>关于如何联系二叉树树~</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Fri, 23 May 2025 16:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/pin/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>前端字体二三事</title>
