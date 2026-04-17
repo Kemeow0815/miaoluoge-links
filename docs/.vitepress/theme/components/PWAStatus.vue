@@ -39,20 +39,6 @@
         </div>
       </div>
     </Transition>
-
-    <!-- 应用安装提示 -->
-    <Transition name="slide-up">
-      <div v-if="showInstallPrompt" class="pwa-status-alert install-alert" role="alert" aria-live="polite">
-        <div class="alert-content">
-          <span class="alert-icon">📱</span>
-          <span class="alert-text">将友链屋安装到桌面，访问更便捷</span>
-          <div class="alert-actions">
-            <button class="alert-btn primary" @click="installApp">安装</button>
-            <button class="alert-btn secondary" @click="dismissInstallPrompt">忽略</button>
-          </div>
-        </div>
-      </div>
-    </Transition>
   </Teleport>
 </template>
 
@@ -71,16 +57,12 @@ const showUpdateAlert = ref(false)
 let serviceWorkerRegistration: ServiceWorkerRegistration | null = null
 let updateSW: (() => Promise<void>) | null = null
 
-// 安装提示
-const showInstallPrompt = ref(false)
-let deferredPrompt: any = null
-
 // 监听网络状态变化
 const handleOnline = () => {
   isOnline.value = true
   showOfflineAlert.value = false
   showOnlineAlert.value = true
-  
+
   // 3秒后自动隐藏在线提示
   if (onlineAlertTimer) clearTimeout(onlineAlertTimer)
   onlineAlertTimer = window.setTimeout(() => {
@@ -121,66 +103,16 @@ const dismissUpdateAlert = () => {
   showUpdateAlert.value = false
 }
 
-// 应用安装处理
-const handleBeforeInstallPrompt = (e: Event) => {
-  // 阻止默认提示
-  e.preventDefault()
-  // 保存事件以便稍后触发
-  deferredPrompt = e
-  // 显示自定义安装提示
-  showInstallPrompt.value = true
-}
-
-const installApp = async () => {
-  if (!deferredPrompt) return
-  
-  // 显示安装提示
-  deferredPrompt.prompt()
-  
-  // 等待用户响应
-  const { outcome } = await deferredPrompt.userChoice
-  
-  if (outcome === 'accepted') {
-    console.log('用户接受了安装提示')
-  } else {
-    console.log('用户拒绝了安装提示')
-  }
-  
-  // 清除保存的提示
-  deferredPrompt = null
-  showInstallPrompt.value = false
-}
-
-const dismissInstallPrompt = () => {
-  showInstallPrompt.value = false
-  // 设置标记，不再显示安装提示
-  localStorage.setItem('pwa-install-dismissed', Date.now().toString())
-}
-
-// 检查是否应该显示安装提示
-const shouldShowInstallPrompt = () => {
-  const dismissed = localStorage.getItem('pwa-install-dismissed')
-  if (!dismissed) return true
-  
-  // 如果上次忽略超过7天，再次显示
-  const dismissedTime = parseInt(dismissed)
-  const sevenDays = 7 * 24 * 60 * 60 * 1000
-  return Date.now() - dismissedTime > sevenDays
-}
-
 onMounted(() => {
   // 添加网络状态监听
   window.addEventListener('online', handleOnline)
   window.addEventListener('offline', handleOffline)
-  
-  // 添加安装提示监听
-  window.addEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
-  
+
   // 检查初始网络状态
   if (!navigator.onLine) {
     showOfflineAlert.value = true
   }
-  
+
   // 注册 Service Worker 更新回调
   if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
     // 监听来自 Service Worker 的消息
@@ -191,20 +123,12 @@ onMounted(() => {
       }
     })
   }
-  
-  // 延迟检查安装提示（避免页面加载时立即显示）
-  setTimeout(() => {
-    if (shouldShowInstallPrompt() && !window.matchMedia('(display-mode: standalone)').matches) {
-      // 如果已经满足安装条件但还没显示，等待 beforeinstallprompt 事件
-    }
-  }, 5000)
 })
 
 onUnmounted(() => {
   window.removeEventListener('online', handleOnline)
   window.removeEventListener('offline', handleOffline)
-  window.removeEventListener('beforeinstallprompt', handleBeforeInstallPrompt)
-  
+
   if (offlineAlertTimer) clearTimeout(offlineAlertTimer)
   if (onlineAlertTimer) clearTimeout(onlineAlertTimer)
 })
@@ -229,8 +153,7 @@ onUnmounted(() => {
   top: 20px;
 }
 
-.pwa-status-alert.update-alert,
-.pwa-status-alert.install-alert {
+.pwa-status-alert.update-alert {
   bottom: 20px;
 }
 
@@ -246,11 +169,6 @@ onUnmounted(() => {
 
 .update-alert {
   background: linear-gradient(135deg, #5f67ee 0%, #4c54d8 100%);
-  color: white;
-}
-
-.install-alert {
-  background: linear-gradient(135deg, #339af0 0%, #228be6 100%);
   color: white;
 }
 
@@ -368,10 +286,6 @@ onUnmounted(() => {
   background: linear-gradient(135deg, #4c54d8 0%, #3d44b0 100%);
 }
 
-:root.dark .install-alert {
-  background: linear-gradient(135deg, #1971c2 0%, #1864ab 100%);
-}
-
 /* 移动端适配 */
 @media (max-width: 480px) {
   .pwa-status-alert {
@@ -380,11 +294,11 @@ onUnmounted(() => {
     right: 16px;
     transform: none;
   }
-  
+
   .alert-content {
     padding: 12px 16px;
   }
-  
+
   .alert-actions {
     padding-left: 0;
     margin-top: 12px;
