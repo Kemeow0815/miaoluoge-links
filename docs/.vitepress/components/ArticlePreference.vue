@@ -1,8 +1,22 @@
 <script setup lang="ts">
 import { storeToRefs } from 'pinia'
-import { apiMap, authorMap, avatarMap, sizeMap, useArticleStore } from '../stores/article'
+import { authorMap, avatarMap, sizeMap, useArticleStore } from '../stores/article'
+import articlesData from '../data/articles.json'
 
 const { preference } = storeToRefs(useArticleStore())
+
+// 随机跳转文章
+function randomArticle() {
+  const articles = articlesData.articles || []
+  if (articles.length === 0) return
+
+  const randomIndex = Math.floor(Math.random() * articles.length)
+  const article = articles[randomIndex]
+
+  if (article?.link) {
+    window.open(article.link, '_blank')
+  }
+}
 </script>
 
 <template>
@@ -31,12 +45,10 @@ const { preference } = storeToRefs(useArticleStore())
 	<label for="wide">宽屏</label>
 	<input id="wide" v-model="preference.wide" type="checkbox">
 
-	<label for="api">API</label>
-	<select id="api" v-model="preference.api">
-		<option v-for="(api, key) in apiMap" :key :value="key">
-			{{ api.label }}
-		</option>
-	</select>
+	<label></label>
+	<button type="button" class="random-btn" @click="randomArticle">
+		🎲 随机文章
+	</button>
 </form>
 </template>
 
@@ -47,5 +59,21 @@ form {
 	gap: 0.5rem 1rem;
 	padding: 0.5rem;
 	text-align: left;
+}
+
+.random-btn {
+	padding: 0.4rem 0.8rem;
+	border: 1px solid var(--vp-c-brand-1);
+	border-radius: 0.4rem;
+	background: var(--vp-c-brand-soft);
+	color: var(--vp-c-brand-1);
+	font-size: 0.875rem;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.random-btn:hover {
+	background: var(--vp-c-brand-1);
+	color: white;
 }
 </style>

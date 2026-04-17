@@ -1,30 +1,55 @@
 <script setup lang="ts">
 import type { Article } from '../utils/atricle'
 import { computed } from 'vue'
-import { useArticleStore } from '../stores/article'
-import { getAvatarUrl } from '../utils/member'
+import { storeToRefs } from 'pinia'
+import { useArticleStore, authorMap, avatarMap } from '../stores/article'
+import { getAvatarUrl, getMemberByFeed } from '../utils/member'
+import { getDomain } from '../utils/link'
 import AutoCode from './atomic/AutoCode.vue'
 
 const props = defineProps<Article>()
 
-const article = useArticleStore()
+const articleStore = useArticleStore()
+const { preference } = storeToRefs(articleStore)
+
 const dateLabel = new Date(props.date).toLocaleString('zh-CN', { year: '2-digit', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit' })
 
-// 优先使用 source 中的信息（来自 RSS 获取）
+// 获取成员信息
+const member = computed(() => {
+  return getMemberByFeed(props.link)
+})
+
+// 根据偏好设置显示作者名
 const authorName = computed(() => {
+  const transform = authorMap[preference.value.author].transform
+  if (transform && member.value) {
+    const result = transform(member.value)
+    if (result) return result
+  }
+  // 回退逻辑
   if (props.source?.name) {
     return props.source.name
   }
   return props.author
 })
 
+// 根据偏好设置显示头像
 const authorAvatar = computed(() => {
+  const transform = avatarMap[preference.value.avatar].transform
+  if (transform && member.value) {
+    const result = transform(member.value)
+    if (result) return result
+  }
+  // 回退逻辑
   if (props.source?.avatar) {
     return getAvatarUrl({ avatarType: props.source.avatarType || 'github', avatar: props.source.avatar })
   }
-  // 回退到原来的逻辑
-  const member = { feed: props.link, name: props.author, website: '', avatar: '', avatarType: 'github', desc: '', github: '', title: '' }
-  return article.getAvatar(member)
+  return undefined
+})
+
+// 是否显示头像
+const showAvatar = computed(() => {
+  return preference.value.avatar !== 'none' && authorAvatar.value
 })
 </script>
 
@@ -37,7 +62,7 @@ const authorAvatar = computed(() => {
 	<div class="title">{{ title }}</div>
 	<AutoCode class="summary scrollcheck-y" tag="p" :text="summary" />
 	<div class="info-line">
-		<img v-if="authorAvatar" :src="authorAvatar" :alt="authorName" class="avatar">
+		<img v-if="showAvatar" :src="authorAvatar" :alt="authorName" class="avatar">
 		<span class="author">{{ authorName }}</span> ·
 		<time class="date" :datetime="date">
 			{{ dateLabel }}
