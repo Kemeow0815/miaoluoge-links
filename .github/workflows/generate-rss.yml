@@ -31,7 +31,7 @@ jobs:
             - name: Check for changes
               id: check-changes
               run: |
-                  git add docs/feed.xml
+                  git add docs/.vitepress/public/feed.xml
                   if git diff --cached --quiet; then
                     echo "changed=false" >> $GITHUB_OUTPUT
                     echo "ℹ️ 没有文件变更，跳过提交"
