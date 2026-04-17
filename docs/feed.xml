@@ -11,7 +11,7 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Fri, 17 Apr 2026 00:05:34 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 22:07:18 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -186,6 +186,24 @@
       <source url="https://www.liushen.fun/">liushen</source>
     </item>
     <item>
+      <title>新笔记本的开荒</title>
+      <link>https://blog.quenan.cn/2025/new-laptop-setup</link>
+      <description>一台新的笔记本如何从0开始配置安装，并且分享一些软件 点击查看全文</description>
+      <author>鹊楠 (https://blog.quenan.cn/)</author>
+      <pubDate>Tue, 28 Oct 2025 21:06:40 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.quenan.cn/2025/new-laptop-setup</guid>
+      <source url="https://blog.quenan.cn/">鹊楠</source>
+    </item>
+    <item>
+      <title>使用Nsis构建一个Electron应用安装包</title>
+      <link>https://blog.quenan.cn/2025/made-electron-setup-for-nsis</link>
+      <description>关于如何使用Nsis构建一个Electron的安装包过程 点击查看全文</description>
+      <author>鹊楠 (https://blog.quenan.cn/)</author>
+      <pubDate>Sun, 19 Oct 2025 15:35:20 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.quenan.cn/2025/made-electron-setup-for-nsis</guid>
+      <source url="https://blog.quenan.cn/">鹊楠</source>
+    </item>
+    <item>
       <title>Butterfly主题实现赞赏页面及侧边卡片</title>
       <link>https://blog.liushen.fun/posts/deffcde0/</link>
       <description>好久没更新魔改主题的教程了，主要是目前整体已趋于稳定，加上我也有意转向动态框架。不过前些天发哥催我做一个打赏页面，那我可开心了。于是上周抽空逐步将其打磨完成，效果也让我十分满意。顺便写下这篇教程，希望能对大家有所帮助。</description>
@@ -193,6 +211,15 @@
       <pubDate>Sun, 19 Oct 2025 09:10:21 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/deffcde0/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
+    </item>
+    <item>
+      <title>我的新博客</title>
+      <link>https://blog.quenan.cn/2025/my-new-blog</link>
+      <description>讲述关于我的新博客的故事。 点击查看全文</description>
+      <author>鹊楠 (https://blog.quenan.cn/)</author>
+      <pubDate>Thu, 16 Oct 2025 19:41:46 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.quenan.cn/2025/my-new-blog</guid>
+      <source url="https://blog.quenan.cn/">鹊楠</source>
     </item>
     <item>
       <title>使用TinyAuth实现任意应用登录认证</title>
@@ -258,6 +285,15 @@
       <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
     <item>
+      <title>代码块展开关闭动画</title>
+      <link>https://blog.quenan.cn/2024/codezkgb</link>
+      <description>这篇文章描述了如何在Butterfly中实现代码展开关闭动画 点击查看全文</description>
+      <author>鹊楠 (https://blog.quenan.cn/)</author>
+      <pubDate>Wed, 26 Feb 2025 15:07:37 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.quenan.cn/2024/codezkgb</guid>
+      <source url="https://blog.quenan.cn/">鹊楠</source>
+    </item>
+    <item>
       <title>寻不回手工油糕</title>
       <link>https://blog.zhilu.site/2025/oil-cakes</link>
       <description>油糕的酥皮，是从什么时候开始不往下掉的？ 点击查看全文</description>
@@ -274,6 +310,60 @@
       <pubDate>Sun, 03 Nov 2024 09:54:50 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhilu.site/2024/vitepress-enhancement</guid>
       <source url="https://blog.zhilu.site/">纸鹿</source>
+    </item>
+    <item>
+      <title>外挂标签之聊天记录</title>
+      <link>https://blog.quenan.cn/2024/hexochat</link>
+      <description>这篇文章描述了如何在Butterfly中实现聊天记录样式的外挂标签 点击查看全文</description>
+      <author>鹊楠 (https://blog.quenan.cn/)</author>
+      <pubDate>Fri, 20 Sep 2024 14:10:31 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.quenan.cn/2024/hexochat</guid>
+      <source url="https://blog.quenan.cn/">鹊楠</source>
+    </item>
+    <item>
+      <title>免费安装杜比全景声</title>
+      <link>https://blog.quenan.cn/2024/installdolby</link>
+      <description>这篇文章将教你如何安装杜比全景声 点击查看全文</description>
+      <author>鹊楠 (https://blog.quenan.cn/)</author>
+      <pubDate>Wed, 03 Apr 2024 11:09:28 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.quenan.cn/2024/installdolby</guid>
+      <source url="https://blog.quenan.cn/">鹊楠</source>
+    </item>
+    <item>
+      <title>自用的bf导航栏魔改</title>
+      <link>https://blog.quenan.cn/2024/bfnav</link>
+      <description>这篇文章讲述了博主魔改导航栏的过程 点击查看全文</description>
+      <author>鹊楠 (https://blog.quenan.cn/)</author>
+      <pubDate>Mon, 25 Mar 2024 21:04:52 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.quenan.cn/2024/bfnav</guid>
+      <source url="https://blog.quenan.cn/">鹊楠</source>
+    </item>
+    <item>
+      <title>在bf中部署Artitalk说说</title>
+      <link>https://blog.quenan.cn/2024/artitalkinbf</link>
+      <description>这篇文章讲述了如何在Butterfly中部署artitalk说说 点击查看全文</description>
+      <author>鹊楠 (https://blog.quenan.cn/)</author>
+      <pubDate>Mon, 25 Mar 2024 10:13:16 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.quenan.cn/2024/artitalkinbf</guid>
+      <source url="https://blog.quenan.cn/">鹊楠</source>
+    </item>
+    <item>
+      <title>纯Css实现Input的动画样式</title>
+      <link>https://blog.quenan.cn/2024/inputcss</link>
+      <description>纯Css写的Input动画样式 点击查看全文</description>
+      <author>鹊楠 (https://blog.quenan.cn/)</author>
+      <pubDate>Tue, 05 Mar 2024 18:14:37 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.quenan.cn/2024/inputcss</guid>
+      <source url="https://blog.quenan.cn/">鹊楠</source>
+    </item>
+    <item>
+      <title>IDM激活，理论永久</title>
+      <link>https://blog.quenan.cn/2024/activateidm</link>
+      <description>一行代码激活IDM 点击查看全文</description>
+      <author>鹊楠 (https://blog.quenan.cn/)</author>
+      <pubDate>Tue, 27 Feb 2024 12:55:35 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.quenan.cn/2024/activateidm</guid>
+      <source url="https://blog.quenan.cn/">鹊楠</source>
     </item>
     <item>
       <title>Windows 安装指南</title>
