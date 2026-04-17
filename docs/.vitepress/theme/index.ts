@@ -1,6 +1,8 @@
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import { h } from 'vue'
+import VueTippy from 'vue-tippy'
+import 'tippy.js/dist/tippy.css'
 import './style.css'
 import './reusable.css'
 import './theme-enhanced.css'
@@ -40,6 +42,14 @@ export default {
   enhanceApp({ app, router, siteData }) {
     // 使用 Pinia
     app.use(pinia)
+
+    // 注册 vue-tippy
+    app.use(VueTippy, {
+      defaultProps: {
+        placement: 'bottom',
+        animation: 'shift-away',
+      },
+    })
 
     // 注册全局组件
     app.component('MemberList', MemberList)

@@ -1,18 +1,18 @@
 <template>
-<Tooltip
-	class="dropdown"
-	interactive
-	placement="bottom"
-	tag="button"
-	:arrow="false"
-	:hide-on-click="false"
-	:offset="[0, 0]"
->
-	<slot />
-	<template #content="{ hide }">
-		<slot name="content" :hide />
-	</template>
-</Tooltip>
+	<tippy
+		class="dropdown"
+		interactive
+		placement="bottom"
+		tag="button"
+		:arrow="false"
+		:hide-on-click="false"
+		:offset="[0, 0]"
+	>
+		<slot />
+		<template #content="{ hide }">
+			<slot name="content" :hide />
+		</template>
+	</tippy>
 </template>
 
 <style scoped>

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { Icon } from '@iconify/vue'
 import type { Member } from '../utils/member'
 import { getDomain } from '../utils/link'
 import { getAvatarUrl } from '../utils/member'

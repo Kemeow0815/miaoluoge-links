@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Article } from '../utils/atricle'
+import { Icon } from '@iconify/vue'
 import { storeToRefs } from 'pinia'
 import { computed, ref } from 'vue'
 import articlesData from '../data/articles.json'
