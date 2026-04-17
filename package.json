@@ -8,7 +8,11 @@
     "build": "vitepress build docs && node -e \"const fs=require('fs'); fs.copyFileSync('docs/feed.xml', 'docs/.vitepress/dist/feed.xml'); console.log('✅ feed.xml copied to dist');\"",
     "preview": "vitepress preview docs",
     "lint": "eslint .",
-    "posts": "node .github/scripts/fetch-rss-articles.js"
+    "posts": "node .github/scripts/fetch-rss-articles.js",
+    "pwa:icons": "node scripts/generate-pwa-icons.js",
+    "pwa:screenshots": "node scripts/generate-screenshots.js",
+    "pwa:generate-assets": "npm run pwa:icons && npm run pwa:screenshots",
+    "pwa:preview": "npm run build && npm run preview"
   },
   "dependencies": {
     "@iconify/vue": "^5.0.0",
@@ -26,7 +30,10 @@
     "@zinkawaii/stylelint-config": "^0.4.0",
     "@zinkawaii/tsconfig": "^0.1.0",
     "eslint": "^10.0.3",
-    "stylelint": "^17.5.0"
+    "sharp": "^0.34.5",
+    "stylelint": "^17.5.0",
+    "vite-plugin-pwa": "^1.2.0",
+    "workbox-window": "^7.4.0"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
