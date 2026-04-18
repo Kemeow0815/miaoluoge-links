@@ -19,6 +19,8 @@ jobs:
         steps:
             - name: Checkout repository
               uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
 
             - name: Setup Node.js
               uses: actions/setup-node@v4
@@ -45,6 +47,7 @@ jobs:
                   git config --local user.email "github-actions[bot]@users.noreply.github.com"
                   git config --local user.name "github-actions[bot]"
                   git commit -m "chore: update RSS feed [skip ci]"
+                  git pull --rebase origin main
                   git push
 
             - name: Report status
