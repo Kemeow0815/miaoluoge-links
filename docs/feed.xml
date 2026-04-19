@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sun, 19 Apr 2026 14:11:30 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 17:55:30 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>俗话都说项目写久了会变成史山...今天我们来铲史...</title>
+      <link>https://2x.nz/posts/improve-dev-speed/</link>
+      <description>什么？我只想改一个字看看预览都要等1分钟？这是什么神人项目啊？！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sun, 19 Apr 2026 10:05:45 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/improve-dev-speed/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
     <item>
       <title>将你的Linux硬盘映射到Windows？</title>
       <link>https://2x.nz/posts/sshfs/</link>
@@ -192,15 +201,6 @@
       <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Wed, 18 Mar 2026 10:53:50 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/snippets/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>终极版！国内免梯上Github！</title>
-      <link>https://2x.nz/posts/gh-cf/</link>
-      <description>巨简单！1分钟自建你的Github代理！</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Tue, 10 Mar 2026 11:29:58 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/gh-cf/</guid>
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
