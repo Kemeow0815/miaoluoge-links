@@ -1,8 +1,8 @@
 import type { DefaultTheme } from 'vitepress'
 import { dirname, resolve } from 'node:path'
 import { fileURLToPath } from 'node:url'
-import { defineConfig } from 'vitepress'
 import { VitePWA } from 'vite-plugin-pwa'
+import { defineConfig } from 'vitepress'
 import { pwaConfig } from './config/pwa'
 
 const __dirname = dirname(fileURLToPath(import.meta.url))

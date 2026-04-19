@@ -7,7 +7,8 @@
     "avatar": "L33Z22L11",
     "github": "L33Z22L11",
     "website": "https://blog.zhilu.site/",
-    "feed": "https://blog.zhilu.site/atom.xml"
+    "feed": "https://blog.zhilu.site/atom.xml",
+    "screenshot": "https://i0.hdslb.com/bfs/openplatform/713803210bc9ba43fc56a6e023ea019c5c538a56.png"
   },
   {
     "name": "liushen",
@@ -17,7 +18,8 @@
     "avatar": "3162475700",
     "github": "willow-god",
     "website": "https://www.liushen.fun/",
-    "feed": "https://blog.liushen.fun/atom.xml"
+    "feed": "https://blog.liushen.fun/atom.xml",
+    "screenshot": "https://blog.liushen.fun/info/siteshot.jpg"
   },
   {
     "name": "鹊楠",
@@ -27,7 +29,8 @@
     "avatar": "2869505042",
     "github": "qnquenan",
     "website": "https://blog.quenan.cn/",
-    "feed": "https://blog.quenan.cn/atom.xml"
+    "feed": "https://blog.quenan.cn/atom.xml",
+    "screenshot": "https://i0.hdslb.com/bfs/openplatform/798b1d6eb42c4f889f07e79fea46599742146380.png"
   },
   {
     "name": "张洪heo",
@@ -37,7 +40,8 @@
     "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
     "github": "zhheo",
     "website": "https://blog.zhheo.com/",
-    "feed": "https://blog.zhheo.com/rss.xml"
+    "feed": "https://blog.zhheo.com/rss.xml",
+    "screenshot": "https://i0.hdslb.com/bfs/openplatform/281dcf6ff873d15d8ce0706f8305c1ad342fb491.png"
   },
   {
     "name": "二叉树树",
@@ -47,6 +51,7 @@
     "avatar": "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0",
     "github": "afoim",
     "website": "https://2x.nz/",
-    "feed": "https://2x.nz/rss.xml"
+    "feed": "https://2x.nz/rss.xml",
+    "screenshot": "https://i0.hdslb.com/bfs/openplatform/bb99d88a25e1dde5989a540789e46f0d8cdb75d2.png"
   }
 ]

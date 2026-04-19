@@ -12,6 +12,8 @@ export interface Member {
 	github: string
 	website: string
 	feed: string
+
+	screenshot?: string
 }
 
 export function getAvatarUrl(option: { avatarType: string, avatar: string }) {

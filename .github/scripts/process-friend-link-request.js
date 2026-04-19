@@ -38,6 +38,7 @@ function parseIssueBody(body) {
 		desc: /### 博客\/用户介绍\s*\n\s*([^#]+?)(?=###|$)/,
 		avatarType: /### 头像类型\s*\n\s*([^\n]+)/,
 		avatar: /### 头像标识\s*\n\s*([^\n]+)/,
+		screenshot: /### 网站截图链接\s*\n\s*([^\n#]+)?/,
 		github: /### GitHub 用户名\s*\n\s*([^\n#]+)?/,
 		website: /### 博客链接\s*\n\s*([^\n]+)/,
 		feed: /### 博客 RSS 订阅链接\s*\n\s*([^\n#]+)?/,
@@ -83,6 +84,16 @@ function validateData(data) {
 		!data.website.startsWith("https://")
 	) {
 		return { valid: false, error: "博客链接必须以 http:// 或 https:// 开头" };
+	}
+
+	// 验证 screenshot 是有效的 URL（如果提供了）
+	if (data.screenshot && data.screenshot.trim() !== "") {
+		if (
+			!data.screenshot.startsWith("http://") &&
+			!data.screenshot.startsWith("https://")
+		) {
+			return { valid: false, error: "截图链接必须以 http:// 或 https:// 开头" };
+		}
 	}
 
 	if (missing.length > 0) {
@@ -365,7 +376,7 @@ async function handleSuccess(memberData) {
 **添加的信息：**
 - 昵称：${memberData.name}
 - 博客：${memberData.title}
-- 链接：${memberData.website}
+- 链接：${memberData.website}${memberData.screenshot ? "\n- 截图：已添加" : ""}
 
 感谢您的申请！🎉
 
@@ -408,7 +419,17 @@ async function main() {
 		return;
 	}
 
-	// 4. 检测 feed 可访问性（如果有）
+	// 4. 检测 screenshot 可访问性（如果提供了）
+	if (data.screenshot && data.screenshot.trim() !== "") {
+		console.log("\n📸 检测截图链接...");
+		const screenshotCheck = await checkWithRetries(data.screenshot, "截图链接");
+		if (!screenshotCheck.success) {
+			console.log("⚠️ 截图链接无法访问，将跳过此字段");
+			data.screenshot = "";
+		}
+	}
+
+	// 5. 检测 feed 可访问性（如果有）
 	if (data.feed && data.feed.trim() !== "") {
 		console.log("\n📡 检测 RSS 订阅链接...");
 		const feedCheck = await checkWithRetries(data.feed, "RSS 订阅链接");
@@ -418,7 +439,7 @@ async function main() {
 		}
 	}
 
-	// 5. 检查是否已存在
+	// 6. 检查是否已存在
 	console.log("\n📋 检查是否已存在...");
 	const members = getMembers();
 	if (checkExists(members, data.website)) {
@@ -428,7 +449,7 @@ async function main() {
 	}
 	console.log("✅ 检查通过，未重复");
 
-	// 6. 构建新成员数据
+	// 7. 构建新成员数据
 	const newMember = {
 		name: data.name,
 		title: data.title,
@@ -440,7 +461,12 @@ async function main() {
 		feed: data.feed || "",
 	};
 
-	// 7. 添加到成员列表
+	// 添加 screenshot 字段（如果提供了）
+	if (data.screenshot && data.screenshot.trim() !== "") {
+		newMember.screenshot = data.screenshot.trim();
+	}
+
+	// 8. 添加到成员列表
 	console.log("\n💾 添加到成员列表...");
 	members.push(newMember);
 
@@ -449,7 +475,7 @@ async function main() {
 		return;
 	}
 
-	// 8. 处理成功
+	// 9. 处理成功
 	await handleSuccess(newMember);
 
 	console.log("\n🎉 处理完成！");
