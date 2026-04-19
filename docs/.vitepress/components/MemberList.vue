@@ -6,7 +6,9 @@ import MemberCard from './MemberCard.vue'
 
 const members = ref([...membersData])
 
-const shuffleMembers = () => members.value.sort(() => Math.random() - 0.5)
+const shuffleMembers = () => {
+	members.value = [...members.value].sort(() => Math.random() - 0.5)
+}
 
 onMounted(shuffleMembers)
 
@@ -46,5 +48,19 @@ function modifyMembers() {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
 	gap: 0.8rem;
+}
+
+/* 手机端适配 */
+@media screen and (max-width: 768px) {
+	.card-list {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* 平板端适配 */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.card-list {
+		grid-template-columns: repeat(2, 1fr);
+	}
 }
 </style>

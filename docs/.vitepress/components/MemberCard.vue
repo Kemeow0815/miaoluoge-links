@@ -178,4 +178,57 @@ const screenshotUrl = computed(() => {
 .github:hover {
 	background: rgba(0, 0, 0, 0.7);
 }
+
+/* 手机端适配 */
+@media screen and (max-width: 768px) {
+	.card {
+		flex-direction: row;
+		align-items: center;
+	}
+
+	.screenshot {
+		width: 40%;
+		aspect-ratio: 16 / 10;
+		min-width: 120px;
+	}
+
+	.content {
+		flex: 1;
+		padding: 0.6rem;
+		gap: 0.6rem;
+	}
+
+	.avatar {
+		width: 2rem;
+		height: 2rem;
+	}
+
+	.name {
+		font-size: 0.9rem;
+	}
+
+	.title {
+		font-size: 0.7rem;
+	}
+
+	.desc {
+		font-size: 0.75rem;
+		-webkit-line-clamp: 1;
+	}
+
+	.github {
+		top: 0.3rem;
+		right: 0.3rem;
+		width: 1.8rem;
+		height: 1.8rem;
+		opacity: 1;
+	}
+}
+
+/* 平板端适配 */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+	.screenshot {
+		aspect-ratio: 16 / 10;
+	}
+}
 </style>
