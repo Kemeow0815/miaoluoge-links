@@ -3,41 +3,20 @@ import type { Member } from '../utils/member'
 import { Icon } from '@iconify/vue'
 import { getDomain } from '../utils/link'
 import { getAvatarUrl } from '../utils/member'
-import { ref, computed } from 'vue'
+import { computed } from 'vue'
 
 const props = defineProps<Member>()
 
-const imageError = ref<Record<string, boolean>>({})
-
-function handleImageError(key: string) {
-  imageError.value[key] = true
-}
-
-// 默认随机图片 API
-const DEFAULT_SCREENSHOT_API = 'https://img.314926.xyz/h'
-
-// 获取截图 URL，如果没有则使用默认 API
 const screenshotUrl = computed(() => {
-  return props.screenshot || `${DEFAULT_SCREENSHOT_API}?t=${props.github || props.name}`
-})
-
-// 是否显示截图区域
-const showScreenshot = computed(() => {
-  return !imageError.value[screenshotUrl.value]
+	return props.screenshot || 'https://img.314926.xyz/h'
 })
 </script>
 
 <template>
 <a :href="website" target="_blank" class="card" rel="noopener noreferrer">
 	<!-- 网站截图 -->
-	<div class="screenshot" v-if="showScreenshot">
-		<img
-			:src="screenshotUrl"
-			:alt="`${name} 的网站截图`"
-			loading="lazy"
-			referrerpolicy="no-referrer"
-			@error="handleImageError(screenshotUrl)"
-		>
+	<div class="screenshot">
+		<img :src="screenshotUrl" :alt="`${name} 的网站截图`" loading="lazy">
 	</div>
 	<!-- 网站信息 -->
 	<div class="content">
