@@ -1,25 +1,14 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
-import { ref, onMounted } from 'vue'
+import { ref } from 'vue'
 import membersData from '../data/members.json'
 import MemberCard from './MemberCard.vue'
 
-// 服务端和客户端初始使用相同的顺序，避免 hydration mismatch
 const members = ref([...membersData])
-const isShuffled = ref(false)
 
 const shuffleMembers = () => {
 	members.value = [...members.value].sort(() => Math.random() - 0.5)
-	isShuffled.value = true
 }
-
-// 只在客户端挂载后执行随机排序
-onMounted(() => {
-	// 使用 nextTick 确保在 hydration 完成后再排序
-	setTimeout(() => {
-		shuffleMembers()
-	}, 0)
-})
 
 function modifyMembers() {
 	const confirmMsg = '跳转github仓库提交议题表单。'
@@ -37,9 +26,17 @@ function modifyMembers() {
 		<Badge text="申请" style="cursor: pointer;" @click="modifyMembers" />
 		<Icon class="shuffle-btn" icon="ri:shuffle-fill" @click="shuffleMembers" />
 	</h2>
-	<TransitionGroup tag="section" class="card-list" name="list">
-		<MemberCard v-for="member in members" :key="member.github" v-bind="member" />
-	</TransitionGroup>
+	<!-- 使用 ClientOnly 包裹，避免 SSR hydration mismatch -->
+	<ClientOnly>
+		<TransitionGroup tag="section" class="card-list" name="list">
+			<MemberCard v-for="member in members" :key="member.github" v-bind="member" />
+		</TransitionGroup>
+		<template #fallback>
+			<section class="card-list">
+				<MemberCard v-for="member in membersData" :key="member.github" v-bind="member" />
+			</section>
+		</template>
+	</ClientOnly>
 </div>
 </template>
 
