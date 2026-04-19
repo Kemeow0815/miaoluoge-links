@@ -1,16 +1,25 @@
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
-import { onMounted, ref } from 'vue'
+import { ref, onMounted } from 'vue'
 import membersData from '../data/members.json'
 import MemberCard from './MemberCard.vue'
 
+// 服务端和客户端初始使用相同的顺序，避免 hydration mismatch
 const members = ref([...membersData])
+const isShuffled = ref(false)
 
 const shuffleMembers = () => {
 	members.value = [...members.value].sort(() => Math.random() - 0.5)
+	isShuffled.value = true
 }
 
-onMounted(shuffleMembers)
+// 只在客户端挂载后执行随机排序
+onMounted(() => {
+	// 使用 nextTick 确保在 hydration 完成后再排序
+	setTimeout(() => {
+		shuffleMembers()
+	}, 0)
+})
 
 function modifyMembers() {
 	const confirmMsg = '跳转github仓库提交议题表单。'
