@@ -72,6 +72,7 @@ const screenshotUrl = computed(() => {
 	aspect-ratio: 16 / 9;
 	overflow: hidden;
 	background: var(--vp-c-bg-alt);
+	flex-shrink: 0;
 }
 
 .screenshot img {
@@ -179,21 +180,18 @@ const screenshotUrl = computed(() => {
 	background: rgba(0, 0, 0, 0.7);
 }
 
-/* 手机端适配 */
+/* 手机端适配 - 保持垂直布局 */
 @media screen and (max-width: 768px) {
 	.card {
-		flex-direction: row;
-		align-items: center;
+		flex-direction: column;
 	}
 
 	.screenshot {
-		width: 40%;
-		aspect-ratio: 16 / 10;
-		min-width: 120px;
+		width: 100%;
+		aspect-ratio: 16 / 9;
 	}
 
 	.content {
-		flex: 1;
 		padding: 0.6rem;
 		gap: 0.6rem;
 	}
@@ -213,7 +211,7 @@ const screenshotUrl = computed(() => {
 
 	.desc {
 		font-size: 0.75rem;
-		-webkit-line-clamp: 1;
+		-webkit-line-clamp: 2;
 	}
 
 	.github {
@@ -228,7 +226,7 @@ const screenshotUrl = computed(() => {
 /* 平板端适配 */
 @media screen and (min-width: 769px) and (max-width: 1024px) {
 	.screenshot {
-		aspect-ratio: 16 / 10;
+		aspect-ratio: 16 / 9;
 	}
 }
 </style>
