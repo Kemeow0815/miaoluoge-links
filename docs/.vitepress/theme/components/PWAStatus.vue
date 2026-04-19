@@ -46,7 +46,7 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 
 // 网络状态
-const isOnline = ref(navigator.onLine)
+const isOnline = ref(true)
 const showOfflineAlert = ref(false)
 const showOnlineAlert = ref(false)
 let offlineAlertTimer: number | null = null
@@ -54,8 +54,6 @@ let onlineAlertTimer: number | null = null
 
 // Service Worker 更新
 const showUpdateAlert = ref(false)
-let serviceWorkerRegistration: ServiceWorkerRegistration | null = null
-let updateSW: (() => Promise<void>) | null = null
 
 // 监听网络状态变化
 const handleOnline = () => {
@@ -86,17 +84,17 @@ const dismissOnlineAlert = () => {
 }
 
 // Service Worker 更新处理
-const handleSWUpdate = (registration: ServiceWorkerRegistration, updateFn: () => Promise<void>) => {
-  serviceWorkerRegistration = registration
-  updateSW = updateFn
+const handleSWUpdate = () => {
   showUpdateAlert.value = true
 }
 
 const updateServiceWorker = async () => {
-  if (updateSW) {
-    await updateSW()
+  // 向 Service Worker 发送跳过等待的消息
+  if ('serviceWorker' in navigator && navigator.serviceWorker.controller) {
+    navigator.serviceWorker.controller.postMessage({ type: 'SKIP_WAITING' })
   }
-  showUpdateAlert.value = false
+  // 刷新页面以使用新版本
+  window.location.reload()
 }
 
 const dismissUpdateAlert = () => {
@@ -104,6 +102,9 @@ const dismissUpdateAlert = () => {
 }
 
 onMounted(() => {
+  // 初始化网络状态
+  isOnline.value = navigator.onLine
+
   // 添加网络状态监听
   window.addEventListener('online', handleOnline)
   window.addEventListener('offline', handleOffline)
@@ -113,16 +114,12 @@ onMounted(() => {
     showOfflineAlert.value = true
   }
 
-  // 注册 Service Worker 更新回调
-  if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
-    // 监听来自 Service Worker 的消息
-    navigator.serviceWorker.addEventListener('message', (event) => {
-      if (event.data && event.data.type === 'SW_UPDATE') {
-        const { registration, update } = event.data
-        handleSWUpdate(registration, update)
-      }
-    })
-  }
+  // 监听来自页面的 Service Worker 更新消息
+  window.addEventListener('message', (event) => {
+    if (event.data && event.data.type === 'SW_UPDATE') {
+      handleSWUpdate()
+    }
+  })
 })
 
 onUnmounted(() => {

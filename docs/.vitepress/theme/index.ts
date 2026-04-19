@@ -80,7 +80,7 @@ export default {
             }
 
             const registration = await navigator.serviceWorker.register('/sw.js')
-            console.log('Service Worker 注册成功:', registration)
+            console.log('Service Worker 注册成功')
 
             // 检查更新
             registration.addEventListener('updatefound', () => {
@@ -89,14 +89,10 @@ export default {
 
               newWorker.addEventListener('statechange', () => {
                 if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
-                  // 发现新版本，发送消息到页面
+                  // 发现新版本，发送消息到页面（只发送简单数据，不包含 registration 对象）
                   window.postMessage({
                     type: 'SW_UPDATE',
-                    registration,
-                    update: () => {
-                      newWorker.postMessage({ type: 'SKIP_WAITING' })
-                      window.location.reload()
-                    },
+                    version: 'new',
                   }, '*')
                 }
               })
