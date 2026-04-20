@@ -16,6 +16,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -48,6 +50,8 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git commit -m "chore: remove unreachable friend links [skip ci]"
+          # 先拉取远程更新，避免推送冲突
+          git pull --rebase origin main || git pull origin main
           git push
 
       - name: Upload logs as artifact
