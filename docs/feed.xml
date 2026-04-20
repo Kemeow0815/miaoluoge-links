@@ -11,9 +11,27 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sat, 18 Apr 2026 21:51:47 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 19 Apr 2026 21:52:48 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>俗话都说项目写久了会变成史山...今天我们来铲史...</title>
+      <link>https://2x.nz/posts/improve-dev-speed/</link>
+      <description>什么？我只想改一个字看看预览都要等1分钟？这是什么神人项目啊？！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sun, 19 Apr 2026 10:05:45 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/improve-dev-speed/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>将你的Linux硬盘映射到Windows？</title>
+      <link>https://2x.nz/posts/sshfs/</link>
+      <description>如何像Windows一样管理Linux文件和开发？SSHFS来帮你！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/sshfs/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
     <item>
       <title>洪绘压图发布！批量转图片格式，批量压缩图片工具（Mac/Windows）</title>
       <link>https://blog.zhheo.com/p/bp85fpdb.html</link>
@@ -183,24 +201,6 @@
       <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Wed, 18 Mar 2026 10:53:50 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/snippets/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>终极版！国内免梯上Github！</title>
-      <link>https://2x.nz/posts/gh-cf/</link>
-      <description>巨简单！1分钟自建你的Github代理！</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Tue, 10 Mar 2026 11:29:58 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/gh-cf/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>如何在直播中让你的观众实时了解你在用什么软件？</title>
-      <link>https://2x.nz/posts/obs-realtime-process-name/</link>
-      <description>通过持续监测当前前台进程和指定程序的窗口标题，并将结果写入 TXT 文件，就可以让 OBS 实时向观众展示你正在使用的软件或当前播放的内容。</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Sat, 07 Mar 2026 19:19:43 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/obs-realtime-process-name/</guid>
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
