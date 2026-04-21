@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Tue, 21 Apr 2026 11:44:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 21 Apr 2026 16:19:20 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ChatGPT Image-2 上手：杀死比赛！设计师这下子真的可以解放双手了</title>
+      <link>https://blog.zhheo.com/p/qysi5xhu.html</link>
+      <description>这篇文章介绍了 ChatGPT Image2 在中文设计场景中的实际表现，重点展示了其在表情包制作、产品宣传图生成、旧海报改版以及局部改字等任务中的高可用性。作者通过多组案例认为，该模型在中文文字准确率、版式逻辑、细节还原和风格切换上都已接近可直接商用，许多原本需要设计师数小时甚至数天完成的工作，如今一句提示词即可完成。文章最终认为，除高度定制和批量化场景外，大多数平面设计流程都可能被 AI 重构</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Tue, 21 Apr 2026 08:18:59 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/qysi5xhu.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>龙虾与微信聊天记录结合：群内容总结、整理和提取关键内容实在是太方便</title>
       <link>https://blog.zhheo.com/p/2muck4bk.html</link>
@@ -156,15 +165,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 02 Apr 2026 07:13:58 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/bublpdof.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>洪绘存图发布：保存浏览器图片为指定格式、提取网页所有图片、屏幕截图插件</title>
-      <link>https://blog.zhheo.com/p/drqm39ob.html</link>
-      <description>这篇文章介绍了作者因常用图片保存插件被检测为恶意软件而卸载后，自行开发了一款名为《洪绘存图》的浏览器插件。该插件集成了存图、抓图、截图三大功能，成为三合一工具。作者展示了多张插件界面截图，展示了从初步开发到最终完善的过程。这个自研插件不仅解决了作者的存图需求，还通过不断迭代优化，将多个功能整合在一起，提供了一个安全可靠的图片保存解决方案。</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Sun, 29 Mar 2026 06:41:52 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/drqm39ob.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
