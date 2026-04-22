@@ -11,7 +11,7 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Wed, 22 Apr 2026 15:58:05 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 22 Apr 2026 19:56:48 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -204,6 +204,15 @@
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
+      <title>终极版！国内免梯上Github！</title>
+      <link>https://2x.nz/posts/gh-cf/</link>
+      <description>巨简单！1分钟自建你的Github代理！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Tue, 10 Mar 2026 11:29:58 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/gh-cf/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
       <title>兰空图床深度美化</title>
       <link>https://blog.liushen.fun/posts/eabede01/</link>
       <description>兰空图床已经停止更新，但我一直在用。最近正好在学习 AI 编程，就想着顺手把图床界面美化一下，让自己看着更舒服。于是动手折腾了一番，终于算是改造完成！分享给大家，也顺便水一篇文章～</description>
@@ -346,15 +355,6 @@
       <pubDate>Tue, 10 Jun 2025 13:52:43 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhilu.site/2025/ai-abuse</guid>
       <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>加群向导</title>
-      <link>https://2x.nz/posts/pin/</link>
-      <description>关于如何联系二叉树树~</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Fri, 23 May 2025 16:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/pin/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>前端字体二三事</title>
