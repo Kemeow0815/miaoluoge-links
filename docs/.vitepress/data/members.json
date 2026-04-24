@@ -53,5 +53,16 @@
     "website": "https://2x.nz/",
     "feed": "https://2x.nz/rss.xml",
     "screenshot": "https://cdn.jsdmirror.com/gh/zsxcoder/github-img@main/img/2xnz.avif"
+  },
+  {
+    "name": "絮语",
+    "title": "闻絮语",
+    "desc": "凡尘修行悟道，叩问仙缘之境",
+    "avatarType": "url",
+    "avatar": "https://www.wxuyu.top/image/SiteCover/avatar.avif",
+    "github": "@wxuyu",
+    "website": "https://www.wxuyu.top",
+    "feed": "https://www.wxuyu.top/atom.xml",
+    "screenshot": "https://imgbed.268682.xyz/v2/wFOi4UQ.png"
   }
 ]
