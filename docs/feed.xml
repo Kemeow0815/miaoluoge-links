@@ -11,7 +11,7 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Thu, 23 Apr 2026 22:10:42 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 06:30:04 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -60,6 +60,15 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
+      <title>热搜页面（Nuxt版本）</title>
+      <link>https://www.wxuyu.top/2026/04/hotnuxtpage</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Mon, 13 Apr 2026 06:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/04/hotnuxtpage</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
       <title>让我们自建一个自己的CDN！</title>
       <link>https://2x.nz/posts/self-host-cdn/</link>
       <description>你有没有想过从0通过各种开源项目自己搭建一个CDN？今天就来教你！</description>
@@ -67,6 +76,15 @@
       <pubDate>Sat, 11 Apr 2026 16:21:41 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/self-host-cdn/</guid>
       <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>说说页面（Nuxt版本）</title>
+      <link>https://www.wxuyu.top/2026/04/essaynuxtpage</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Sat, 11 Apr 2026 06:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/04/essaynuxtpage</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
     </item>
     <item>
       <title>视频压缩软件 CompressO 3.0 MacOS 免费汉化版下载</title>
@@ -186,6 +204,15 @@
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
+      <title>游戏展示页面</title>
+      <link>https://www.wxuyu.top/2026/03/steamgamepage</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Sat, 21 Mar 2026 06:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/03/steamgamepage</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
       <title>北京实习300天</title>
       <link>https://blog.zhilu.site/2026/beijing-intern</link>
       <description>从西安到北京，从校园到大厂实习，「300天」不只工作本身，有迁移也有变化。秩序常新，但内核与长期的事情不会变。 点击查看全文</description>
@@ -211,6 +238,15 @@
       <pubDate>Tue, 10 Mar 2026 11:29:58 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/gh-cf/</guid>
       <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>页脚魔改(Nuxt版本)</title>
+      <link>https://www.wxuyu.top/2026/03/footernuxtmeihua</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Tue, 03 Mar 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/03/footernuxtmeihua</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
     </item>
     <item>
       <title>兰空图床深度美化</title>
@@ -240,6 +276,51 @@
       <source url="https://www.liushen.fun/">liushen</source>
     </item>
     <item>
+      <title>【鸣潮】档案文章组件</title>
+      <link>https://www.wxuyu.top/2026/02/wutheringwavespostwidget</link>
+      <description>该文章展示多个以鸣潮为主题的档案组件，包含具体代码、属性表格对应、预览整体组件、写法展示四种类型，并在文章末尾附加更新报告。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Fri, 20 Feb 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/02/wutheringwavespostwidget</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
+      <title>【本地+云端】搭建道理鱼音乐</title>
+      <link>https://www.wxuyu.top/2026/02/musicinstall</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Wed, 04 Feb 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/02/musicinstall</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
+      <title>给老MAC升级为飞牛OS</title>
+      <link>https://www.wxuyu.top/2026/02/fnosinstall</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Tue, 03 Feb 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/02/fnosinstall</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
+      <title>【精简】测试老MAC性能</title>
+      <link>https://www.wxuyu.top/2026/02/macbookperformanctest</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Tue, 03 Feb 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/02/macbookperformanctest</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
+      <title>随笔：大容量主机测试</title>
+      <link>https://www.wxuyu.top/2026/01/vpstalk-2</link>
+      <description>该文章主要写了对于大容量硬盘主机的试水。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Fri, 30 Jan 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/01/vpstalk-2</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
       <title>2025，清风已至，正帆向星海</title>
       <link>https://blog.liushen.fun/posts/5db5181d/</link>
       <description>2025逐渐走向尾声。这一年经历了考研失利的低谷，也迎来了走入工作的转折。从自我修复到角色转换，从校园走向职场，在实践中学习、在挫折中前行。第一次凭借自己的能力获得收入，完成了人生的初次积累。回望这一年，真实而坚定，推动我继续向前。</description>
@@ -247,6 +328,15 @@
       <pubDate>Wed, 07 Jan 2026 16:06:00 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/5db5181d/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
+    </item>
+    <item>
+      <title>评论优化</title>
+      <link>https://www.wxuyu.top/2025/12/commentadd</link>
+      <description>该文章介绍Nuxt博客适配中评论模块的Vue组件实现与Artalk评论系统单例管理逻辑，并提供具体的适配评论表情包的Json信息，评论功能有着KaTeX数学公式渲染、图片灯箱、动态监听以及管理逻辑的初始化、计数、暗黑模式切换等方式。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Tue, 23 Dec 2025 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2025/12/commentadd</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
     </item>
     <item>
       <title>部署一只麦麦QQ机器人</title>
@@ -372,96 +462,6 @@
       <author>纸鹿 (https://blog.zhilu.site/)</author>
       <pubDate>Mon, 14 Apr 2025 02:07:16 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhilu.site/2025/dark-mode-guide</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>代码块展开关闭动画</title>
-      <link>https://blog.quenan.cn/2024/codezkgb</link>
-      <description>这篇文章描述了如何在Butterfly中实现代码展开关闭动画 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Wed, 26 Feb 2025 15:07:37 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/codezkgb</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>寻不回手工油糕</title>
-      <link>https://blog.zhilu.site/2025/oil-cakes</link>
-      <description>油糕的酥皮，是从什么时候开始不往下掉的？ 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 16 Feb 2025 04:30:24 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/oil-cakes</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>VitePress 不完全优化指南</title>
-      <link>https://blog.zhilu.site/2024/vitepress-enhancement</link>
-      <description>VitePress 的基本使用与定制技巧，涵盖项目初始化、汉化配置、图标引入、自定义主题等内容，旨在利用 VitePress 构建美观、高效的静态站点。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 03 Nov 2024 09:54:50 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2024/vitepress-enhancement</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>外挂标签之聊天记录</title>
-      <link>https://blog.quenan.cn/2024/hexochat</link>
-      <description>这篇文章描述了如何在Butterfly中实现聊天记录样式的外挂标签 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Fri, 20 Sep 2024 14:10:31 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/hexochat</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>免费安装杜比全景声</title>
-      <link>https://blog.quenan.cn/2024/installdolby</link>
-      <description>这篇文章将教你如何安装杜比全景声 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Wed, 03 Apr 2024 11:09:28 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/installdolby</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>自用的bf导航栏魔改</title>
-      <link>https://blog.quenan.cn/2024/bfnav</link>
-      <description>这篇文章讲述了博主魔改导航栏的过程 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Mon, 25 Mar 2024 21:04:52 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/bfnav</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>在bf中部署Artitalk说说</title>
-      <link>https://blog.quenan.cn/2024/artitalkinbf</link>
-      <description>这篇文章讲述了如何在Butterfly中部署artitalk说说 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Mon, 25 Mar 2024 10:13:16 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/artitalkinbf</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>纯Css实现Input的动画样式</title>
-      <link>https://blog.quenan.cn/2024/inputcss</link>
-      <description>纯Css写的Input动画样式 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Tue, 05 Mar 2024 18:14:37 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/inputcss</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>IDM激活，理论永久</title>
-      <link>https://blog.quenan.cn/2024/activateidm</link>
-      <description>一行代码激活IDM 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Tue, 27 Feb 2024 12:55:35 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/activateidm</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>Windows 安装指南</title>
-      <link>https://blog.zhilu.site/2023/windows-setup-guide</link>
-      <description>使用 Ventoy、微 PE、Dism++ 安装系统，绕过账户限制并激活 Office 与 Windows，合理分区布局使数据安全有序。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 24 Sep 2023 04:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2023/windows-setup-guide</guid>
       <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
   </channel>
