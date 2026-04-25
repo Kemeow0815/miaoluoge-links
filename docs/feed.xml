@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sat, 25 Apr 2026 06:06:10 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 10:30:29 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>网站全面升级为纯Svelte！好处都有啥？都踩了哪些坑？</title>
+      <link>https://2x.nz/posts/astro-to-svelte/</link>
+      <description>自2024年以来，本站一直使用 Astro/Fuwari 来开发，但从该项目不再是一个纯粹的静态博客站之后，基于Astro的开发也越来越艰难。今天，我们来聊聊这次大更新吧！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/astro-to-svelte/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
     <item>
       <title>ChatGPT Image-2 上手：杀死比赛！设计师这下子真的可以解放双手了</title>
       <link>https://blog.zhheo.com/p/qysi5xhu.html</link>
@@ -228,15 +237,6 @@
       <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Wed, 18 Mar 2026 10:53:50 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/snippets/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>终极版！国内免梯上Github！</title>
-      <link>https://2x.nz/posts/gh-cf/</link>
-      <description>巨简单！1分钟自建你的Github代理！</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Tue, 10 Mar 2026 11:29:58 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/gh-cf/</guid>
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
