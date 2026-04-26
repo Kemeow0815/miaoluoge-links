@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sun, 26 Apr 2026 10:32:09 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 26 Apr 2026 14:31:55 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>手把手教你跑一个二次元AI老婆！另附自然语言生图教程！</title>
+      <link>https://2x.nz/posts/ai-wife/</link>
+      <description>极！其！简！单！傻！子！都！会！本期将手把手教你从软件安装，到模型配置再到出图，百分百画出惊艳的图片！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sun, 26 Apr 2026 10:20:25 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/ai-wife/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
     <item>
       <title>网站全面升级为纯Svelte！好处都有啥？都踩了哪些坑？</title>
       <link>https://2x.nz/posts/astro-to-svelte/</link>
@@ -229,15 +238,6 @@
       <pubDate>Wed, 18 Mar 2026 16:31:04 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhilu.site/2026/beijing-intern</guid>
       <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>你...买 Cloudflare Pro 了吗？来玩超级牛逼的 Snippets ！</title>
-      <link>https://2x.nz/posts/snippets/</link>
-      <description>Snippets 是 Cloudflare 提供的不限量不计费的轻量Worker，我们可以拿她干不少有趣的业务！</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Wed, 18 Mar 2026 10:53:50 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/snippets/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>页脚魔改(Nuxt版本)</title>
