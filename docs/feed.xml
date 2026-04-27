@@ -11,9 +11,27 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Mon, 27 Apr 2026 07:58:07 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 27 Apr 2026 13:08:59 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>洪绘切图发布！如何将一个图片平均切图？按照固定距离或者网格切图？</title>
+      <link>https://blog.zhheo.com/p/zg5upnsy.html</link>
+      <description>这篇文章介绍了在制作公众号长文、电商详情等场景的大长图时，如何通过先完成整张长图设计、再进行切片的方式兼顾展示效果与加载性能。文章指出，Photoshop 自带切片工具在频繁调整长图尺寸和复杂修改时不够顺手，因此推荐使用“洪绘切图”这类更轻量的工具，支持平均切图、按距离切图以及自定义图片格式。整体流程简单直观，适合快速将大长图无缝拆分并导出，提高长图制作效率。</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Mon, 27 Apr 2026 06:54:33 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/zg5upnsy.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>让UPS接入OpenWrt软路由，创建UPS NUT服务器教程</title>
+      <link>https://blog.zhheo.com/p/7rlq7eyt.html</link>
+      <description>这篇文章介绍了将 UPS 从原先 USB 直连 NAS，改为接入软路由并通过 NUT 服务器向 NAS、Home Assistant 等设备统一提供状态数据的方案。文章以 iStoreOS 为例，说明如何通过 `dmesg`、`lsusb` 获取厂商 ID 和产品 ID，配置 `usbhid-ups` 驱动、NUT 用户及监听地址，并强调 UPS 名称需保持一致。这样做不仅更符合多设备供电场景，也</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Sun, 26 Apr 2026 14:12:43 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/7rlq7eyt.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>手把手教你跑一个二次元AI老婆！另附自然语言生图教程！</title>
       <link>https://2x.nz/posts/ai-wife/</link>
@@ -159,15 +177,6 @@
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
-      <title>使用 Magsafe 磁吸保护壳，但是磁力比较低，怎么办</title>
-      <link>https://blog.zhheo.com/p/idp0qt15.html</link>
-      <description>这篇文章介绍了通过自行更换高吸力磁铁解决廉价MagSafe手机壳磁力不足的方法。作者首先分享了自己日常使用MagSafe支架、泡泡骚、磁吸环等多种磁吸配件的体验，随后指出廉价手机壳普遍存在磁力弱的问题，通常只能退货处理。核心解决方案是单独购买MagSafe接收端磁铁替换壳内劣质磁铁。操作要点包括：推荐55毫米和70毫米两种常用尺寸，N52材质磁铁吸力可达2000高斯，搭配单面麦拉可增强磁力且让磁铁</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Sun, 05 Apr 2026 00:41:04 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/idp0qt15.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
       <title>ChronoFrame - 一款优雅的瀑布流相册系统</title>
       <link>https://blog.liushen.fun/posts/381a41ac/</link>
       <description>之前一直在使用洪哥的TimePlus主题作为相册，虽然可以填写直链，但是由于PHP的特性，维护起来还是比较繁杂的，再加上一次更新不小心给Typecho更新炸了，我直接换了个系统，顺便推荐给大家。</description>
@@ -193,15 +202,6 @@
       <pubDate>Fri, 03 Apr 2026 11:19:05 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/email-posts-sub/</guid>
       <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>OpenClaw喧嚣过后，我最终选择了QClaw</title>
-      <link>https://blog.zhheo.com/p/bublpdof.html</link>
-      <description>这篇文章介绍了作者从早期探索到最终选择腾讯QClaw作为主力AI助手的心路历程。作者曾是Coze用户，因长任务和实体设备操作的局限性转而尝试各种OpenClaw方案，最终锁定QClaw。其核心推荐理由为：免费且Token充足、支持微信接入、安装便捷。最终促使作者下定决心的关键在于&quot;UU远程&quot;——可远程操控Mac且支持盒盖不休眠，让龙虾在后台稳定运行。文章后半部分总结了龙虾的核心应用场景：每日签到等</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 02 Apr 2026 07:13:58 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/bublpdof.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
       <title>你在做全栈吗？你想要前后端统一的热重载吗？</title>
