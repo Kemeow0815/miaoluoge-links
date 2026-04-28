@@ -11,7 +11,7 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Tue, 28 Apr 2026 07:57:16 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 16:13:31 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -21,15 +21,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Mon, 27 Apr 2026 06:54:33 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/zg5upnsy.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>让UPS接入OpenWrt软路由，创建UPS NUT服务器教程</title>
-      <link>https://blog.zhheo.com/p/7rlq7eyt.html</link>
-      <description>这篇文章介绍了将 UPS 从原先 USB 直连 NAS，改为接入软路由并通过 NUT 服务器向 NAS、Home Assistant 等设备统一提供状态数据的方案。文章以 iStoreOS 为例，说明如何通过 `dmesg`、`lsusb` 获取厂商 ID 和产品 ID，配置 `usbhid-ups` 驱动、NUT 用户及监听地址，并强调 UPS 名称需保持一致。这样做不仅更符合多设备供电场景，也</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Sun, 26 Apr 2026 14:12:43 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/7rlq7eyt.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
@@ -120,6 +111,15 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Tue, 07 Apr 2026 05:22:59 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/vcao5jjb.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>使用 Magsafe 磁吸保护壳，但是磁力比较低，怎么办</title>
+      <link>https://blog.zhheo.com/p/idp0qt15.html</link>
+      <description>这篇文章介绍了通过自行更换高吸力磁铁解决廉价MagSafe手机壳磁力不足的方法。作者首先分享了自己日常使用MagSafe支架、泡泡骚、磁吸环等多种磁吸配件的体验，随后指出廉价手机壳普遍存在磁力弱的问题，通常只能退货处理。核心解决方案是单独购买MagSafe接收端磁铁替换壳内劣质磁铁。操作要点包括：推荐55毫米和70毫米两种常用尺寸，N52材质磁铁吸力可达2000高斯，搭配单面麦拉可增强磁力且让磁铁</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Sun, 05 Apr 2026 00:41:04 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/idp0qt15.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
