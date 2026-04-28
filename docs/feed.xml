@@ -11,26 +11,44 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sun, 19 Apr 2026 21:52:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 28 Apr 2026 07:57:16 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>俗话都说项目写久了会变成史山...今天我们来铲史...</title>
-      <link>https://2x.nz/posts/improve-dev-speed/</link>
-      <description>什么？我只想改一个字看看预览都要等1分钟？这是什么神人项目啊？！</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Sun, 19 Apr 2026 10:05:45 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/improve-dev-speed/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
+      <title>洪绘切图发布！如何将一个图片平均切图？按照固定距离或者网格切图？</title>
+      <link>https://blog.zhheo.com/p/zg5upnsy.html</link>
+      <description>这篇文章介绍了在制作公众号长文、电商详情等场景的大长图时，如何通过先完成整张长图设计、再进行切片的方式兼顾展示效果与加载性能。文章指出，Photoshop 自带切片工具在频繁调整长图尺寸和复杂修改时不够顺手，因此推荐使用“洪绘切图”这类更轻量的工具，支持平均切图、按距离切图以及自定义图片格式。整体流程简单直观，适合快速将大长图无缝拆分并导出，提高长图制作效率。</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Mon, 27 Apr 2026 06:54:33 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/zg5upnsy.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
-      <title>将你的Linux硬盘映射到Windows？</title>
-      <link>https://2x.nz/posts/sshfs/</link>
-      <description>如何像Windows一样管理Linux文件和开发？SSHFS来帮你！</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/sshfs/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
+      <title>让UPS接入OpenWrt软路由，创建UPS NUT服务器教程</title>
+      <link>https://blog.zhheo.com/p/7rlq7eyt.html</link>
+      <description>这篇文章介绍了将 UPS 从原先 USB 直连 NAS，改为接入软路由并通过 NUT 服务器向 NAS、Home Assistant 等设备统一提供状态数据的方案。文章以 iStoreOS 为例，说明如何通过 `dmesg`、`lsusb` 获取厂商 ID 和产品 ID，配置 `usbhid-ups` 驱动、NUT 用户及监听地址，并强调 UPS 名称需保持一致。这样做不仅更符合多设备供电场景，也</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Sun, 26 Apr 2026 14:12:43 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/7rlq7eyt.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>ChatGPT Image-2 上手：杀死比赛！设计师这下子真的可以解放双手了</title>
+      <link>https://blog.zhheo.com/p/qysi5xhu.html</link>
+      <description>这篇文章介绍了 ChatGPT Image2 在中文设计场景中的实际表现，重点展示了其在表情包制作、产品宣传图生成、旧海报改版以及局部改字等任务中的高可用性。作者通过多组案例认为，该模型在中文文字准确率、版式逻辑、细节还原和风格切换上都已接近可直接商用，许多原本需要设计师数小时甚至数天完成的工作，如今一句提示词即可完成。文章最终认为，除高度定制和批量化场景外，大多数平面设计流程都可能被 AI 重构</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Tue, 21 Apr 2026 08:18:59 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/qysi5xhu.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>龙虾与微信聊天记录结合：群内容总结、整理和提取关键内容实在是太方便</title>
+      <link>https://blog.zhheo.com/p/2muck4bk.html</link>
+      <description>这篇文章介绍了如何借助 wechat-cli 把本地微信聊天记录变成可检索的命令行能力，用来快速梳理工作群里海量且杂乱的信息流。作者的核心痛点是微信群消息常被屏蔽，等到被艾特做海报时往往完全缺乏上下文，因此需要 AI 快速对齐背景、提炼任务线索。文章展示了 wechat-cli 在内容整理、任务脉络分析上的实用效果，并说明可进一步让 AI 学习项目文档、整合成 skill，形成微信聊天记录阅读能力</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Mon, 20 Apr 2026 04:47:22 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/2muck4bk.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
       <title>洪绘压图发布！批量转图片格式，批量压缩图片工具（Mac/Windows）</title>
@@ -42,13 +60,22 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
-      <title>让我们自建一个自己的CDN！</title>
-      <link>https://2x.nz/posts/self-host-cdn/</link>
-      <description>你有没有想过从0通过各种开源项目自己搭建一个CDN？今天就来教你！</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Sat, 11 Apr 2026 16:21:41 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/self-host-cdn/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
+      <title>热搜页面（Nuxt版本）</title>
+      <link>https://www.wxuyu.top/2026/04/hotnuxtpage</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Mon, 13 Apr 2026 06:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/04/hotnuxtpage</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
+      <title>说说页面（Nuxt版本）</title>
+      <link>https://www.wxuyu.top/2026/04/essaynuxtpage</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Sat, 11 Apr 2026 06:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/04/essaynuxtpage</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
     </item>
     <item>
       <title>视频压缩软件 CompressO 3.0 MacOS 免费汉化版下载</title>
@@ -96,24 +123,6 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
-      <title>WTF？免费优质线路2c4g VPS！免费GLM模型无限用！免费Opus 4.6！</title>
-      <link>https://2x.nz/posts/what-the-fuck-claw-replit/</link>
-      <description>2026年4月6日，这天凌晨...神了...</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Sun, 05 Apr 2026 18:17:20 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/what-the-fuck-claw-replit/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>使用 Magsafe 磁吸保护壳，但是磁力比较低，怎么办</title>
-      <link>https://blog.zhheo.com/p/idp0qt15.html</link>
-      <description>这篇文章介绍了通过自行更换高吸力磁铁解决廉价MagSafe手机壳磁力不足的方法。作者首先分享了自己日常使用MagSafe支架、泡泡骚、磁吸环等多种磁吸配件的体验，随后指出廉价手机壳普遍存在磁力弱的问题，通常只能退货处理。核心解决方案是单独购买MagSafe接收端磁铁替换壳内劣质磁铁。操作要点包括：推荐55毫米和70毫米两种常用尺寸，N52材质磁铁吸力可达2000高斯，搭配单面麦拉可增强磁力且让磁铁</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Sun, 05 Apr 2026 00:41:04 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/idp0qt15.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
       <title>ChronoFrame - 一款优雅的瀑布流相册系统</title>
       <link>https://blog.liushen.fun/posts/381a41ac/</link>
       <description>之前一直在使用洪哥的TimePlus主题作为相册，虽然可以填写直链，但是由于PHP的特性，维护起来还是比较繁杂的，再加上一次更新不小心给Typecho更新炸了，我直接换了个系统，顺便推荐给大家。</description>
@@ -123,67 +132,13 @@
       <source url="https://www.liushen.fun/">liushen</source>
     </item>
     <item>
-      <title>握草，用浏览器检测你的NAT类型？！</title>
-      <link>https://2x.nz/posts/check-nat-webrtc/</link>
-      <description>众所周知，NAT类型的检测并不是什么门槛，但是，如果我说纯浏览器也可以实现检测呢...</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Sat, 04 Apr 2026 13:46:01 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/check-nat-webrtc/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>手搓一个电子邮件订阅器！</title>
-      <link>https://2x.nz/posts/email-posts-sub/</link>
-      <description>你可曾想过手搓一个基于邮件形式的文章订阅器？读者只需告诉系统邮箱，之后的文章更新都会发一封邮件来通知他们！</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Fri, 03 Apr 2026 11:19:05 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/email-posts-sub/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>OpenClaw喧嚣过后，我最终选择了QClaw</title>
-      <link>https://blog.zhheo.com/p/bublpdof.html</link>
-      <description>这篇文章介绍了作者从早期探索到最终选择腾讯QClaw作为主力AI助手的心路历程。作者曾是Coze用户，因长任务和实体设备操作的局限性转而尝试各种OpenClaw方案，最终锁定QClaw。其核心推荐理由为：免费且Token充足、支持微信接入、安装便捷。最终促使作者下定决心的关键在于&quot;UU远程&quot;——可远程操控Mac且支持盒盖不休眠，让龙虾在后台稳定运行。文章后半部分总结了龙虾的核心应用场景：每日签到等</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 02 Apr 2026 07:13:58 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/bublpdof.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>洪绘存图发布：保存浏览器图片为指定格式、提取网页所有图片、屏幕截图插件</title>
-      <link>https://blog.zhheo.com/p/drqm39ob.html</link>
-      <description>这篇文章介绍了作者因常用图片保存插件被检测为恶意软件而卸载后，自行开发了一款名为《洪绘存图》的浏览器插件。该插件集成了存图、抓图、截图三大功能，成为三合一工具。作者展示了多张插件界面截图，展示了从初步开发到最终完善的过程。这个自研插件不仅解决了作者的存图需求，还通过不断迭代优化，将多个功能整合在一起，提供了一个安全可靠的图片保存解决方案。</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Sun, 29 Mar 2026 06:41:52 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/drqm39ob.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>你在做全栈吗？你想要前后端统一的热重载吗？</title>
-      <link>https://2x.nz/posts/concurrently/</link>
-      <description>经常做全栈的小伙伴们都知道，写完后端看效果要dev，写完前端看效果也要dev，那么有没有一劳永逸的解决方案呢？</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Tue, 24 Mar 2026 11:51:17 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/concurrently/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>教你手搓网线！打好人生第一个水晶头！</title>
-      <link>https://2x.nz/posts/rj45/</link>
-      <description>现代生活离不开网络，你想要自己搓一根网线吗？</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Mon, 23 Mar 2026 07:21:29 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/rj45/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>洪绘星空发布：一个值得逛的博客友链朋友圈</title>
-      <link>https://blog.zhheo.com/p/iu5f3hvj.html</link>
-      <description>这篇文章介绍了博客在社交媒体和AI冲击下面临的衰落现状，以及作者对博客文化的坚守。文章指出，虽然写博客的人越来越少，但作者仍以记录生活和思考为目的坚持博客写作。为了解决博客互动不足的问题，作者重新开发了&quot;洪绘星空&quot;独立站，通过iframe方式展示友链文章，提供点赞、关注、推荐等功能，旨在为坚守博客的人创造更多交流机会。</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Fri, 20 Mar 2026 02:12:20 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/iu5f3hvj.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
+      <title>游戏展示页面</title>
+      <link>https://www.wxuyu.top/2026/03/steamgamepage</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Sat, 21 Mar 2026 06:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/03/steamgamepage</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
     </item>
     <item>
       <title>北京实习300天</title>
@@ -195,13 +150,13 @@
       <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
     <item>
-      <title>你...买 Cloudflare Pro 了吗？来玩超级牛逼的 Snippets ！</title>
-      <link>https://2x.nz/posts/snippets/</link>
-      <description>Snippets 是 Cloudflare 提供的不限量不计费的轻量Worker，我们可以拿她干不少有趣的业务！</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Wed, 18 Mar 2026 10:53:50 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/snippets/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
+      <title>页脚魔改(Nuxt版本)</title>
+      <link>https://www.wxuyu.top/2026/03/footernuxtmeihua</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Tue, 03 Mar 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/03/footernuxtmeihua</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
     </item>
     <item>
       <title>兰空图床深度美化</title>
@@ -231,6 +186,51 @@
       <source url="https://www.liushen.fun/">liushen</source>
     </item>
     <item>
+      <title>【鸣潮】档案文章组件</title>
+      <link>https://www.wxuyu.top/2026/02/wutheringwavespostwidget</link>
+      <description>该文章展示多个以鸣潮为主题的档案组件，包含具体代码、属性表格对应、预览整体组件、写法展示四种类型，并在文章末尾附加更新报告。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Fri, 20 Feb 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/02/wutheringwavespostwidget</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
+      <title>【本地+云端】搭建道理鱼音乐</title>
+      <link>https://www.wxuyu.top/2026/02/musicinstall</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Wed, 04 Feb 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/02/musicinstall</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
+      <title>给老MAC升级为飞牛OS</title>
+      <link>https://www.wxuyu.top/2026/02/fnosinstall</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Tue, 03 Feb 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/02/fnosinstall</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
+      <title>【精简】测试老MAC性能</title>
+      <link>https://www.wxuyu.top/2026/02/macbookperformanctest</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Tue, 03 Feb 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/02/macbookperformanctest</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
+      <title>随笔：大容量主机测试</title>
+      <link>https://www.wxuyu.top/2026/01/vpstalk-2</link>
+      <description>该文章主要写了对于大容量硬盘主机的试水。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Fri, 30 Jan 2026 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/01/vpstalk-2</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
       <title>2025，清风已至，正帆向星海</title>
       <link>https://blog.liushen.fun/posts/5db5181d/</link>
       <description>2025逐渐走向尾声。这一年经历了考研失利的低谷，也迎来了走入工作的转折。从自我修复到角色转换，从校园走向职场，在实践中学习、在挫折中前行。第一次凭借自己的能力获得收入，完成了人生的初次积累。回望这一年，真实而坚定，推动我继续向前。</description>
@@ -238,6 +238,15 @@
       <pubDate>Wed, 07 Jan 2026 16:06:00 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/5db5181d/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
+    </item>
+    <item>
+      <title>评论优化</title>
+      <link>https://www.wxuyu.top/2025/12/commentadd</link>
+      <description>该文章介绍Nuxt博客适配中评论模块的Vue组件实现与Artalk评论系统单例管理逻辑，并提供具体的适配评论表情包的Json信息，评论功能有着KaTeX数学公式渲染、图片灯箱、动态监听以及管理逻辑的初始化、计数、暗黑模式切换等方式。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Tue, 23 Dec 2025 02:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2025/12/commentadd</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
     </item>
     <item>
       <title>部署一只麦麦QQ机器人</title>
@@ -346,15 +355,6 @@
       <pubDate>Tue, 10 Jun 2025 13:52:43 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhilu.site/2025/ai-abuse</guid>
       <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>加群向导</title>
-      <link>https://2x.nz/posts/pin/</link>
-      <description>关于如何联系二叉树树~</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Fri, 23 May 2025 16:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/pin/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>前端字体二三事</title>
