@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Thu, 30 Apr 2026 07:54:17 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2026 13:09:38 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>洪绘视频整理发布！快速整理视频文件名、移动文件夹工具</title>
+      <link>https://blog.zhheo.com/p/lz61lvjd.html</link>
+      <description>这篇文章介绍了一款名为&quot;洪绘视频整理&quot;的 macOS 端自用视频管理工具，主要面向有大量散落视频文件需要整理的用户。作者采用&quot;文件名加标签&quot;的分类规则，将所有视频统一投放到下载中转站文件夹，通过搜索标签快速筛选，避免嵌套文件夹的繁琐。该工具的核心功能包括视频预览、文件名快速修改、添加标签和移动文件，解决了传统 NAS 播放器不支持重命名、删除和移动等文件操作的问题。目前仅支持 macOS 版本，支</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 30 Apr 2026 03:15:28 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/lz61lvjd.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>中国传统色上线！快速寻找和使用具有文化气息和韵味的中国传统色</title>
       <link>https://blog.zhheo.com/p/hv4xgjxl.html</link>
@@ -111,15 +120,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Wed, 08 Apr 2026 09:47:23 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/v5h8ojrd.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>抖音iframe代码生成器：将抖音链接转为可嵌入网页的iframe代码</title>
-      <link>https://blog.zhheo.com/p/53f66bm1.html</link>
-      <description>这篇文章介绍了作者为了简化在博客中插入抖音视频的流程，开发了一个在线小工具。通过输入抖音分享链接，工具自动提取视频ID并生成可直接嵌入博客的iframe代码，省去了手动浏览器操作提取ID的繁琐步骤。工具已上线至作者的个人工具站，方便有同样需求的用户快速使用。</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Tue, 07 Apr 2026 05:59:22 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/53f66bm1.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
