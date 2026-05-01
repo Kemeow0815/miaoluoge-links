@@ -11,17 +11,17 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Fri, 01 May 2026 07:53:03 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2026 11:42:16 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>洪绘视频整理发布！快速整理视频文件名、移动文件夹工具</title>
-      <link>https://blog.zhheo.com/p/lz61lvjd.html</link>
-      <description>这篇文章介绍了一款名为&quot;洪绘视频整理&quot;的 macOS 端自用视频管理工具，主要面向有大量散落视频文件需要整理的用户。作者采用&quot;文件名加标签&quot;的分类规则，将所有视频统一投放到下载中转站文件夹，通过搜索标签快速筛选，避免嵌套文件夹的繁琐。该工具的核心功能包括视频预览、文件名快速修改、添加标签和移动文件，解决了传统 NAS 播放器不支持重命名、删除和移动等文件操作的问题。目前仅支持 macOS 版本，支</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 30 Apr 2026 03:15:28 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/lz61lvjd.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
+      <title>加群向导</title>
+      <link>https://blog.2x.nz/posts/pin/</link>
+      <description>关于如何联系二叉树树~</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Thu, 01 Jan 2099 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.2x.nz/posts/pin/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>中国传统色上线！快速寻找和使用具有文化气息和韵味的中国传统色</title>
@@ -51,6 +51,24 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
+      <title>手把手教你跑一个二次元AI老婆！另附自然语言生图教程！</title>
+      <link>https://blog.2x.nz/posts/ai-wife/</link>
+      <description>极！其！简！单！傻！子！都！会！本期将手把手教你从软件安装，到模型配置再到出图，百分百画出惊艳的图片！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sun, 26 Apr 2026 10:20:25 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.2x.nz/posts/ai-wife/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>网站全面升级为纯Svelte！好处都有啥？都踩了哪些坑？</title>
+      <link>https://blog.2x.nz/posts/astro-to-svelte/</link>
+      <description>自2024年以来，本站一直使用 Astro/Fuwari 来开发，但从该项目不再是一个纯粹的静态博客站之后，基于Astro的开发也越来越艰难。今天，我们来聊聊这次大更新吧！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.2x.nz/posts/astro-to-svelte/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
       <title>ChatGPT Image-2 上手：杀死比赛！设计师这下子真的可以解放双手了</title>
       <link>https://blog.zhheo.com/p/qysi5xhu.html</link>
       <description>这篇文章介绍了 ChatGPT Image2 在中文设计场景中的实际表现，重点展示了其在表情包制作、产品宣传图生成、旧海报改版以及局部改字等任务中的高可用性。作者通过多组案例认为，该模型在中文文字准确率、版式逻辑、细节还原和风格切换上都已接近可直接商用，许多原本需要设计师数小时甚至数天完成的工作，如今一句提示词即可完成。文章最终认为，除高度定制和批量化场景外，大多数平面设计流程都可能被 AI 重构</description>
@@ -69,6 +87,24 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
+      <title>俗话都说项目写久了会变成史山...今天我们来铲史...</title>
+      <link>https://blog.2x.nz/posts/improve-dev-speed/</link>
+      <description>什么？我只想改一个字看看预览都要等1分钟？这是什么神人项目啊？！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sun, 19 Apr 2026 10:05:45 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.2x.nz/posts/improve-dev-speed/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>将你的Linux硬盘映射到Windows？</title>
+      <link>https://blog.2x.nz/posts/sshfs/</link>
+      <description>如何像Windows一样管理Linux文件和开发？SSHFS来帮你！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.2x.nz/posts/sshfs/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
       <title>洪绘压图发布！批量转图片格式，批量压缩图片工具（Mac/Windows）</title>
       <link>https://blog.zhheo.com/p/bp85fpdb.html</link>
       <description>这篇文章介绍了作者常用的图片压缩工具“图压”已经停更且官网失效，但其在 Apple 芯片兼容、WebP 拖拽支持和功能细节上存在不少遗憾。基于这些痛点，作者决定自行复刻并推出全新的 Mac 图片压缩工具“洪绘压图”，延续经典界面与拖拽压缩逻辑，同时支持深色模式、0 压缩仅转格式，以及 AVIF、HEIC 等更多格式，提升了兼容性与实用性。文章最后说明软件免费提供，Mac 用户可回复“图片压缩”获取</description>
@@ -85,6 +121,15 @@
       <pubDate>Mon, 13 Apr 2026 06:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://www.wxuyu.top/2026/04/hotnuxtpage</guid>
       <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
+      <title>让我们自建一个自己的CDN！</title>
+      <link>https://blog.2x.nz/posts/self-host-cdn/</link>
+      <description>你有没有想过从0通过各种开源项目自己搭建一个CDN？今天就来教你！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sat, 11 Apr 2026 16:21:41 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.2x.nz/posts/self-host-cdn/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>说说页面（Nuxt版本）</title>
@@ -123,6 +168,24 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
+      <title>抖音iframe代码生成器：将抖音链接转为可嵌入网页的iframe代码</title>
+      <link>https://blog.zhheo.com/p/53f66bm1.html</link>
+      <description>这篇文章介绍了作者为了简化在博客中插入抖音视频的流程，开发了一个在线小工具。通过输入抖音分享链接，工具自动提取视频ID并生成可直接嵌入博客的iframe代码，省去了手动浏览器操作提取ID的繁琐步骤。工具已上线至作者的个人工具站，方便有同样需求的用户快速使用。</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Tue, 07 Apr 2026 05:59:22 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/53f66bm1.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>WTF？免费优质线路2c4g VPS！免费GLM模型无限用！免费Opus 4.6！</title>
+      <link>https://blog.2x.nz/posts/what-the-fuck-claw-replit/</link>
+      <description>2026年4月6日，这天凌晨...神了...</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sun, 05 Apr 2026 18:17:20 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.2x.nz/posts/what-the-fuck-claw-replit/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
       <title>ChronoFrame - 一款优雅的瀑布流相册系统</title>
       <link>https://blog.liushen.fun/posts/381a41ac/</link>
       <description>之前一直在使用洪哥的TimePlus主题作为相册，虽然可以填写直链，但是由于PHP的特性，维护起来还是比较繁杂的，再加上一次更新不小心给Typecho更新炸了，我直接换了个系统，顺便推荐给大家。</description>
@@ -130,6 +193,33 @@
       <pubDate>Sat, 04 Apr 2026 16:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/381a41ac/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
+    </item>
+    <item>
+      <title>握草，用浏览器检测你的NAT类型？！</title>
+      <link>https://blog.2x.nz/posts/check-nat-webrtc/</link>
+      <description>众所周知，NAT类型的检测并不是什么门槛，但是，如果我说纯浏览器也可以实现检测呢...</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sat, 04 Apr 2026 13:46:01 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.2x.nz/posts/check-nat-webrtc/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>手搓一个电子邮件订阅器！</title>
+      <link>https://blog.2x.nz/posts/email-posts-sub/</link>
+      <description>你可曾想过手搓一个基于邮件形式的文章订阅器？读者只需告诉系统邮箱，之后的文章更新都会发一封邮件来通知他们！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Fri, 03 Apr 2026 11:19:05 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.2x.nz/posts/email-posts-sub/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>你在做全栈吗？你想要前后端统一的热重载吗？</title>
+      <link>https://blog.2x.nz/posts/concurrently/</link>
+      <description>经常做全栈的小伙伴们都知道，写完后端看效果要dev，写完前端看效果也要dev，那么有没有一劳永逸的解决方案呢？</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Tue, 24 Mar 2026 11:51:17 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.2x.nz/posts/concurrently/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>游戏展示页面</title>
@@ -372,96 +462,6 @@
       <author>纸鹿 (https://blog.zhilu.site/)</author>
       <pubDate>Mon, 14 Apr 2025 02:07:16 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhilu.site/2025/dark-mode-guide</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>代码块展开关闭动画</title>
-      <link>https://blog.quenan.cn/2024/codezkgb</link>
-      <description>这篇文章描述了如何在Butterfly中实现代码展开关闭动画 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Wed, 26 Feb 2025 15:07:37 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/codezkgb</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>寻不回手工油糕</title>
-      <link>https://blog.zhilu.site/2025/oil-cakes</link>
-      <description>油糕的酥皮，是从什么时候开始不往下掉的？ 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 16 Feb 2025 04:30:24 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/oil-cakes</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>VitePress 不完全优化指南</title>
-      <link>https://blog.zhilu.site/2024/vitepress-enhancement</link>
-      <description>VitePress 的基本使用与定制技巧，涵盖项目初始化、汉化配置、图标引入、自定义主题等内容，旨在利用 VitePress 构建美观、高效的静态站点。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 03 Nov 2024 09:54:50 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2024/vitepress-enhancement</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>外挂标签之聊天记录</title>
-      <link>https://blog.quenan.cn/2024/hexochat</link>
-      <description>这篇文章描述了如何在Butterfly中实现聊天记录样式的外挂标签 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Fri, 20 Sep 2024 14:10:31 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/hexochat</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>免费安装杜比全景声</title>
-      <link>https://blog.quenan.cn/2024/installdolby</link>
-      <description>这篇文章将教你如何安装杜比全景声 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Wed, 03 Apr 2024 11:09:28 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/installdolby</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>自用的bf导航栏魔改</title>
-      <link>https://blog.quenan.cn/2024/bfnav</link>
-      <description>这篇文章讲述了博主魔改导航栏的过程 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Mon, 25 Mar 2024 21:04:52 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/bfnav</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>在bf中部署Artitalk说说</title>
-      <link>https://blog.quenan.cn/2024/artitalkinbf</link>
-      <description>这篇文章讲述了如何在Butterfly中部署artitalk说说 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Mon, 25 Mar 2024 10:13:16 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/artitalkinbf</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>纯Css实现Input的动画样式</title>
-      <link>https://blog.quenan.cn/2024/inputcss</link>
-      <description>纯Css写的Input动画样式 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Tue, 05 Mar 2024 18:14:37 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/inputcss</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>IDM激活，理论永久</title>
-      <link>https://blog.quenan.cn/2024/activateidm</link>
-      <description>一行代码激活IDM 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Tue, 27 Feb 2024 12:55:35 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/activateidm</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>Windows 安装指南</title>
-      <link>https://blog.zhilu.site/2023/windows-setup-guide</link>
-      <description>使用 Ventoy、微 PE、Dism++ 安装系统，绕过账户限制并激活 Office 与 Windows，合理分区布局使数据安全有序。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 24 Sep 2023 04:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2023/windows-setup-guide</guid>
       <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
   </channel>
