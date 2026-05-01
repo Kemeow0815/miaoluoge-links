@@ -24,8 +24,8 @@ export default defineConfig({
 		sidebar: sidebar(),
 		socialLinks: [
 			{ icon: 'github', link: 'https://github.com/Kemeow0815' },
-			{ icon: 'telegram', link: 'https://t.me/yxksw' },
-			{ icon: 'qq', link: 'https://qm.qq.com/q/cX0MfAZEQg' },
+			{ icon: 'telegram', link: 'https://t.me/Kemeow0815' },
+			{ icon: 'qq', link: 'https://qm.qq.com/q/5Uygyalp1m' },
 			{
 				icon: {
 					svg: '<svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Email</title><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>',
