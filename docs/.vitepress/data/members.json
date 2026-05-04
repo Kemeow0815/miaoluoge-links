@@ -53,5 +53,15 @@
     "website": "https://www.wxuyu.top",
     "feed": "https://www.wxuyu.top/atom.xml",
     "screenshot": "https://imgbed.268682.xyz/v2/wFOi4UQ.png"
+  },
+  {
+    "name": "二叉树树",
+    "title": "二叉树树",
+    "desc": "Protect What You Love.",
+    "avatarType": "url",
+    "avatar": "https://q2.qlogo.cn/headimg_dl?dst_uin=2726730791&spec=0",
+    "github": "afoim",
+    "website": "https://blog.2x.nz/",
+    "feed": "https://blog.2x.nz/rss.xml"
   }
 ]
