@@ -11,18 +11,9 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Thu, 07 May 2026 09:44:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 18:00:39 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>加群向导</title>
-      <link>https://blog.2x.nz/posts/pin/</link>
-      <description>关于如何联系二叉树树~</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
-      <pubDate>Thu, 01 Jan 2099 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.2x.nz/posts/pin/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
-    </item>
     <item>
       <title>黔山赴夏，清风入怀</title>
       <link>https://blog.liushen.fun/posts/1968ba6c/</link>
@@ -60,24 +51,6 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
-      <title>手把手教你跑一个二次元AI老婆！另附自然语言生图教程！</title>
-      <link>https://blog.2x.nz/posts/ai-wife/</link>
-      <description>极！其！简！单！傻！子！都！会！本期将手把手教你从软件安装，到模型配置再到出图，百分百画出惊艳的图片！</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
-      <pubDate>Sun, 26 Apr 2026 10:20:25 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.2x.nz/posts/ai-wife/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>网站全面升级为纯Svelte！好处都有啥？都踩了哪些坑？</title>
-      <link>https://blog.2x.nz/posts/astro-to-svelte/</link>
-      <description>自2024年以来，本站一直使用 Astro/Fuwari 来开发，但从该项目不再是一个纯粹的静态博客站之后，基于Astro的开发也越来越艰难。今天，我们来聊聊这次大更新吧！</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
-      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.2x.nz/posts/astro-to-svelte/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
-    </item>
-    <item>
       <title>ChatGPT Image-2 上手：杀死比赛！设计师这下子真的可以解放双手了</title>
       <link>https://blog.zhheo.com/p/qysi5xhu.html</link>
       <description>这篇文章介绍了 ChatGPT Image2 在中文设计场景中的实际表现，重点展示了其在表情包制作、产品宣传图生成、旧海报改版以及局部改字等任务中的高可用性。作者通过多组案例认为，该模型在中文文字准确率、版式逻辑、细节还原和风格切换上都已接近可直接商用，许多原本需要设计师数小时甚至数天完成的工作，如今一句提示词即可完成。文章最终认为，除高度定制和批量化场景外，大多数平面设计流程都可能被 AI 重构</description>
@@ -97,20 +70,20 @@
     </item>
     <item>
       <title>俗话都说项目写久了会变成史山...今天我们来铲史...</title>
-      <link>https://blog.2x.nz/posts/improve-dev-speed/</link>
+      <link>https://2x.nz/posts/improve-dev-speed/</link>
       <description>什么？我只想改一个字看看预览都要等1分钟？这是什么神人项目啊？！</description>
       <author>二叉树树 (https://blog.2x.nz/)</author>
       <pubDate>Sun, 19 Apr 2026 10:05:45 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.2x.nz/posts/improve-dev-speed/</guid>
+      <guid isPermaLink="true">https://2x.nz/posts/improve-dev-speed/</guid>
       <source url="https://blog.2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>将你的Linux硬盘映射到Windows？</title>
-      <link>https://blog.2x.nz/posts/sshfs/</link>
+      <link>https://2x.nz/posts/sshfs/</link>
       <description>如何像Windows一样管理Linux文件和开发？SSHFS来帮你！</description>
       <author>二叉树树 (https://blog.2x.nz/)</author>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.2x.nz/posts/sshfs/</guid>
+      <guid isPermaLink="true">https://2x.nz/posts/sshfs/</guid>
       <source url="https://blog.2x.nz/">二叉树树</source>
     </item>
     <item>
@@ -133,11 +106,11 @@
     </item>
     <item>
       <title>让我们自建一个自己的CDN！</title>
-      <link>https://blog.2x.nz/posts/self-host-cdn/</link>
+      <link>https://2x.nz/posts/self-host-cdn/</link>
       <description>你有没有想过从0通过各种开源项目自己搭建一个CDN？今天就来教你！</description>
       <author>二叉树树 (https://blog.2x.nz/)</author>
       <pubDate>Sat, 11 Apr 2026 16:21:41 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.2x.nz/posts/self-host-cdn/</guid>
+      <guid isPermaLink="true">https://2x.nz/posts/self-host-cdn/</guid>
       <source url="https://blog.2x.nz/">二叉树树</source>
     </item>
     <item>
@@ -187,11 +160,11 @@
     </item>
     <item>
       <title>WTF？免费优质线路2c4g VPS！免费GLM模型无限用！免费Opus 4.6！</title>
-      <link>https://blog.2x.nz/posts/what-the-fuck-claw-replit/</link>
+      <link>https://2x.nz/posts/what-the-fuck-claw-replit/</link>
       <description>2026年4月6日，这天凌晨...神了...</description>
       <author>二叉树树 (https://blog.2x.nz/)</author>
       <pubDate>Sun, 05 Apr 2026 18:17:20 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.2x.nz/posts/what-the-fuck-claw-replit/</guid>
+      <guid isPermaLink="true">https://2x.nz/posts/what-the-fuck-claw-replit/</guid>
       <source url="https://blog.2x.nz/">二叉树树</source>
     </item>
     <item>
@@ -205,29 +178,38 @@
     </item>
     <item>
       <title>握草，用浏览器检测你的NAT类型？！</title>
-      <link>https://blog.2x.nz/posts/check-nat-webrtc/</link>
+      <link>https://2x.nz/posts/check-nat-webrtc/</link>
       <description>众所周知，NAT类型的检测并不是什么门槛，但是，如果我说纯浏览器也可以实现检测呢...</description>
       <author>二叉树树 (https://blog.2x.nz/)</author>
       <pubDate>Sat, 04 Apr 2026 13:46:01 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.2x.nz/posts/check-nat-webrtc/</guid>
+      <guid isPermaLink="true">https://2x.nz/posts/check-nat-webrtc/</guid>
       <source url="https://blog.2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>手搓一个电子邮件订阅器！</title>
-      <link>https://blog.2x.nz/posts/email-posts-sub/</link>
+      <link>https://2x.nz/posts/email-posts-sub/</link>
       <description>你可曾想过手搓一个基于邮件形式的文章订阅器？读者只需告诉系统邮箱，之后的文章更新都会发一封邮件来通知他们！</description>
       <author>二叉树树 (https://blog.2x.nz/)</author>
       <pubDate>Fri, 03 Apr 2026 11:19:05 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.2x.nz/posts/email-posts-sub/</guid>
+      <guid isPermaLink="true">https://2x.nz/posts/email-posts-sub/</guid>
       <source url="https://blog.2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>你在做全栈吗？你想要前后端统一的热重载吗？</title>
-      <link>https://blog.2x.nz/posts/concurrently/</link>
+      <link>https://2x.nz/posts/concurrently/</link>
       <description>经常做全栈的小伙伴们都知道，写完后端看效果要dev，写完前端看效果也要dev，那么有没有一劳永逸的解决方案呢？</description>
       <author>二叉树树 (https://blog.2x.nz/)</author>
       <pubDate>Tue, 24 Mar 2026 11:51:17 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.2x.nz/posts/concurrently/</guid>
+      <guid isPermaLink="true">https://2x.nz/posts/concurrently/</guid>
+      <source url="https://blog.2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>教你手搓网线！打好人生第一个水晶头！</title>
+      <link>https://2x.nz/posts/rj45/</link>
+      <description>现代生活离不开网络，你想要自己搓一根网线吗？</description>
+      <author>二叉树树 (https://blog.2x.nz/)</author>
+      <pubDate>Mon, 23 Mar 2026 07:21:29 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/rj45/</guid>
       <source url="https://blog.2x.nz/">二叉树树</source>
     </item>
     <item>
@@ -247,6 +229,15 @@
       <pubDate>Wed, 18 Mar 2026 16:31:04 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhilu.site/2026/beijing-intern</guid>
       <source url="https://blog.zhilu.site/">纸鹿</source>
+    </item>
+    <item>
+      <title>你...买 Cloudflare Pro 了吗？来玩超级牛逼的 Snippets ！</title>
+      <link>https://2x.nz/posts/snippets/</link>
+      <description>Snippets 是 Cloudflare 提供的不限量不计费的轻量Worker，我们可以拿她干不少有趣的业务！</description>
+      <author>二叉树树 (https://blog.2x.nz/)</author>
+      <pubDate>Wed, 18 Mar 2026 10:53:50 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/snippets/</guid>
+      <source url="https://blog.2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>页脚魔改(Nuxt版本)</title>
@@ -445,6 +436,15 @@
       <pubDate>Tue, 10 Jun 2025 13:52:43 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhilu.site/2025/ai-abuse</guid>
       <source url="https://blog.zhilu.site/">纸鹿</source>
+    </item>
+    <item>
+      <title>加群向导</title>
+      <link>https://2x.nz/posts/pin/</link>
+      <description>关于如何联系二叉树树~</description>
+      <author>二叉树树 (https://blog.2x.nz/)</author>
+      <pubDate>Fri, 23 May 2025 16:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/pin/</guid>
+      <source url="https://blog.2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>前端字体二三事</title>
