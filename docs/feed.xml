@@ -11,7 +11,7 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sat, 09 May 2026 06:12:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2026 09:16:10 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -51,6 +51,24 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
+      <title>手把手教你跑一个二次元AI老婆！另附自然语言生图教程！</title>
+      <link>https://2x.nz/posts/ai-wife/</link>
+      <description>极！其！简！单！傻！子！都！会！本期将手把手教你从软件安装，到模型配置再到出图，百分百画出惊艳的图片！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sun, 26 Apr 2026 10:20:25 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/ai-wife/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>网站全面升级为纯Svelte！好处都有啥？都踩了哪些坑？</title>
+      <link>https://2x.nz/posts/astro-to-svelte/</link>
+      <description>自2024年以来，本站一直使用 Astro/Fuwari 来开发，但从该项目不再是一个纯粹的静态博客站之后，基于Astro的开发也越来越艰难。今天，我们来聊聊这次大更新吧！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/astro-to-svelte/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
       <title>ChatGPT Image-2 上手：杀死比赛！设计师这下子真的可以解放双手了</title>
       <link>https://blog.zhheo.com/p/qysi5xhu.html</link>
       <description>这篇文章介绍了 ChatGPT Image2 在中文设计场景中的实际表现，重点展示了其在表情包制作、产品宣传图生成、旧海报改版以及局部改字等任务中的高可用性。作者通过多组案例认为，该模型在中文文字准确率、版式逻辑、细节还原和风格切换上都已接近可直接商用，许多原本需要设计师数小时甚至数天完成的工作，如今一句提示词即可完成。文章最终认为，除高度定制和批量化场景外，大多数平面设计流程都可能被 AI 重构</description>
@@ -69,22 +87,31 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
+      <title>解决 Claude Code 安装或更新后 claude.exe 无法运行、claude native binary not installed</title>
+      <link>https://www.imaegoo.com/2026/claude-code-native-binary-not-installed/</link>
+      <description>今天在 Windows 或 macOS 上安装或更新 Claude Code 后，运行 claude 命令却报错 claude native binary not installed（macOS）、程序 claude.exe 无法运行（Windows）。折腾了一番终于搞清楚了原因。 原因分析 Claude Code 自 2.1.113 版本开始改为分发二进制包，不再分发 JS 源码。 用 npm </description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Mon, 20 Apr 2026 04:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/claude-code-native-binary-not-installed/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
+    </item>
+    <item>
       <title>俗话都说项目写久了会变成史山...今天我们来铲史...</title>
       <link>https://2x.nz/posts/improve-dev-speed/</link>
       <description>什么？我只想改一个字看看预览都要等1分钟？这是什么神人项目啊？！</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
+      <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Sun, 19 Apr 2026 10:05:45 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/improve-dev-speed/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>将你的Linux硬盘映射到Windows？</title>
       <link>https://2x.nz/posts/sshfs/</link>
       <description>如何像Windows一样管理Linux文件和开发？SSHFS来帮你！</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
+      <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/sshfs/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>洪绘压图发布！批量转图片格式，批量压缩图片工具（Mac/Windows）</title>
@@ -108,10 +135,10 @@
       <title>让我们自建一个自己的CDN！</title>
       <link>https://2x.nz/posts/self-host-cdn/</link>
       <description>你有没有想过从0通过各种开源项目自己搭建一个CDN？今天就来教你！</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
+      <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Sat, 11 Apr 2026 16:21:41 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/self-host-cdn/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>说说页面（Nuxt版本）</title>
@@ -134,7 +161,7 @@
     <item>
       <title>我将我最初接触 Vibe Coding 的飞机大战重写了，飞机大战2.0登场</title>
       <link>https://blog.zhheo.com/p/ulmdpqpw.html</link>
-      <description>这篇文章介绍了作者三年前作为代码小白，通过复制粘贴大法艰难完成飞机大战游戏的经历。三年后，作者和AI能力都大幅提升，花一天时间重构出飞机大战2.0版本，采用肉鸽玩法、宝石三选一技能、鼠标拖拽操作等新特性，展示了Vibe Coding的成长成果。</description>
+      <description>这篇文章介绍了博主时隔三年用 Vibe Coding 重构飞机大战游戏的经历。三年前博主作为代码小白，通过复制粘贴的方式用 GPT4 完成了初版飞机大战。如今经过三年积累，博主的 Vibe Coding 能力和 AI 水平都有了大幅提升，仅用一天时间就用更好的技术栈重构了游戏。2.0 版本加入了肉鸽玩法，玩家吃到宝石后可从三个技能中选择一个，并支持鼠标拖拽移动，操作更灵活、更具微操性。游戏美术仍待</description>
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 09 Apr 2026 02:38:51 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/ulmdpqpw.html</guid>
@@ -162,10 +189,10 @@
       <title>WTF？免费优质线路2c4g VPS！免费GLM模型无限用！免费Opus 4.6！</title>
       <link>https://2x.nz/posts/what-the-fuck-claw-replit/</link>
       <description>2026年4月6日，这天凌晨...神了...</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
+      <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Sun, 05 Apr 2026 18:17:20 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/what-the-fuck-claw-replit/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>ChronoFrame - 一款优雅的瀑布流相册系统</title>
@@ -180,37 +207,55 @@
       <title>握草，用浏览器检测你的NAT类型？！</title>
       <link>https://2x.nz/posts/check-nat-webrtc/</link>
       <description>众所周知，NAT类型的检测并不是什么门槛，但是，如果我说纯浏览器也可以实现检测呢...</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
+      <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Sat, 04 Apr 2026 13:46:01 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/check-nat-webrtc/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>手搓一个电子邮件订阅器！</title>
       <link>https://2x.nz/posts/email-posts-sub/</link>
       <description>你可曾想过手搓一个基于邮件形式的文章订阅器？读者只需告诉系统邮箱，之后的文章更新都会发一封邮件来通知他们！</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
+      <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Fri, 03 Apr 2026 11:19:05 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/email-posts-sub/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>Windows 11 26H1 显示所有托盘图标</title>
+      <link>https://www.imaegoo.com/2026/win-11-show-all-tray-icon/</link>
+      <description>早期版本 Windows 11 还能通过运行 shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9} 的方式来显示所有托盘图标，最新版本已经不行了。有什么新办法呢？ 方法一：Start All Back 这是一个收费软件，你可以在软件设置中找到「托盘图标」-「始终显示所有应用图标」 优点：一劳永逸 缺点：需要安装软件并一直运行 方法二：bat 脚本 粘贴到记事</description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Tue, 31 Mar 2026 03:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/win-11-show-all-tray-icon/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
+    </item>
+    <item>
+      <title>OpenClaw 安装与配置</title>
+      <link>https://www.imaegoo.com/2026/openclaw-start/</link>
+      <description>官方文档：https://docs.openclaw.ai/zh-CN 目录 安装与升级 快速上手，搭建你的 OpenClaw 环境，完成基础依赖配置。 核心配置 连接大脑，配置 AI 模型参数与消息渠道，实现基础对话。 高级功能 深度定制，通过技能编排与人格调教，打造个性化智能体。 部署与安全 安全运行，选择隔离或云端部署方案，保障数据安全。 安装与升级（Windows / macOS） 一键安</description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Wed, 25 Mar 2026 11:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/openclaw-start/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
     </item>
     <item>
       <title>你在做全栈吗？你想要前后端统一的热重载吗？</title>
       <link>https://2x.nz/posts/concurrently/</link>
       <description>经常做全栈的小伙伴们都知道，写完后端看效果要dev，写完前端看效果也要dev，那么有没有一劳永逸的解决方案呢？</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
+      <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Tue, 24 Mar 2026 11:51:17 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/concurrently/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>教你手搓网线！打好人生第一个水晶头！</title>
       <link>https://2x.nz/posts/rj45/</link>
       <description>现代生活离不开网络，你想要自己搓一根网线吗？</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
+      <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Mon, 23 Mar 2026 07:21:29 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/rj45/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
+      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>游戏展示页面</title>
@@ -231,13 +276,13 @@
       <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
     <item>
-      <title>你...买 Cloudflare Pro 了吗？来玩超级牛逼的 Snippets ！</title>
-      <link>https://2x.nz/posts/snippets/</link>
-      <description>Snippets 是 Cloudflare 提供的不限量不计费的轻量Worker，我们可以拿她干不少有趣的业务！</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
-      <pubDate>Wed, 18 Mar 2026 10:53:50 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/snippets/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
+      <title>盘点手里的电子产品传家宝</title>
+      <link>https://www.imaegoo.com/2026/my-prized-tech-heirloom/</link>
+      <description>2025~2026 年，内存价格疯涨，连我妈都破天荒问我家里有没有不用的内存条，涨到什么程度了呢？ 26 款比亚迪秦低配版直接缩水到 4G 内存 16G 存储； 海力士 256G DDR5 6400 内存的价格已经来到 79999 一根，可以买一辆比亚迪秦； 小米 17 Ultra 都能卖到 9000 了，欧版更是卖到一万六； 3 年前一加曾宣传全面淘汰 8G 内存手机，今年返璞归真，自己先用回了</description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Thu, 05 Mar 2026 10:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/my-prized-tech-heirloom/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
     </item>
     <item>
       <title>页脚魔改(Nuxt版本)</title>
@@ -256,6 +301,15 @@
       <pubDate>Sun, 01 Mar 2026 12:40:00 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/eabede01/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
+    </item>
+    <item>
+      <title>基于 7z 的 NAS 到网盘备份解决方案，支持增量、分卷、加密、压缩</title>
+      <link>https://www.imaegoo.com/2026/nas-backup/</link>
+      <description>故事背景 曾经，我组建了一个极空间的 NAS。往里面塞了两块 12T 的硬盘，将 20 年来的照片，音乐，电影，游戏、代码、文档都导了进去。虽然两块硬盘互为备份的机制一定程度解决了硬盘可能出现的寿命问题，但心里总是没底，毕竟两块硬盘在物理层面是放在一起的，万一出个什么断电或者天灾什么的，两块硬盘一起坏了怎么办？将数据备份到网盘是一个不错的选择。但问题马上出现，NAS 上的文件至少有几十万到上百万，</description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Thu, 26 Feb 2026 13:44:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/nas-backup/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
     </item>
     <item>
       <title>实习后买了一堆东西</title>
@@ -409,60 +463,6 @@
       <pubDate>Tue, 07 Oct 2025 08:20:21 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/362bfd8b/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
-    </item>
-    <item>
-      <title>谈谈不受欢迎的博客技术特征</title>
-      <link>https://blog.zhilu.site/2025/unpopular-blog-tech</link>
-      <description>从弹窗干扰到服务滥用，文章剖析博客网站「自以为在优化，实则在添堵」的负面技术特征。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Tue, 07 Oct 2025 08:06:46 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/unpopular-blog-tech</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>我们的设备被拿来做了什么：软件的背景行为</title>
-      <link>https://blog.zhilu.site/2025/background-behavior</link>
-      <description>软件为了利益添加不合用户预期的「背景行为」，无论早晚都会暴雷。你我都可能是「背景行为」的波及者，你享受了免费，你的设备在为你打工。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 17 Aug 2025 17:16:02 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/background-behavior</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>生成式AI正在生成</title>
-      <link>https://blog.zhilu.site/2025/ai-abuse</link>
-      <description>2025年初我对AI内容泛滥感到不适，但察觉内容空洞的人只有少数。生成式AI在2025一整年迭代太快，以至于2026年初整理好的这些文字显得有些过时。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Tue, 10 Jun 2025 13:52:43 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/ai-abuse</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>加群向导</title>
-      <link>https://2x.nz/posts/pin/</link>
-      <description>关于如何联系二叉树树~</description>
-      <author>二叉树树 (https://blog.2x.nz/)</author>
-      <pubDate>Fri, 23 May 2025 16:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/pin/</guid>
-      <source url="https://blog.2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>前端字体二三事</title>
-      <link>https://blog.zhilu.site/2025/font-tips</link>
-      <description>前端字体排版有许多细节需要注意，文章从我的实际开发经验出发，介绍合成字形、对齐技巧、排版优化，以及自己的一些踩坑心得。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Wed, 16 Apr 2025 00:49:50 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/font-tips</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>深色模式开发的最佳实践</title>
-      <link>https://blog.zhilu.site/2025/dark-mode-guide</link>
-      <description>前端深色模式不止于 prefers-color-scheme，完整解析自动检测、手动切换的实现方案，解决闪屏、样式冲突、变量管理等常见痛点，提供稳健的深色模式最佳实践。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Mon, 14 Apr 2025 02:07:16 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/dark-mode-guide</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
   </channel>
 </rss>
