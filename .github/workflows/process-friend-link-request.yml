@@ -1,67 +1,67 @@
 name: Process Friend Link Request
 
 on:
-  issues:
-    types: [closed]
+    issues:
+        types: [closed]
 
 jobs:
-  process-request:
-    runs-on: ubuntu-latest
-    # 只处理带有 "友链申请" 标签的议题
-    if: contains(github.event.issue.labels.*.name, '友链申请')
-    permissions:
-      contents: write
-      issues: write
+    process-request:
+        runs-on: ubuntu-latest
+        # 只处理带有 "友链申请" 标签的议题
+        if: contains(github.event.issue.labels.*.name, '友链申请')
+        permissions:
+            contents: write
+            issues: write
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+              with:
+                  fetch-depth: 0
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
 
-      - name: Process friend link request
-        id: process
-        run: node .github/scripts/process-friend-link-request.js
-        env:
-          ISSUE_NUMBER: ${{ github.event.issue.number }}
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-          ISSUE_BODY: ${{ github.event.issue.body }}
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          REPO_OWNER: ${{ github.repository_owner }}
-          REPO_NAME: ${{ github.event.repository.name }}
+            - name: Process friend link request
+              id: process
+              run: node .github/scripts/process-friend-link-request.js
+              env:
+                  ISSUE_NUMBER: ${{ github.event.issue.number }}
+                  ISSUE_TITLE: ${{ github.event.issue.title }}
+                  ISSUE_BODY: ${{ github.event.issue.body }}
+                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+                  REPO_OWNER: ${{ github.repository_owner }}
+                  REPO_NAME: ${{ github.event.repository.name }}
 
-      - name: Check for changes
-        id: check-changes
-        if: steps.process.outputs.success == 'true'
-        run: |
-          git add docs/.vitepress/data/members.json
-          if git diff --cached --quiet; then
-            echo "changed=false" >> $GITHUB_OUTPUT
-            echo "ℹ️ 没有文件变更，跳过提交"
-          else
-            echo "changed=true" >> $GITHUB_OUTPUT
-          fi
+            - name: Check for changes
+              id: check-changes
+              if: steps.process.outputs.success == 'true'
+              run: |
+                  git add docs/.vitepress/data/members.json
+                  if git diff --cached --quiet; then
+                    echo "changed=false" >> $GITHUB_OUTPUT
+                    echo "ℹ️ 没有文件变更，跳过提交"
+                  else
+                    echo "changed=true" >> $GITHUB_OUTPUT
+                  fi
 
-      - name: Commit and push changes
-        if: steps.check-changes.outputs.changed == 'true'
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git commit -m "chore: add friend link from issue #${{ github.event.issue.number }} [skip ci]"
-          # 先拉取远程更新，避免推送冲突
-          git pull --rebase origin main || git pull origin main
-          git push
+            - name: Commit and push changes
+              if: steps.check-changes.outputs.changed == 'true'
+              run: |
+                  git config --local user.email "github-actions[bot]@users.noreply.github.com"
+                  git config --local user.name "github-actions[bot]"
+                  git commit -m "chore: add friend link from issue #${{ github.event.issue.number }} [skip ci]"
+                  # 先拉取远程更新，避免推送冲突
+                  git pull --rebase origin main || git pull origin main
+                  git push
 
-      - name: Report status
-        if: always()
-        run: |
-          if [ "${{ steps.process.outputs.success }}" == "true" ]; then
-            echo "✅ 友链申请处理成功"
-          else
-            echo "❌ 友链申请处理失败"
-          fi
+            - name: Report status
+              if: always()
+              run: |
+                  if [ "${{ steps.process.outputs.success }}" == "true" ]; then
+                    echo "✅ 友链申请处理成功"
+                  else
+                    echo "❌ 友链申请处理失败"
+                  fi
