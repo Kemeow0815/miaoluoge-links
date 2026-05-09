@@ -63,5 +63,15 @@
     "github": "afoim",
     "website": "https://blog.2x.nz/",
     "feed": "https://blog.2x.nz/rss.xml"
+  },
+  {
+    "name": "iMaeGoo",
+    "title": "iMaeGoo’s Blog",
+    "desc": "虹墨空间站",
+    "avatarType": "url",
+    "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
+    "github": "imaegoo",
+    "website": "https://www.imaegoo.com",
+    "feed": "https://www.imaegoo.com/atom.xml"
   }
 ]
