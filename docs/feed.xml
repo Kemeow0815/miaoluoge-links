@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Tue, 12 May 2026 02:41:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 12 May 2026 06:34:21 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>洪绘响度发布：测量视频LUFS工具，并支持转换视频到指定LUFS</title>
+      <link>https://blog.zhheo.com/p/bvj6caeg.html</link>
+      <description>这篇文章介绍了作者开发的一款 macOS 视频响度调节工具&quot;洪绘响度&quot;。作者此前科普过 LUFS（响度单位）的概念，并分享了 ffmpeg 命令来调整视频响度，但每次手动执行代码过于繁琐。为此，他开发了这款免费小工具，界面简洁，支持拖拽导入视频，可直观显示视频响度数值，内置常用响度标准（如 -14 LUFS、-16 LUFS 等）并支持自定义标准，点击转换即可快速完成响度调整。目前仅支持 macO</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Mon, 11 May 2026 06:40:33 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/bvj6caeg.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>黔山赴夏，清风入怀</title>
       <link>https://blog.liushen.fun/posts/1968ba6c/</link>
@@ -174,15 +183,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Wed, 08 Apr 2026 09:47:23 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/v5h8ojrd.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>抖音iframe代码生成器：将抖音链接转为可嵌入网页的iframe代码</title>
-      <link>https://blog.zhheo.com/p/53f66bm1.html</link>
-      <description>这篇文章介绍了作者为了简化在博客中插入抖音视频的流程，开发了一个在线小工具。通过输入抖音分享链接，工具自动提取视频ID并生成可直接嵌入博客的iframe代码，省去了手动浏览器操作提取ID的繁琐步骤。工具已上线至作者的个人工具站，方便有同样需求的用户快速使用。</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Tue, 07 Apr 2026 05:59:22 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/53f66bm1.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
