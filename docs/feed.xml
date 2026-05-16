@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sat, 16 May 2026 02:38:04 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 06:19:14 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>洪绘响度发布：测量视频LUFS工具，并支持转换视频到指定LUFS</title>
+      <link>https://blog.zhheo.com/p/bvj6caeg.html</link>
+      <description>这篇文章介绍了作者开发的一款 macOS 视频响度调节工具&quot;洪绘响度&quot;。作者此前科普过 LUFS（响度单位）的概念，并分享了 ffmpeg 命令来调整视频响度，但每次手动执行代码过于繁琐。为此，他开发了这款免费小工具，界面简洁，支持拖拽导入视频，可直观显示视频响度数值，内置常用响度标准（如 -14 LUFS、-16 LUFS 等）并支持自定义标准，点击转换即可快速完成响度调整。目前仅支持 macO</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Mon, 11 May 2026 06:40:33 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/bvj6caeg.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>黔山赴夏，清风入怀</title>
       <link>https://blog.liushen.fun/posts/1968ba6c/</link>
@@ -22,6 +31,33 @@
       <pubDate>Mon, 04 May 2026 12:50:21 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/1968ba6c/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
+    </item>
+    <item>
+      <title>中国传统色上线！快速寻找和使用具有文化气息和韵味的中国传统色</title>
+      <link>https://blog.zhheo.com/p/hv4xgjxl.html</link>
+      <description>这篇文章介绍了一个中国传统色在线工具，作者在页面设计选色时发现现有项目&quot;中国传统色&quot;虽有完整颜色整理和预览页面，但全屏展示方式不利于快速识别，且背景色会干扰视觉判断。为此，作者在 HeoTools 平台开发了新的传统色查询工具，支持按色系筛选，方便用户在需要特定色系颜色时快速定位合适的中国传统色。</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Wed, 29 Apr 2026 06:28:12 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/hv4xgjxl.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>如何将小米CodingPlan的Mimo模型接入到OpenClaw</title>
+      <link>https://blog.zhheo.com/p/920gpt1r.html</link>
+      <description>这篇文章介绍了小米 MiMo 模型接入 OpenClaw（龙虾）的配置方法与实际使用体验。作者通过小米 Token Plan 获得免费额度后，将 MiMo V2.5 系列模型配置到 OpenClaw 中。文章详细说明了配置步骤：需要在 openclaw.json 中新增 provider（建议命名为 xiaomi-coding 以区分预置网关），删除 auth 字段，并配置对应的模型 ID 和参数</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Wed, 29 Apr 2026 02:10:08 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/920gpt1r.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>洪绘切图发布！如何将一个图片平均切图？按照固定距离或者网格切图？</title>
+      <link>https://blog.zhheo.com/p/zg5upnsy.html</link>
+      <description>这篇文章介绍了在制作公众号长文、电商详情等场景的大长图时，如何通过先完成整张长图设计、再进行切片的方式兼顾展示效果与加载性能。文章指出，Photoshop 自带切片工具在频繁调整长图尺寸和复杂修改时不够顺手，因此推荐使用“洪绘切图”这类更轻量的工具，支持平均切图、按距离切图以及自定义图片格式。整体流程简单直观，适合快速将大长图无缝拆分并导出，提高长图制作效率。</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Mon, 27 Apr 2026 06:54:33 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/zg5upnsy.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
       <title>手把手教你跑一个二次元AI老婆！另附自然语言生图教程！</title>
@@ -42,6 +78,33 @@
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
+      <title>ChatGPT Image-2 上手：杀死比赛！设计师这下子真的可以解放双手了</title>
+      <link>https://blog.zhheo.com/p/qysi5xhu.html</link>
+      <description>这篇文章介绍了 ChatGPT Image2 在中文设计场景中的实际表现，重点展示了其在表情包制作、产品宣传图生成、旧海报改版以及局部改字等任务中的高可用性。作者通过多组案例认为，该模型在中文文字准确率、版式逻辑、细节还原和风格切换上都已接近可直接商用，许多原本需要设计师数小时甚至数天完成的工作，如今一句提示词即可完成。文章最终认为，除高度定制和批量化场景外，大多数平面设计流程都可能被 AI 重构</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Tue, 21 Apr 2026 08:18:59 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/qysi5xhu.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>龙虾与微信聊天记录结合：群内容总结、整理和提取关键内容实在是太方便</title>
+      <link>https://blog.zhheo.com/p/2muck4bk.html</link>
+      <description>这篇文章介绍了如何借助 wechat-cli 把本地微信聊天记录变成可检索的命令行能力，用来快速梳理工作群里海量且杂乱的信息流。作者的核心痛点是微信群消息常被屏蔽，等到被艾特做海报时往往完全缺乏上下文，因此需要 AI 快速对齐背景、提炼任务线索。文章展示了 wechat-cli 在内容整理、任务脉络分析上的实用效果，并说明可进一步让 AI 学习项目文档、整合成 skill，形成微信聊天记录阅读能力</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Mon, 20 Apr 2026 04:47:22 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/2muck4bk.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>解决 Claude Code 安装或更新后 claude.exe 无法运行、claude native binary not installed</title>
+      <link>https://www.imaegoo.com/2026/claude-code-native-binary-not-installed/</link>
+      <description>今天在 Windows 或 macOS 上安装或更新 Claude Code 后，运行 claude 命令却报错 claude native binary not installed（macOS）、程序 claude.exe 无法运行（Windows）。折腾了一番终于搞清楚了原因。 原因分析 Claude Code 自 2.1.113 版本开始改为分发二进制包，不再分发 JS 源码。 用 npm </description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Mon, 20 Apr 2026 04:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/claude-code-native-binary-not-installed/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
+    </item>
+    <item>
       <title>俗话都说项目写久了会变成史山...今天我们来铲史...</title>
       <link>https://2x.nz/posts/improve-dev-speed/</link>
       <description>什么？我只想改一个字看看预览都要等1分钟？这是什么神人项目啊？！</description>
@@ -58,6 +121,15 @@
       <pubDate>Sat, 18 Apr 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/sshfs/</guid>
       <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>洪绘压图发布！批量转图片格式，批量压缩图片工具（Mac/Windows）</title>
+      <link>https://blog.zhheo.com/p/bp85fpdb.html</link>
+      <description>这篇文章介绍了作者常用的图片压缩工具“图压”已经停更且官网失效，但其在 Apple 芯片兼容、WebP 拖拽支持和功能细节上存在不少遗憾。基于这些痛点，作者决定自行复刻并推出全新的 Mac 图片压缩工具“洪绘压图”，延续经典界面与拖拽压缩逻辑，同时支持深色模式、0 压缩仅转格式，以及 AVIF、HEIC 等更多格式，提升了兼容性与实用性。文章最后说明软件免费提供，Mac 用户可回复“图片压缩”获取</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Wed, 15 Apr 2026 04:52:52 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/bp85fpdb.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
       <title>热搜页面（Nuxt版本）</title>
@@ -85,6 +157,33 @@
       <pubDate>Sat, 11 Apr 2026 06:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://www.wxuyu.top/2026/04/essaynuxtpage</guid>
       <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
+      <title>视频压缩软件 CompressO 3.0 MacOS 免费汉化版下载</title>
+      <link>https://blog.zhheo.com/p/9ekjlgs4.html</link>
+      <description>这篇文章介绍了博主 HaoUp 汉化开源视频压缩工具 CompressO 的经过。软件原版不支持中文，博主因同事有视频压缩需求便顺手将其汉化，鉴于软件更新频率低，汉化后直接开源共享。项目托管于 GitHub（compressO-CN），由于博主仅拥有 Mac 环境，无法打包 Windows 版本，因此提供了 M 芯片和 Intel 芯片两个 Mac 版本的下载链接。如有用户打包了 Windows </description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 09 Apr 2026 09:33:22 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/9ekjlgs4.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>我将我最初接触 Vibe Coding 的飞机大战重写了，飞机大战2.0登场</title>
+      <link>https://blog.zhheo.com/p/ulmdpqpw.html</link>
+      <description>这篇文章介绍了博主时隔三年用 Vibe Coding 重构飞机大战游戏的经历。三年前博主作为代码小白，通过复制粘贴的方式用 GPT4 完成了初版飞机大战。如今经过三年积累，博主的 Vibe Coding 能力和 AI 水平都有了大幅提升，仅用一天时间就用更好的技术栈重构了游戏。2.0 版本加入了肉鸽玩法，玩家吃到宝石后可从三个技能中选择一个，并支持鼠标拖拽移动，操作更灵活、更具微操性。游戏美术仍待</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 09 Apr 2026 02:38:51 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/ulmdpqpw.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>如何让OpenClaw控制智能家居，OpenClaw连接HomeAssistant教程</title>
+      <link>https://blog.zhheo.com/p/v5h8ojrd.html</link>
+      <description>本文介绍如何用 OpenClaw 替代 HomePod Siri 来控制智能家居。具体步骤包括：1）安装 openclaw-homeassistant 技能；2）在 Home Assistant 中生成长期访问令牌；3）将 HA 地址和令牌配置到 OpenClaw。集成后可实现用自然语言控制灯光、空调等设备，以及设置复杂的定时自动化任务（如晚间关灯提醒）。作者认为复杂的自动化可直接在 OpenCl</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Wed, 08 Apr 2026 09:47:23 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/v5h8ojrd.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
       <title>WTF？免费优质线路2c4g VPS！免费GLM模型无限用！免费Opus 4.6！</title>
@@ -123,6 +222,24 @@
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
+      <title>Windows 11 26H1 显示所有托盘图标</title>
+      <link>https://www.imaegoo.com/2026/win-11-show-all-tray-icon/</link>
+      <description>早期版本 Windows 11 还能通过运行 shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9} 的方式来显示所有托盘图标，最新版本已经不行了。有什么新办法呢？ 方法一：Start All Back 这是一个收费软件，你可以在软件设置中找到「托盘图标」-「始终显示所有应用图标」 优点：一劳永逸 缺点：需要安装软件并一直运行 方法二：bat 脚本 粘贴到记事</description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Tue, 31 Mar 2026 03:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/win-11-show-all-tray-icon/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
+    </item>
+    <item>
+      <title>OpenClaw 安装与配置</title>
+      <link>https://www.imaegoo.com/2026/openclaw-start/</link>
+      <description>官方文档：https://docs.openclaw.ai/zh-CN 目录 安装与升级 快速上手，搭建你的 OpenClaw 环境，完成基础依赖配置。 核心配置 连接大脑，配置 AI 模型参数与消息渠道，实现基础对话。 高级功能 深度定制，通过技能编排与人格调教，打造个性化智能体。 部署与安全 安全运行，选择隔离或云端部署方案，保障数据安全。 安装与升级（Windows / macOS） 一键安</description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Wed, 25 Mar 2026 11:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/openclaw-start/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
+    </item>
+    <item>
       <title>你在做全栈吗？你想要前后端统一的热重载吗？</title>
       <link>https://2x.nz/posts/concurrently/</link>
       <description>经常做全栈的小伙伴们都知道，写完后端看效果要dev，写完前端看效果也要dev，那么有没有一劳永逸的解决方案呢？</description>
@@ -159,6 +276,15 @@
       <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
     <item>
+      <title>盘点手里的电子产品传家宝</title>
+      <link>https://www.imaegoo.com/2026/my-prized-tech-heirloom/</link>
+      <description>2025~2026 年，内存价格疯涨，连我妈都破天荒问我家里有没有不用的内存条，涨到什么程度了呢？ 26 款比亚迪秦低配版直接缩水到 4G 内存 16G 存储； 海力士 256G DDR5 6400 内存的价格已经来到 79999 一根，可以买一辆比亚迪秦； 小米 17 Ultra 都能卖到 9000 了，欧版更是卖到一万六； 3 年前一加曾宣传全面淘汰 8G 内存手机，今年返璞归真，自己先用回了</description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Thu, 05 Mar 2026 10:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/my-prized-tech-heirloom/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
+    </item>
+    <item>
       <title>页脚魔改(Nuxt版本)</title>
       <link>https://www.wxuyu.top/2026/03/footernuxtmeihua</link>
       <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
@@ -175,6 +301,15 @@
       <pubDate>Sun, 01 Mar 2026 12:40:00 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/eabede01/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
+    </item>
+    <item>
+      <title>基于 7z 的 NAS 到网盘备份解决方案，支持增量、分卷、加密、压缩</title>
+      <link>https://www.imaegoo.com/2026/nas-backup/</link>
+      <description>故事背景 曾经，我组建了一个极空间的 NAS。往里面塞了两块 12T 的硬盘，将 20 年来的照片，音乐，电影，游戏、代码、文档都导了进去。虽然两块硬盘互为备份的机制一定程度解决了硬盘可能出现的寿命问题，但心里总是没底，毕竟两块硬盘在物理层面是放在一起的，万一出个什么断电或者天灾什么的，两块硬盘一起坏了怎么办？将数据备份到网盘是一个不错的选择。但问题马上出现，NAS 上的文件至少有几十万到上百万，</description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Thu, 26 Feb 2026 13:44:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/nas-backup/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
     </item>
     <item>
       <title>实习后买了一堆东西</title>
@@ -328,141 +463,6 @@
       <pubDate>Tue, 07 Oct 2025 08:20:21 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/362bfd8b/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
-    </item>
-    <item>
-      <title>谈谈不受欢迎的博客技术特征</title>
-      <link>https://blog.zhilu.site/2025/unpopular-blog-tech</link>
-      <description>从弹窗干扰到服务滥用，文章剖析博客网站「自以为在优化，实则在添堵」的负面技术特征。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Tue, 07 Oct 2025 08:06:46 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/unpopular-blog-tech</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>我们的设备被拿来做了什么：软件的背景行为</title>
-      <link>https://blog.zhilu.site/2025/background-behavior</link>
-      <description>软件为了利益添加不合用户预期的「背景行为」，无论早晚都会暴雷。你我都可能是「背景行为」的波及者，你享受了免费，你的设备在为你打工。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 17 Aug 2025 17:16:02 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/background-behavior</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>生成式AI正在生成</title>
-      <link>https://blog.zhilu.site/2025/ai-abuse</link>
-      <description>2025年初我对AI内容泛滥感到不适，但察觉内容空洞的人只有少数。生成式AI在2025一整年迭代太快，以至于2026年初整理好的这些文字显得有些过时。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Tue, 10 Jun 2025 13:52:43 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/ai-abuse</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>前端字体二三事</title>
-      <link>https://blog.zhilu.site/2025/font-tips</link>
-      <description>前端字体排版有许多细节需要注意，文章从我的实际开发经验出发，介绍合成字形、对齐技巧、排版优化，以及自己的一些踩坑心得。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Wed, 16 Apr 2025 00:49:50 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/font-tips</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>深色模式开发的最佳实践</title>
-      <link>https://blog.zhilu.site/2025/dark-mode-guide</link>
-      <description>前端深色模式不止于 prefers-color-scheme，完整解析自动检测、手动切换的实现方案，解决闪屏、样式冲突、变量管理等常见痛点，提供稳健的深色模式最佳实践。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Mon, 14 Apr 2025 02:07:16 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/dark-mode-guide</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>代码块展开关闭动画</title>
-      <link>https://blog.quenan.cn/2024/codezkgb</link>
-      <description>这篇文章描述了如何在Butterfly中实现代码展开关闭动画 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Wed, 26 Feb 2025 15:07:37 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/codezkgb</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>寻不回手工油糕</title>
-      <link>https://blog.zhilu.site/2025/oil-cakes</link>
-      <description>油糕的酥皮，是从什么时候开始不往下掉的？ 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 16 Feb 2025 04:30:24 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2025/oil-cakes</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>VitePress 不完全优化指南</title>
-      <link>https://blog.zhilu.site/2024/vitepress-enhancement</link>
-      <description>VitePress 的基本使用与定制技巧，涵盖项目初始化、汉化配置、图标引入、自定义主题等内容，旨在利用 VitePress 构建美观、高效的静态站点。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 03 Nov 2024 09:54:50 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2024/vitepress-enhancement</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>外挂标签之聊天记录</title>
-      <link>https://blog.quenan.cn/2024/hexochat</link>
-      <description>这篇文章描述了如何在Butterfly中实现聊天记录样式的外挂标签 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Fri, 20 Sep 2024 14:10:31 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/hexochat</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>免费安装杜比全景声</title>
-      <link>https://blog.quenan.cn/2024/installdolby</link>
-      <description>这篇文章将教你如何安装杜比全景声 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Wed, 03 Apr 2024 11:09:28 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/installdolby</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>自用的bf导航栏魔改</title>
-      <link>https://blog.quenan.cn/2024/bfnav</link>
-      <description>这篇文章讲述了博主魔改导航栏的过程 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Mon, 25 Mar 2024 21:04:52 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/bfnav</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>在bf中部署Artitalk说说</title>
-      <link>https://blog.quenan.cn/2024/artitalkinbf</link>
-      <description>这篇文章讲述了如何在Butterfly中部署artitalk说说 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Mon, 25 Mar 2024 10:13:16 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/artitalkinbf</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>纯Css实现Input的动画样式</title>
-      <link>https://blog.quenan.cn/2024/inputcss</link>
-      <description>纯Css写的Input动画样式 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Tue, 05 Mar 2024 18:14:37 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/inputcss</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>IDM激活，理论永久</title>
-      <link>https://blog.quenan.cn/2024/activateidm</link>
-      <description>一行代码激活IDM 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Tue, 27 Feb 2024 12:55:35 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2024/activateidm</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>Windows 安装指南</title>
-      <link>https://blog.zhilu.site/2023/windows-setup-guide</link>
-      <description>使用 Ventoy、微 PE、Dism++ 安装系统，绕过账户限制并激活 Office 与 Windows，合理分区布局使数据安全有序。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 24 Sep 2023 04:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2023/windows-setup-guide</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
   </channel>
 </rss>
