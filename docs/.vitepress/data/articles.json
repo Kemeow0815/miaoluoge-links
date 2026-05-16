@@ -1,9 +1,24 @@
 {
-  "lastUpdated": "2026-05-15T04:00:19.195Z",
-  "total": 50,
+  "lastUpdated": "2026-05-16T03:41:27.891Z",
+  "total": 70,
   "articles": [
     {
-      "_id": "liushen-0-1778817613949",
+      "_id": "张洪heo-0-1778902884169",
+      "id": "https://blog.zhheo.com/p/bvj6caeg.html",
+      "title": "洪绘响度发布：测量视频LUFS工具，并支持转换视频到指定LUFS",
+      "link": "https://blog.zhheo.com/p/bvj6caeg.html",
+      "date": "2026-05-11T06:40:33.000Z",
+      "author": "张洪heo",
+      "summary": "这篇文章介绍了作者开发的一款 macOS 视频响度调节工具\"洪绘响度\"。作者此前科普过 LUFS（响度单位）的概念，并分享了 ffmpeg 命令来调整视频响度，但每次手动执行代码过于繁琐。为此，他开发了这款免费小工具，界面简洁，支持拖拽导入视频，可直观显示视频响度数值，内置常用响度标准（如 -14 LUFS、-16 LUFS 等）并支持自定义标准，点击转换即可快速完成响度调整。目前仅支持 macO",
+      "source": {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "liushen-0-1778902882210",
       "id": "https://blog.liushen.fun/posts/1968ba6c/",
       "title": "黔山赴夏，清风入怀",
       "link": "https://blog.liushen.fun/posts/1968ba6c/",
@@ -18,7 +33,52 @@
       }
     },
     {
-      "_id": "二叉树树-0-1778817617346",
+      "_id": "张洪heo-1-1778902884169",
+      "id": "https://blog.zhheo.com/p/hv4xgjxl.html",
+      "title": "中国传统色上线！快速寻找和使用具有文化气息和韵味的中国传统色",
+      "link": "https://blog.zhheo.com/p/hv4xgjxl.html",
+      "date": "2026-04-29T06:28:12.000Z",
+      "author": "张洪heo",
+      "summary": "这篇文章介绍了一个中国传统色在线工具，作者在页面设计选色时发现现有项目\"中国传统色\"虽有完整颜色整理和预览页面，但全屏展示方式不利于快速识别，且背景色会干扰视觉判断。为此，作者在 HeoTools 平台开发了新的传统色查询工具，支持按色系筛选，方便用户在需要特定色系颜色时快速定位合适的中国传统色。",
+      "source": {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "张洪heo-2-1778902884169",
+      "id": "https://blog.zhheo.com/p/920gpt1r.html",
+      "title": "如何将小米CodingPlan的Mimo模型接入到OpenClaw",
+      "link": "https://blog.zhheo.com/p/920gpt1r.html",
+      "date": "2026-04-29T02:10:08.000Z",
+      "author": "张洪heo",
+      "summary": "这篇文章介绍了小米 MiMo 模型接入 OpenClaw（龙虾）的配置方法与实际使用体验。作者通过小米 Token Plan 获得免费额度后，将 MiMo V2.5 系列模型配置到 OpenClaw 中。文章详细说明了配置步骤：需要在 openclaw.json 中新增 provider（建议命名为 xiaomi-coding 以区分预置网关），删除 auth 字段，并配置对应的模型 ID 和参数",
+      "source": {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "张洪heo-3-1778902884169",
+      "id": "https://blog.zhheo.com/p/zg5upnsy.html",
+      "title": "洪绘切图发布！如何将一个图片平均切图？按照固定距离或者网格切图？",
+      "link": "https://blog.zhheo.com/p/zg5upnsy.html",
+      "date": "2026-04-27T06:54:33.000Z",
+      "author": "张洪heo",
+      "summary": "这篇文章介绍了在制作公众号长文、电商详情等场景的大长图时，如何通过先完成整张长图设计、再进行切片的方式兼顾展示效果与加载性能。文章指出，Photoshop 自带切片工具在频繁调整长图尺寸和复杂修改时不够顺手，因此推荐使用“洪绘切图”这类更轻量的工具，支持平均切图、按距离切图以及自定义图片格式。整体流程简单直观，适合快速将大长图无缝拆分并导出，提高长图制作效率。",
+      "source": {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "二叉树树-0-1778902885603",
       "id": "https://2x.nz/posts/ai-wife/",
       "title": "手把手教你跑一个二次元AI老婆！另附自然语言生图教程！",
       "link": "https://2x.nz/posts/ai-wife/",
@@ -33,7 +93,7 @@
       }
     },
     {
-      "_id": "二叉树树-1-1778817617346",
+      "_id": "二叉树树-1-1778902885603",
       "id": "https://2x.nz/posts/astro-to-svelte/",
       "title": "网站全面升级为纯Svelte！好处都有啥？都踩了哪些坑？",
       "link": "https://2x.nz/posts/astro-to-svelte/",
@@ -48,7 +108,52 @@
       }
     },
     {
-      "_id": "二叉树树-2-1778817617346",
+      "_id": "张洪heo-4-1778902884169",
+      "id": "https://blog.zhheo.com/p/qysi5xhu.html",
+      "title": "ChatGPT Image-2 上手：杀死比赛！设计师这下子真的可以解放双手了",
+      "link": "https://blog.zhheo.com/p/qysi5xhu.html",
+      "date": "2026-04-21T08:18:59.000Z",
+      "author": "张洪heo",
+      "summary": "这篇文章介绍了 ChatGPT Image2 在中文设计场景中的实际表现，重点展示了其在表情包制作、产品宣传图生成、旧海报改版以及局部改字等任务中的高可用性。作者通过多组案例认为，该模型在中文文字准确率、版式逻辑、细节还原和风格切换上都已接近可直接商用，许多原本需要设计师数小时甚至数天完成的工作，如今一句提示词即可完成。文章最终认为，除高度定制和批量化场景外，大多数平面设计流程都可能被 AI 重构",
+      "source": {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "张洪heo-5-1778902884169",
+      "id": "https://blog.zhheo.com/p/2muck4bk.html",
+      "title": "龙虾与微信聊天记录结合：群内容总结、整理和提取关键内容实在是太方便",
+      "link": "https://blog.zhheo.com/p/2muck4bk.html",
+      "date": "2026-04-20T04:47:22.000Z",
+      "author": "张洪heo",
+      "summary": "这篇文章介绍了如何借助 wechat-cli 把本地微信聊天记录变成可检索的命令行能力，用来快速梳理工作群里海量且杂乱的信息流。作者的核心痛点是微信群消息常被屏蔽，等到被艾特做海报时往往完全缺乏上下文，因此需要 AI 快速对齐背景、提炼任务线索。文章展示了 wechat-cli 在内容整理、任务脉络分析上的实用效果，并说明可进一步让 AI 学习项目文档、整合成 skill，形成微信聊天记录阅读能力",
+      "source": {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "iMaeGoo-0-1778902887389",
+      "id": "https://www.imaegoo.com/2026/claude-code-native-binary-not-installed/",
+      "title": "解决 Claude Code 安装或更新后 claude.exe 无法运行、claude native binary not installed",
+      "link": "https://www.imaegoo.com/2026/claude-code-native-binary-not-installed/",
+      "date": "2026-04-20T04:00:00.000Z",
+      "author": "iMaeGoo",
+      "summary": "今天在 Windows 或 macOS 上安装或更新 Claude Code 后，运行 claude 命令却报错 claude native binary not installed（macOS）、程序 claude.exe 无法运行（Windows）。折腾了一番终于搞清楚了原因。 原因分析 Claude Code 自 2.1.113 版本开始改为分发二进制包，不再分发 JS 源码。 用 npm ",
+      "source": {
+        "name": "iMaeGoo",
+        "website": "https://www.imaegoo.com",
+        "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "二叉树树-2-1778902885603",
       "id": "https://2x.nz/posts/improve-dev-speed/",
       "title": "俗话都说项目写久了会变成史山...今天我们来铲史...",
       "link": "https://2x.nz/posts/improve-dev-speed/",
@@ -63,7 +168,7 @@
       }
     },
     {
-      "_id": "二叉树树-3-1778817617346",
+      "_id": "二叉树树-3-1778902885603",
       "id": "https://2x.nz/posts/sshfs/",
       "title": "将你的Linux硬盘映射到Windows？",
       "link": "https://2x.nz/posts/sshfs/",
@@ -78,7 +183,22 @@
       }
     },
     {
-      "_id": "絮语-0-1778817616434",
+      "_id": "张洪heo-6-1778902884169",
+      "id": "https://blog.zhheo.com/p/bp85fpdb.html",
+      "title": "洪绘压图发布！批量转图片格式，批量压缩图片工具（Mac/Windows）",
+      "link": "https://blog.zhheo.com/p/bp85fpdb.html",
+      "date": "2026-04-15T04:52:52.000Z",
+      "author": "张洪heo",
+      "summary": "这篇文章介绍了作者常用的图片压缩工具“图压”已经停更且官网失效，但其在 Apple 芯片兼容、WebP 拖拽支持和功能细节上存在不少遗憾。基于这些痛点，作者决定自行复刻并推出全新的 Mac 图片压缩工具“洪绘压图”，延续经典界面与拖拽压缩逻辑，同时支持深色模式、0 压缩仅转格式，以及 AVIF、HEIC 等更多格式，提升了兼容性与实用性。文章最后说明软件免费提供，Mac 用户可回复“图片压缩”获取",
+      "source": {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "絮语-0-1778902884874",
       "id": "https://www.wxuyu.top/2026/04/hotnuxtpage",
       "title": "热搜页面（Nuxt版本）",
       "link": "https://www.wxuyu.top/2026/04/hotnuxtpage",
@@ -93,7 +213,7 @@
       }
     },
     {
-      "_id": "二叉树树-4-1778817617346",
+      "_id": "二叉树树-4-1778902885603",
       "id": "https://2x.nz/posts/self-host-cdn/",
       "title": "让我们自建一个自己的CDN！",
       "link": "https://2x.nz/posts/self-host-cdn/",
@@ -108,7 +228,7 @@
       }
     },
     {
-      "_id": "絮语-1-1778817616434",
+      "_id": "絮语-1-1778902884874",
       "id": "https://www.wxuyu.top/2026/04/essaynuxtpage",
       "title": "说说页面（Nuxt版本）",
       "link": "https://www.wxuyu.top/2026/04/essaynuxtpage",
@@ -123,7 +243,52 @@
       }
     },
     {
-      "_id": "二叉树树-5-1778817617346",
+      "_id": "张洪heo-7-1778902884169",
+      "id": "https://blog.zhheo.com/p/9ekjlgs4.html",
+      "title": "视频压缩软件 CompressO 3.0 MacOS 免费汉化版下载",
+      "link": "https://blog.zhheo.com/p/9ekjlgs4.html",
+      "date": "2026-04-09T09:33:22.000Z",
+      "author": "张洪heo",
+      "summary": "这篇文章介绍了博主 HaoUp 汉化开源视频压缩工具 CompressO 的经过。软件原版不支持中文，博主因同事有视频压缩需求便顺手将其汉化，鉴于软件更新频率低，汉化后直接开源共享。项目托管于 GitHub（compressO-CN），由于博主仅拥有 Mac 环境，无法打包 Windows 版本，因此提供了 M 芯片和 Intel 芯片两个 Mac 版本的下载链接。如有用户打包了 Windows ",
+      "source": {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "张洪heo-8-1778902884169",
+      "id": "https://blog.zhheo.com/p/ulmdpqpw.html",
+      "title": "我将我最初接触 Vibe Coding 的飞机大战重写了，飞机大战2.0登场",
+      "link": "https://blog.zhheo.com/p/ulmdpqpw.html",
+      "date": "2026-04-09T02:38:51.000Z",
+      "author": "张洪heo",
+      "summary": "这篇文章介绍了博主时隔三年用 Vibe Coding 重构飞机大战游戏的经历。三年前博主作为代码小白，通过复制粘贴的方式用 GPT4 完成了初版飞机大战。如今经过三年积累，博主的 Vibe Coding 能力和 AI 水平都有了大幅提升，仅用一天时间就用更好的技术栈重构了游戏。2.0 版本加入了肉鸽玩法，玩家吃到宝石后可从三个技能中选择一个，并支持鼠标拖拽移动，操作更灵活、更具微操性。游戏美术仍待",
+      "source": {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "张洪heo-9-1778902884169",
+      "id": "https://blog.zhheo.com/p/v5h8ojrd.html",
+      "title": "如何让OpenClaw控制智能家居，OpenClaw连接HomeAssistant教程",
+      "link": "https://blog.zhheo.com/p/v5h8ojrd.html",
+      "date": "2026-04-08T09:47:23.000Z",
+      "author": "张洪heo",
+      "summary": "本文介绍如何用 OpenClaw 替代 HomePod Siri 来控制智能家居。具体步骤包括：1）安装 openclaw-homeassistant 技能；2）在 Home Assistant 中生成长期访问令牌；3）将 HA 地址和令牌配置到 OpenClaw。集成后可实现用自然语言控制灯光、空调等设备，以及设置复杂的定时自动化任务（如晚间关灯提醒）。作者认为复杂的自动化可直接在 OpenCl",
+      "source": {
+        "name": "张洪heo",
+        "website": "https://blog.zhheo.com/",
+        "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "二叉树树-5-1778902885603",
       "id": "https://2x.nz/posts/what-the-fuck-claw-replit/",
       "title": "WTF？免费优质线路2c4g VPS！免费GLM模型无限用！免费Opus 4.6！",
       "link": "https://2x.nz/posts/what-the-fuck-claw-replit/",
@@ -138,7 +303,7 @@
       }
     },
     {
-      "_id": "liushen-1-1778817613949",
+      "_id": "liushen-1-1778902882210",
       "id": "https://blog.liushen.fun/posts/381a41ac/",
       "title": "ChronoFrame - 一款优雅的瀑布流相册系统",
       "link": "https://blog.liushen.fun/posts/381a41ac/",
@@ -153,7 +318,7 @@
       }
     },
     {
-      "_id": "二叉树树-6-1778817617346",
+      "_id": "二叉树树-6-1778902885603",
       "id": "https://2x.nz/posts/check-nat-webrtc/",
       "title": "握草，用浏览器检测你的NAT类型？！",
       "link": "https://2x.nz/posts/check-nat-webrtc/",
@@ -168,7 +333,7 @@
       }
     },
     {
-      "_id": "二叉树树-7-1778817617346",
+      "_id": "二叉树树-7-1778902885603",
       "id": "https://2x.nz/posts/email-posts-sub/",
       "title": "手搓一个电子邮件订阅器！",
       "link": "https://2x.nz/posts/email-posts-sub/",
@@ -183,7 +348,37 @@
       }
     },
     {
-      "_id": "二叉树树-8-1778817617346",
+      "_id": "iMaeGoo-1-1778902887389",
+      "id": "https://www.imaegoo.com/2026/win-11-show-all-tray-icon/",
+      "title": "Windows 11 26H1 显示所有托盘图标",
+      "link": "https://www.imaegoo.com/2026/win-11-show-all-tray-icon/",
+      "date": "2026-03-31T03:30:00.000Z",
+      "author": "iMaeGoo",
+      "summary": "早期版本 Windows 11 还能通过运行 shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9} 的方式来显示所有托盘图标，最新版本已经不行了。有什么新办法呢？ 方法一：Start All Back 这是一个收费软件，你可以在软件设置中找到「托盘图标」-「始终显示所有应用图标」 优点：一劳永逸 缺点：需要安装软件并一直运行 方法二：bat 脚本 粘贴到记事",
+      "source": {
+        "name": "iMaeGoo",
+        "website": "https://www.imaegoo.com",
+        "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "iMaeGoo-2-1778902887389",
+      "id": "https://www.imaegoo.com/2026/openclaw-start/",
+      "title": "OpenClaw 安装与配置",
+      "link": "https://www.imaegoo.com/2026/openclaw-start/",
+      "date": "2026-03-25T11:30:00.000Z",
+      "author": "iMaeGoo",
+      "summary": "官方文档：https://docs.openclaw.ai/zh-CN 目录 安装与升级 快速上手，搭建你的 OpenClaw 环境，完成基础依赖配置。 核心配置 连接大脑，配置 AI 模型参数与消息渠道，实现基础对话。 高级功能 深度定制，通过技能编排与人格调教，打造个性化智能体。 部署与安全 安全运行，选择隔离或云端部署方案，保障数据安全。 安装与升级（Windows / macOS） 一键安",
+      "source": {
+        "name": "iMaeGoo",
+        "website": "https://www.imaegoo.com",
+        "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "二叉树树-8-1778902885603",
       "id": "https://2x.nz/posts/concurrently/",
       "title": "你在做全栈吗？你想要前后端统一的热重载吗？",
       "link": "https://2x.nz/posts/concurrently/",
@@ -198,7 +393,7 @@
       }
     },
     {
-      "_id": "二叉树树-9-1778817617346",
+      "_id": "二叉树树-9-1778902885603",
       "id": "https://2x.nz/posts/rj45/",
       "title": "教你手搓网线！打好人生第一个水晶头！",
       "link": "https://2x.nz/posts/rj45/",
@@ -213,7 +408,7 @@
       }
     },
     {
-      "_id": "絮语-2-1778817616434",
+      "_id": "絮语-2-1778902884874",
       "id": "https://www.wxuyu.top/2026/03/steamgamepage",
       "title": "游戏展示页面",
       "link": "https://www.wxuyu.top/2026/03/steamgamepage",
@@ -228,7 +423,7 @@
       }
     },
     {
-      "_id": "纸鹿-0-1778817613103",
+      "_id": "纸鹿-0-1778902881121",
       "id": "https://blog.zhilu.site/2026/beijing-intern",
       "title": "北京实习300天",
       "link": "https://blog.zhilu.site/2026/beijing-intern",
@@ -243,7 +438,22 @@
       }
     },
     {
-      "_id": "絮语-3-1778817616434",
+      "_id": "iMaeGoo-3-1778902887389",
+      "id": "https://www.imaegoo.com/2026/my-prized-tech-heirloom/",
+      "title": "盘点手里的电子产品传家宝",
+      "link": "https://www.imaegoo.com/2026/my-prized-tech-heirloom/",
+      "date": "2026-03-05T10:30:00.000Z",
+      "author": "iMaeGoo",
+      "summary": "2025~2026 年，内存价格疯涨，连我妈都破天荒问我家里有没有不用的内存条，涨到什么程度了呢？ 26 款比亚迪秦低配版直接缩水到 4G 内存 16G 存储； 海力士 256G DDR5 6400 内存的价格已经来到 79999 一根，可以买一辆比亚迪秦； 小米 17 Ultra 都能卖到 9000 了，欧版更是卖到一万六； 3 年前一加曾宣传全面淘汰 8G 内存手机，今年返璞归真，自己先用回了",
+      "source": {
+        "name": "iMaeGoo",
+        "website": "https://www.imaegoo.com",
+        "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "絮语-3-1778902884874",
       "id": "https://www.wxuyu.top/2026/03/footernuxtmeihua",
       "title": "页脚魔改(Nuxt版本)",
       "link": "https://www.wxuyu.top/2026/03/footernuxtmeihua",
@@ -258,7 +468,7 @@
       }
     },
     {
-      "_id": "liushen-2-1778817613949",
+      "_id": "liushen-2-1778902882210",
       "id": "https://blog.liushen.fun/posts/eabede01/",
       "title": "兰空图床深度美化",
       "link": "https://blog.liushen.fun/posts/eabede01/",
@@ -273,7 +483,22 @@
       }
     },
     {
-      "_id": "纸鹿-1-1778817613103",
+      "_id": "iMaeGoo-4-1778902887389",
+      "id": "https://www.imaegoo.com/2026/nas-backup/",
+      "title": "基于 7z 的 NAS 到网盘备份解决方案，支持增量、分卷、加密、压缩",
+      "link": "https://www.imaegoo.com/2026/nas-backup/",
+      "date": "2026-02-26T13:44:00.000Z",
+      "author": "iMaeGoo",
+      "summary": "故事背景 曾经，我组建了一个极空间的 NAS。往里面塞了两块 12T 的硬盘，将 20 年来的照片，音乐，电影，游戏、代码、文档都导了进去。虽然两块硬盘互为备份的机制一定程度解决了硬盘可能出现的寿命问题，但心里总是没底，毕竟两块硬盘在物理层面是放在一起的，万一出个什么断电或者天灾什么的，两块硬盘一起坏了怎么办？将数据备份到网盘是一个不错的选择。但问题马上出现，NAS 上的文件至少有几十万到上百万，",
+      "source": {
+        "name": "iMaeGoo",
+        "website": "https://www.imaegoo.com",
+        "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "纸鹿-1-1778902881122",
       "id": "https://blog.zhilu.site/2026/buy-right",
       "title": "实习后买了一堆东西",
       "link": "https://blog.zhilu.site/2026/buy-right",
@@ -288,7 +513,7 @@
       }
     },
     {
-      "_id": "liushen-3-1778817613949",
+      "_id": "liushen-3-1778902882210",
       "id": "https://blog.liushen.fun/posts/ed97d31c/",
       "title": "年味",
       "link": "https://blog.liushen.fun/posts/ed97d31c/",
@@ -303,7 +528,7 @@
       }
     },
     {
-      "_id": "絮语-5-1778817616434",
+      "_id": "絮语-5-1778902884874",
       "id": "https://www.wxuyu.top/2026/02/wutheringwavespostwidget",
       "title": "【鸣潮】档案文章组件",
       "link": "https://www.wxuyu.top/2026/02/wutheringwavespostwidget",
@@ -318,7 +543,7 @@
       }
     },
     {
-      "_id": "絮语-6-1778817616434",
+      "_id": "絮语-6-1778902884874",
       "id": "https://www.wxuyu.top/2026/02/musicinstall",
       "title": "【本地+云端】搭建道理鱼音乐",
       "link": "https://www.wxuyu.top/2026/02/musicinstall",
@@ -333,7 +558,7 @@
       }
     },
     {
-      "_id": "絮语-7-1778817616434",
+      "_id": "絮语-7-1778902884874",
       "id": "https://www.wxuyu.top/2026/02/fnosinstall",
       "title": "给老MAC升级为飞牛OS",
       "link": "https://www.wxuyu.top/2026/02/fnosinstall",
@@ -348,7 +573,7 @@
       }
     },
     {
-      "_id": "絮语-8-1778817616434",
+      "_id": "絮语-8-1778902884874",
       "id": "https://www.wxuyu.top/2026/02/macbookperformanctest",
       "title": "【精简】测试老MAC性能",
       "link": "https://www.wxuyu.top/2026/02/macbookperformanctest",
@@ -363,7 +588,7 @@
       }
     },
     {
-      "_id": "絮语-9-1778817616434",
+      "_id": "絮语-9-1778902884874",
       "id": "https://www.wxuyu.top/2026/01/vpstalk-2",
       "title": "随笔：大容量主机测试",
       "link": "https://www.wxuyu.top/2026/01/vpstalk-2",
@@ -378,7 +603,7 @@
       }
     },
     {
-      "_id": "liushen-4-1778817613949",
+      "_id": "liushen-4-1778902882210",
       "id": "https://blog.liushen.fun/posts/5db5181d/",
       "title": "2025，清风已至，正帆向星海",
       "link": "https://blog.liushen.fun/posts/5db5181d/",
@@ -393,7 +618,7 @@
       }
     },
     {
-      "_id": "絮语-4-1778817616434",
+      "_id": "絮语-4-1778902884874",
       "id": "https://www.wxuyu.top/2025/12/commentadd",
       "title": "评论优化",
       "link": "https://www.wxuyu.top/2025/12/commentadd",
@@ -408,7 +633,7 @@
       }
     },
     {
-      "_id": "liushen-5-1778817613949",
+      "_id": "liushen-5-1778902882210",
       "id": "https://blog.liushen.fun/posts/83890fe8/",
       "title": "部署一只麦麦QQ机器人",
       "link": "https://blog.liushen.fun/posts/83890fe8/",
@@ -423,7 +648,7 @@
       }
     },
     {
-      "_id": "liushen-6-1778817613949",
+      "_id": "liushen-6-1778902882210",
       "id": "https://blog.liushen.fun/posts/6010fc85/",
       "title": "魔改笔记八：外挂标签及侧边栏美化",
       "link": "https://blog.liushen.fun/posts/6010fc85/",
@@ -438,7 +663,7 @@
       }
     },
     {
-      "_id": "liushen-7-1778817613950",
+      "_id": "liushen-7-1778902882210",
       "id": "https://blog.liushen.fun/posts/e0b4d5a/",
       "title": "从Moments迁移到Ech0",
       "link": "https://blog.liushen.fun/posts/e0b4d5a/",
@@ -453,7 +678,7 @@
       }
     },
     {
-      "_id": "鹊楠-0-1778817614856",
+      "_id": "鹊楠-0-1778902883271",
       "id": "https://blog.quenan.cn/2025/new-laptop-setup",
       "title": "新笔记本的开荒",
       "link": "https://blog.quenan.cn/2025/new-laptop-setup",
@@ -468,7 +693,7 @@
       }
     },
     {
-      "_id": "鹊楠-1-1778817614856",
+      "_id": "鹊楠-1-1778902883271",
       "id": "https://blog.quenan.cn/2025/made-electron-setup-for-nsis",
       "title": "使用Nsis构建一个Electron应用安装包",
       "link": "https://blog.quenan.cn/2025/made-electron-setup-for-nsis",
@@ -483,7 +708,7 @@
       }
     },
     {
-      "_id": "liushen-8-1778817613950",
+      "_id": "liushen-8-1778902882210",
       "id": "https://blog.liushen.fun/posts/deffcde0/",
       "title": "Butterfly主题实现赞赏页面及侧边卡片",
       "link": "https://blog.liushen.fun/posts/deffcde0/",
@@ -498,7 +723,7 @@
       }
     },
     {
-      "_id": "鹊楠-2-1778817614856",
+      "_id": "鹊楠-2-1778902883271",
       "id": "https://blog.quenan.cn/2025/my-new-blog",
       "title": "我的新博客",
       "link": "https://blog.quenan.cn/2025/my-new-blog",
@@ -513,7 +738,7 @@
       }
     },
     {
-      "_id": "liushen-9-1778817613950",
+      "_id": "liushen-9-1778902882210",
       "id": "https://blog.liushen.fun/posts/362bfd8b/",
       "title": "使用TinyAuth实现任意应用登录认证",
       "link": "https://blog.liushen.fun/posts/362bfd8b/",
@@ -528,7 +753,7 @@
       }
     },
     {
-      "_id": "纸鹿-3-1778817613103",
+      "_id": "纸鹿-3-1778902881122",
       "id": "https://blog.zhilu.site/2025/unpopular-blog-tech",
       "title": "谈谈不受欢迎的博客技术特征",
       "link": "https://blog.zhilu.site/2025/unpopular-blog-tech",
@@ -543,7 +768,82 @@
       }
     },
     {
-      "_id": "纸鹿-6-1778817613103",
+      "_id": "iMaeGoo-5-1778902887389",
+      "id": "https://www.imaegoo.com/2025/uninstall-netdisk-image-viewer/",
+      "title": "卸载百度网盘智能看图",
+      "link": "https://www.imaegoo.com/2025/uninstall-netdisk-image-viewer/",
+      "date": "2025-09-02T00:00:00.000Z",
+      "author": "iMaeGoo",
+      "summary": "复制代码，粘贴到记事本，保存为 bat 文件，右键以管理员身份运行。 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 @echo off echo 百度网盘智能看图卸载工具 echo 请以管理员身份运行此脚本！ echo. echo",
+      "source": {
+        "name": "iMaeGoo",
+        "website": "https://www.imaegoo.com",
+        "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "iMaeGoo-6-1778902887389",
+      "id": "https://www.imaegoo.com/2025/monaco-editor-cdn/",
+      "title": "CDN 方式引入 Monaco Editor",
+      "link": "https://www.imaegoo.com/2025/monaco-editor-cdn/",
+      "date": "2025-09-01T09:30:00.000Z",
+      "author": "iMaeGoo",
+      "summary": "在前端工程中可以用 @monaco-editor/loader 来引入 Monaco，但有时候我们的前端项目不依赖 Webpack、Vite 等打包工具，如何在普通网页中用纯 CDN 的方式引入 Monaco Editor？ 代码 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 ",
+      "source": {
+        "name": "iMaeGoo",
+        "website": "https://www.imaegoo.com",
+        "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "iMaeGoo-7-1778902887389",
+      "id": "https://www.imaegoo.com/2025/html-to-md/",
+      "title": "在线工具 - 富文本转 Markdown",
+      "link": "https://www.imaegoo.com/2025/html-to-md/",
+      "date": "2025-09-01T04:30:00.000Z",
+      "author": "iMaeGoo",
+      "summary": "只需在以下文本框中粘贴网页或 Word 文档的内容，即可转换为 Markdown 格式！ 与网上现有工具相比，这个能支持表格转换！ 粘贴网页内容 / Word 文档内容 #editor—wrapper { border: 1px solid #ccc; z-index: 999; } #toolbar-container { border-bottom: 1px solid #ccc; } #ed",
+      "source": {
+        "name": "iMaeGoo",
+        "website": "https://www.imaegoo.com",
+        "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "iMaeGoo-8-1778902887389",
+      "id": "https://www.imaegoo.com/2025/android-pad-input-method/",
+      "title": "2025 年了，安卓平板上什么第三方九键输入法最好用？",
+      "link": "https://www.imaegoo.com/2025/android-pad-input-method/",
+      "date": "2025-08-25T04:00:00.000Z",
+      "author": "iMaeGoo",
+      "summary": "题外话，我换过好多平板，我理想中的平板是 11 寸，这个大小不至于太重，又不至于屏幕太小，要搭载顶级处理器，玩游戏不卡顿，最好支持解锁 BL。 第一台平板是 iPad Pro 2018 11 寸，这个平板陪伴了我整整 6 年，依然流畅如新，奈何现如今带不动绝区零等大型游戏了，卖掉了。 第二台平板是小米平板 7，太卡！本来澎湃就吃硬件，还用了个 7+ Gen 3，掉帧死机家常便饭，还无法通过小米的解",
+      "source": {
+        "name": "iMaeGoo",
+        "website": "https://www.imaegoo.com",
+        "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "iMaeGoo-9-1778902887389",
+      "id": "https://www.imaegoo.com/2025/harmony-pc-electron/",
+      "title": "鸿蒙 PC 编译运行 Electron 应用",
+      "link": "https://www.imaegoo.com/2025/harmony-pc-electron/",
+      "date": "2025-08-25T00:00:00.000Z",
+      "author": "iMaeGoo",
+      "summary": "华为推出的 MateBook Pro 首次搭载了鸿蒙 PC 操作系统，使其能够直接运行鸿蒙手机应用和鸿蒙平板应用，但仅仅这样只能称得上是『大号平板』。 Electron 框架是优秀的跨平台客户端框架，通过改造，鸿蒙 PC 上也能运行 Electron 应用，具体如何操作呢？ 编译 Electron 可以自己编译，也可以用华为预编译好的版本。 自己编译 参考文档：https://gitcode.co",
+      "source": {
+        "name": "iMaeGoo",
+        "website": "https://www.imaegoo.com",
+        "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
+        "avatarType": "url"
+      }
+    },
+    {
+      "_id": "纸鹿-6-1778902881122",
       "id": "https://blog.zhilu.site/2025/background-behavior",
       "title": "我们的设备被拿来做了什么：软件的背景行为",
       "link": "https://blog.zhilu.site/2025/background-behavior",
@@ -558,7 +858,7 @@
       }
     },
     {
-      "_id": "纸鹿-2-1778817613103",
+      "_id": "纸鹿-2-1778902881122",
       "id": "https://blog.zhilu.site/2025/ai-abuse",
       "title": "生成式AI正在生成",
       "link": "https://blog.zhilu.site/2025/ai-abuse",
@@ -573,7 +873,7 @@
       }
     },
     {
-      "_id": "纸鹿-4-1778817613103",
+      "_id": "纸鹿-4-1778902881122",
       "id": "https://blog.zhilu.site/2025/font-tips",
       "title": "前端字体二三事",
       "link": "https://blog.zhilu.site/2025/font-tips",
@@ -588,7 +888,7 @@
       }
     },
     {
-      "_id": "纸鹿-7-1778817613103",
+      "_id": "纸鹿-7-1778902881122",
       "id": "https://blog.zhilu.site/2025/dark-mode-guide",
       "title": "深色模式开发的最佳实践",
       "link": "https://blog.zhilu.site/2025/dark-mode-guide",
@@ -603,7 +903,7 @@
       }
     },
     {
-      "_id": "鹊楠-6-1778817614856",
+      "_id": "鹊楠-6-1778902883271",
       "id": "https://blog.quenan.cn/2024/codezkgb",
       "title": "代码块展开关闭动画",
       "link": "https://blog.quenan.cn/2024/codezkgb",
@@ -618,7 +918,7 @@
       }
     },
     {
-      "_id": "纸鹿-8-1778817613103",
+      "_id": "纸鹿-8-1778902881122",
       "id": "https://blog.zhilu.site/2025/oil-cakes",
       "title": "寻不回手工油糕",
       "link": "https://blog.zhilu.site/2025/oil-cakes",
@@ -633,7 +933,7 @@
       }
     },
     {
-      "_id": "纸鹿-5-1778817613103",
+      "_id": "纸鹿-5-1778902881122",
       "id": "https://blog.zhilu.site/2024/vitepress-enhancement",
       "title": "VitePress 不完全优化指南",
       "link": "https://blog.zhilu.site/2024/vitepress-enhancement",
@@ -648,7 +948,7 @@
       }
     },
     {
-      "_id": "鹊楠-7-1778817614856",
+      "_id": "鹊楠-7-1778902883271",
       "id": "https://blog.quenan.cn/2024/hexochat",
       "title": "外挂标签之聊天记录",
       "link": "https://blog.quenan.cn/2024/hexochat",
@@ -663,7 +963,7 @@
       }
     },
     {
-      "_id": "鹊楠-9-1778817614856",
+      "_id": "鹊楠-9-1778902883271",
       "id": "https://blog.quenan.cn/2024/installdolby",
       "title": "免费安装杜比全景声",
       "link": "https://blog.quenan.cn/2024/installdolby",
@@ -678,7 +978,7 @@
       }
     },
     {
-      "_id": "鹊楠-5-1778817614856",
+      "_id": "鹊楠-5-1778902883271",
       "id": "https://blog.quenan.cn/2024/bfnav",
       "title": "自用的bf导航栏魔改",
       "link": "https://blog.quenan.cn/2024/bfnav",
@@ -693,7 +993,7 @@
       }
     },
     {
-      "_id": "鹊楠-4-1778817614856",
+      "_id": "鹊楠-4-1778902883271",
       "id": "https://blog.quenan.cn/2024/artitalkinbf",
       "title": "在bf中部署Artitalk说说",
       "link": "https://blog.quenan.cn/2024/artitalkinbf",
@@ -708,7 +1008,7 @@
       }
     },
     {
-      "_id": "鹊楠-8-1778817614856",
+      "_id": "鹊楠-8-1778902883271",
       "id": "https://blog.quenan.cn/2024/inputcss",
       "title": "纯Css实现Input的动画样式",
       "link": "https://blog.quenan.cn/2024/inputcss",
@@ -723,7 +1023,7 @@
       }
     },
     {
-      "_id": "鹊楠-3-1778817614856",
+      "_id": "鹊楠-3-1778902883271",
       "id": "https://blog.quenan.cn/2024/activateidm",
       "title": "IDM激活，理论永久",
       "link": "https://blog.quenan.cn/2024/activateidm",
@@ -738,7 +1038,7 @@
       }
     },
     {
-      "_id": "纸鹿-9-1778817613103",
+      "_id": "纸鹿-9-1778902881122",
       "id": "https://blog.zhilu.site/2023/windows-setup-guide",
       "title": "Windows 安装指南",
       "link": "https://blog.zhilu.site/2023/windows-setup-guide",
