@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Tue, 19 May 2026 02:53:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2026 07:42:29 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>免费可商用字体推荐：寒蝉端黑宋下载</title>
+      <link>https://blog.zhheo.com/p/jsrckoff.html</link>
+      <description>这篇文章介绍了基于思源宋体改造的 ChillDuanHeiSong 字体项目。该字体支持偏瘦和偏宽两种宋体风格，适合雅致场景的使用。但项目安装时存在不支持中文名称和多字重的问题，导致被误安装成多个字体。作者针对这一缺陷进行了修复，制作了修复版并展示了预览效果，最后提供了下载地址。</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Mon, 18 May 2026 08:17:16 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/jsrckoff.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>去掉高德地图开屏广告</title>
       <link>https://www.imaegoo.com/2026/amap-ad/</link>
@@ -183,15 +192,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 09 Apr 2026 02:38:51 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/ulmdpqpw.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>如何让OpenClaw控制智能家居，OpenClaw连接HomeAssistant教程</title>
-      <link>https://blog.zhheo.com/p/v5h8ojrd.html</link>
-      <description>本文介绍如何用 OpenClaw 替代 HomePod Siri 来控制智能家居。具体步骤包括：1）安装 openclaw-homeassistant 技能；2）在 Home Assistant 中生成长期访问令牌；3）将 HA 地址和令牌配置到 OpenClaw。集成后可实现用自然语言控制灯光、空调等设备，以及设置复杂的定时自动化任务（如晚间关灯提醒）。作者认为复杂的自动化可直接在 OpenCl</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Wed, 08 Apr 2026 09:47:23 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/v5h8ojrd.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
