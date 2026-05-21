@@ -14,9 +14,13 @@ const MEMBERS_FILE = path.join(DATA_DIR, "members.json");
 const ISSUE_NUMBER = process.env.ISSUE_NUMBER;
 const ISSUE_TITLE = process.env.ISSUE_TITLE;
 const ISSUE_BODY = process.env.ISSUE_BODY;
+const ISSUE_LABELS = process.env.ISSUE_LABELS;
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const REPO_OWNER = process.env.REPO_OWNER;
 const REPO_NAME = process.env.REPO_NAME;
+
+// 白名单标签
+const WHITELIST_LABEL = "白名单";
 
 // 检测配置
 const CONFIG = {
@@ -24,6 +28,20 @@ const CONFIG = {
 	retryDelay: 2000,
 	requestTimeout: 10000,
 };
+
+/**
+ * 检查是否包含白名单标签
+ */
+function hasWhitelistLabel() {
+	if (!ISSUE_LABELS) return false;
+	try {
+		const labels = JSON.parse(ISSUE_LABELS);
+		return labels.some((label) => label.name === WHITELIST_LABEL);
+	} catch (error) {
+		console.error("解析标签失败:", error.message);
+		return false;
+	}
+}
 
 /**
  * 解析议题内容，提取表单数据
@@ -366,12 +384,16 @@ async function handleSkipped(reason) {
 /**
  * 处理成功情况
  */
-async function handleSuccess(memberData) {
+async function handleSuccess(memberData, isWhitelist = false) {
 	console.log("\n✅ 处理成功！");
+
+	const whitelistNote = isWhitelist
+		? "\n\n🏷️ **白名单模式**：此友链已通过白名单标签跳过所有检测步骤"
+		: "";
 
 	const comment = `## ✅ 友链申请已通过
 
-您的博客已成功添加到友链列表！
+您的博客已成功添加到友链列表！${whitelistNote}
 
 **添加的信息：**
 - 昵称：${memberData.name}
@@ -397,6 +419,12 @@ async function main() {
 	console.log(`📋 议题编号: #${ISSUE_NUMBER}`);
 	console.log(`📋 议题标题: ${ISSUE_TITLE}\n`);
 
+	// 检查是否为白名单
+	const isWhitelist = hasWhitelistLabel();
+	if (isWhitelist) {
+		console.log("🏷️ 检测到白名单标签，将跳过所有检测步骤\n");
+	}
+
 	// 1. 解析议题内容
 	console.log("📖 解析议题内容...");
 	const data = parseIssueBody(ISSUE_BODY);
@@ -411,32 +439,40 @@ async function main() {
 	}
 	console.log("✅ 数据验证通过");
 
-	// 3. 检测 website 可访问性
-	console.log("\n🌐 检测博客链接...");
-	const websiteCheck = await checkWithRetries(data.website, "博客链接");
-	if (!websiteCheck.success) {
-		await handleFailure(`博客链接无法访问：${websiteCheck.message}`);
-		return;
-	}
-
-	// 4. 检测 screenshot 可访问性（如果提供了）
-	if (data.screenshot && data.screenshot.trim() !== "") {
-		console.log("\n📸 检测截图链接...");
-		const screenshotCheck = await checkWithRetries(data.screenshot, "截图链接");
-		if (!screenshotCheck.success) {
-			console.log("⚠️ 截图链接无法访问，将跳过此字段");
-			data.screenshot = "";
-		}
-	}
-
-	// 5. 检测 feed 可访问性（如果有）
-	if (data.feed && data.feed.trim() !== "") {
-		console.log("\n📡 检测 RSS 订阅链接...");
-		const feedCheck = await checkWithRetries(data.feed, "RSS 订阅链接");
-		if (!feedCheck.success) {
-			await handleFailure(`RSS 订阅链接无法访问：${feedCheck.message}`);
+	// 如果不是白名单，执行检测步骤
+	if (!isWhitelist) {
+		// 3. 检测 website 可访问性
+		console.log("\n🌐 检测博客链接...");
+		const websiteCheck = await checkWithRetries(data.website, "博客链接");
+		if (!websiteCheck.success) {
+			await handleFailure(`博客链接无法访问：${websiteCheck.message}`);
 			return;
 		}
+
+		// 4. 检测 screenshot 可访问性（如果提供了）
+		if (data.screenshot && data.screenshot.trim() !== "") {
+			console.log("\n📸 检测截图链接...");
+			const screenshotCheck = await checkWithRetries(
+				data.screenshot,
+				"截图链接",
+			);
+			if (!screenshotCheck.success) {
+				console.log("⚠️ 截图链接无法访问，将跳过此字段");
+				data.screenshot = "";
+			}
+		}
+
+		// 5. 检测 feed 可访问性（如果有）
+		if (data.feed && data.feed.trim() !== "") {
+			console.log("\n📡 检测 RSS 订阅链接...");
+			const feedCheck = await checkWithRetries(data.feed, "RSS 订阅链接");
+			if (!feedCheck.success) {
+				await handleFailure(`RSS 订阅链接无法访问：${feedCheck.message}`);
+				return;
+			}
+		}
+	} else {
+		console.log("\n⏭️ 白名单模式：跳过所有链接检测");
 	}
 
 	// 6. 检查是否已存在
@@ -466,6 +502,11 @@ async function main() {
 		newMember.screenshot = data.screenshot.trim();
 	}
 
+	// 添加白名单标记
+	if (isWhitelist) {
+		newMember.whitelist = true;
+	}
+
 	// 8. 添加到成员列表
 	console.log("\n💾 添加到成员列表...");
 	members.push(newMember);
@@ -476,7 +517,7 @@ async function main() {
 	}
 
 	// 9. 处理成功
-	await handleSuccess(newMember);
+	await handleSuccess(newMember, isWhitelist);
 
 	console.log("\n🎉 处理完成！");
 }
