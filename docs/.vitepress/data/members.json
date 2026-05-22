@@ -75,17 +75,5 @@
     "website": "https://www.imaegoo.com",
     "feed": "https://www.imaegoo.com/atom.xml",
     "screenshot": "https://cdn.jsdmirror.com/gh/Kemeow0815/img@main/img/iMaeGoo.webp"
-  },
-  {
-    "name": "UpXuu",
-    "title": "UpXuu's blog",
-    "desc": "逐光而上",
-    "avatarType": "url",
-    "avatar": "https://upxuu.com/images/20260214145619.jpg",
-    "github": "逐光而上",
-    "website": "https://upxuu.com",
-    "feed": "https://upxuu.com/rss.xml",
-    "screenshot": "https://jsd.268682.xyz/gh/Kemeow0815/img@main/img/screen-xpxuu.webp",
-    "whitelist": true
   }
 ]
