@@ -11,9 +11,45 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Fri, 22 May 2026 02:57:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 22 May 2026 07:40:50 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>新版Win11远程桌面/RDP突然连不上？！百分百教你解决！</title>
+      <link>https://2x.nz/posts/fuck-mswin11-rdp/</link>
+      <description>今天手头突然要用一个老的Win7 32位系统来远程开发，自然是无法用UU远程了，然后RDP又给我整这出...</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/fuck-mswin11-rdp/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
+    <item>
+      <title>Claude Code 怎样快速消耗 token</title>
+      <link>https://www.imaegoo.com/2026/claude-code-token-burner/</link>
+      <description>领导要求每人每周至少用 1 亿 token。但给的模型又太笨，参数 35B-A3B，上下文不到 100K，干啥啥不行，我人工去优化它生成的垃圾代码，还不如我自己写一遍快，不用又要被通报。结果就是会用 AI 的人看不上，不会用 AI 的人用不上。因为一些没办法明说的原因，这考核指标又不是说取消就能取消的（以前还考核过代码行数、AI / 人工代码占比，结果就是鼓励写重复冗余的垃圾代码）。那要怎样才能让</description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Thu, 21 May 2026 10:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/claude-code-token-burner/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
+    </item>
+    <item>
+      <title>这一次，我们听点有意思的</title>
+      <link>https://blog.zhheo.com/p/7a59rx04.html</link>
+      <description>这篇文章介绍了博客在无障碍宣传日上线的两项新功能。**全文朗读**：左下角一键开启，使用自然语音逐段朗读文章，针对代码、超链接等复杂内容做了特殊适配，旁白用户按空格即可播放。**播客陪读**：由两位主播对话式解读文章内容，适合觉得文字枯燥或内容晦涩的读者，目前已覆盖 500+ 篇文章。两项功能构成了博客的声音增强体系，旨在让更多人能以听觉方式理解内容。</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 21 May 2026 04:27:16 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/7a59rx04.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>为啥别人用Image2做的图那么好看？我的却特别丑？如何模仿别人的风格作图？</title>
+      <link>https://blog.zhheo.com/p/viqyx0td.html</link>
+      <description>这篇文章介绍了用 AI 模仿图片风格时常见的误区和正确流程。很多人看到社交媒体上的 AI 出图后直接用&quot;记住这张照片的风格&quot;这类 prompt，结果图片很丑——核心问题在于依赖上下文记忆和把风格分析与生图任务混在一起。作者推荐的标准化流程是：先用 Thinking 模型提取参考图的风格关键词，再用关键词+参考图来生图，且全程保持关键词可编辑、随时删减不需要的描述。简单来说就是&quot;拆分任务、先分析再生</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 21 May 2026 03:02:13 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/viqyx0td.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>如何给自己创作的歌曲生成歌词文件？手打逐字歌词lrc文件教程</title>
       <link>https://blog.zhheo.com/p/rdlrcfqe.html</link>
@@ -150,15 +186,6 @@
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
-      <title>洪绘压图发布！批量转图片格式，批量压缩图片工具（Mac/Windows）</title>
-      <link>https://blog.zhheo.com/p/bp85fpdb.html</link>
-      <description>这篇文章介绍了作者常用的图片压缩工具“图压”已经停更且官网失效，但其在 Apple 芯片兼容、WebP 拖拽支持和功能细节上存在不少遗憾。基于这些痛点，作者决定自行复刻并推出全新的 Mac 图片压缩工具“洪绘压图”，延续经典界面与拖拽压缩逻辑，同时支持深色模式、0 压缩仅转格式，以及 AVIF、HEIC 等更多格式，提升了兼容性与实用性。文章最后说明软件免费提供，Mac 用户可回复“图片压缩”获取</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Wed, 15 Apr 2026 04:52:52 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/bp85fpdb.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
       <title>热搜页面（Nuxt版本）</title>
       <link>https://www.wxuyu.top/2026/04/hotnuxtpage</link>
       <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
@@ -184,15 +211,6 @@
       <pubDate>Sat, 11 Apr 2026 06:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://www.wxuyu.top/2026/04/essaynuxtpage</guid>
       <source url="https://www.wxuyu.top">絮语</source>
-    </item>
-    <item>
-      <title>视频压缩软件 CompressO 3.0 MacOS 免费汉化版下载</title>
-      <link>https://blog.zhheo.com/p/9ekjlgs4.html</link>
-      <description>这篇文章介绍了博主 HaoUp 汉化开源视频压缩工具 CompressO 的经过。软件原版不支持中文，博主因同事有视频压缩需求便顺手将其汉化，鉴于软件更新频率低，汉化后直接开源共享。项目托管于 GitHub（compressO-CN），由于博主仅拥有 Mac 环境，无法打包 Windows 版本，因此提供了 M 芯片和 Intel 芯片两个 Mac 版本的下载链接。如有用户打包了 Windows </description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 09 Apr 2026 09:33:22 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/9ekjlgs4.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
       <title>WTF？免费优质线路2c4g VPS！免费GLM模型无限用！免费Opus 4.6！</title>
@@ -255,15 +273,6 @@
       <author>二叉树树 (https://2x.nz/)</author>
       <pubDate>Tue, 24 Mar 2026 11:51:17 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/concurrently/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>教你手搓网线！打好人生第一个水晶头！</title>
-      <link>https://2x.nz/posts/rj45/</link>
-      <description>现代生活离不开网络，你想要自己搓一根网线吗？</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Mon, 23 Mar 2026 07:21:29 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/rj45/</guid>
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
@@ -454,15 +463,6 @@
       <pubDate>Sun, 19 Oct 2025 09:10:21 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/deffcde0/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
-    </item>
-    <item>
-      <title>我的新博客</title>
-      <link>https://blog.quenan.cn/2025/my-new-blog</link>
-      <description>讲述关于我的新博客的故事。 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Thu, 16 Oct 2025 19:41:46 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2025/my-new-blog</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
     </item>
   </channel>
 </rss>
