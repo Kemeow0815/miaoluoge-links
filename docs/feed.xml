@@ -11,18 +11,9 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Tue, 26 May 2026 02:50:07 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 26 May 2026 07:41:55 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>浏览器直接访问正常，过了负载均衡就崩了？只因响应头里多了个空格</title>
-      <link>https://www.imaegoo.com/2026/lb-connection-reset/</link>
-      <description>分享一个今天的生产问题，某系统直接访问正常，经过负载均衡就报连接被重置 Connection Reset，在机房查了两个多小时，最后发现是后端 Java 设置响应头的时候 setHeader(&quot;Expires &quot;, xxx)，Expires 后面多打了一个空格，导致响应头不符合 HTTP Header 规范（key: value），负载均衡处理不了这种不规范的响应头，直接丢包了。 排查过程难就难在</description>
-      <author>iMaeGoo (https://www.imaegoo.com)</author>
-      <pubDate>Sat, 23 May 2026 01:30:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.imaegoo.com/2026/lb-connection-reset/</guid>
-      <source url="https://www.imaegoo.com">iMaeGoo</source>
-    </item>
     <item>
       <title>为OpenClaw搭建一个免费的搜索引擎，如何让OpenClaw搜索网页内容</title>
       <link>https://blog.zhheo.com/p/9p755adr.html</link>
@@ -40,15 +31,6 @@
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://2x.nz/posts/fuck-mswin11-rdp/</guid>
       <source url="https://2x.nz/">二叉树树</source>
-    </item>
-    <item>
-      <title>Claude Code 怎样快速消耗 token</title>
-      <link>https://www.imaegoo.com/2026/claude-code-token-burner/</link>
-      <description>领导要求每人每周至少用 1 亿 token。但给的模型又太笨，参数 35B-A3B，上下文不到 100K，干啥啥不行，我人工去优化它生成的垃圾代码，还不如我自己写一遍快，不用又要被谈话。结果就是会用 AI 的人看不上，不会用 AI 的人用不上。因为一些没办法明说的原因，这考核指标又不是说取消就能取消的（以前还考核过代码行数、AI / 人工代码占比，结果就是鼓励写重复冗余的垃圾代码）。那要怎样才能让</description>
-      <author>iMaeGoo (https://www.imaegoo.com)</author>
-      <pubDate>Thu, 21 May 2026 10:30:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.imaegoo.com/2026/claude-code-token-burner/</guid>
-      <source url="https://www.imaegoo.com">iMaeGoo</source>
     </item>
     <item>
       <title>这一次，我们听点有意思的</title>
@@ -85,15 +67,6 @@
       <pubDate>Mon, 18 May 2026 08:17:16 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/jsrckoff.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>去掉高德地图开屏广告</title>
-      <link>https://www.imaegoo.com/2026/amap-ad/</link>
-      <description>高德地图开屏广告是我最恶心的广告了，没有之一。你要是微博、抖音有个开屏广告，我能理解，一般这个时候我都有闲工夫去看你的广告。你一个导航 app，我只有需要导航的时候才会打开，你这时候给我蹦个开屏广告，还扭动、转动前倾跳转，你是不是觉得大家开车的时候手机都会晃动，才故意这样设计的？我准备开车的时候有时间去看你的广告吗？你弹广告加摇一摇跳转的行为只会让我对你的广告内容更加恶心。 更恶心的是，高德地图是</description>
-      <author>iMaeGoo (https://www.imaegoo.com)</author>
-      <pubDate>Mon, 18 May 2026 00:30:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.imaegoo.com/2026/amap-ad/</guid>
-      <source url="https://www.imaegoo.com">iMaeGoo</source>
     </item>
     <item>
       <title>洪绘响度发布：测量视频LUFS工具，并支持转换视频到指定LUFS</title>
@@ -166,15 +139,6 @@
       <pubDate>Tue, 21 Apr 2026 08:18:59 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/qysi5xhu.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>解决 Claude Code 安装或更新后 claude.exe 无法运行、claude native binary not installed</title>
-      <link>https://www.imaegoo.com/2026/claude-code-native-binary-not-installed/</link>
-      <description>今天在 Windows 或 macOS 上安装或更新 Claude Code 后，运行 claude 命令却报错 claude native binary not installed（macOS）、程序 claude.exe 无法运行（Windows）。折腾了一番终于搞清楚了原因。 原因分析 Claude Code 自 2.1.113 版本开始改为分发二进制包，不再分发 JS 源码。 用 npm </description>
-      <author>iMaeGoo (https://www.imaegoo.com)</author>
-      <pubDate>Mon, 20 Apr 2026 04:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.imaegoo.com/2026/claude-code-native-binary-not-installed/</guid>
-      <source url="https://www.imaegoo.com">iMaeGoo</source>
     </item>
     <item>
       <title>俗话都说项目写久了会变成史山...今天我们来铲史...</title>
@@ -258,24 +222,6 @@
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
-      <title>Windows 11 26H1 显示所有托盘图标</title>
-      <link>https://www.imaegoo.com/2026/win-11-show-all-tray-icon/</link>
-      <description>早期版本 Windows 11 还能通过运行 shell:::{05d7b0f4-2121-4eff-bf6b-ed3f69b894d9} 的方式来显示所有托盘图标，最新版本已经不行了。有什么新办法呢？ 方法一：Start All Back 这是一个收费软件，你可以在软件设置中找到「托盘图标」-「始终显示所有应用图标」 优点：一劳永逸 缺点：需要安装软件并一直运行 方法二：bat 脚本 粘贴到记事</description>
-      <author>iMaeGoo (https://www.imaegoo.com)</author>
-      <pubDate>Tue, 31 Mar 2026 03:30:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.imaegoo.com/2026/win-11-show-all-tray-icon/</guid>
-      <source url="https://www.imaegoo.com">iMaeGoo</source>
-    </item>
-    <item>
-      <title>OpenClaw 安装与配置</title>
-      <link>https://www.imaegoo.com/2026/openclaw-start/</link>
-      <description>官方文档：https://docs.openclaw.ai/zh-CN 目录 安装与升级 快速上手，搭建你的 OpenClaw 环境，完成基础依赖配置。 核心配置 连接大脑，配置 AI 模型参数与消息渠道，实现基础对话。 高级功能 深度定制，通过技能编排与人格调教，打造个性化智能体。 部署与安全 安全运行，选择隔离或云端部署方案，保障数据安全。 安装与升级（Windows / macOS） 一键安</description>
-      <author>iMaeGoo (https://www.imaegoo.com)</author>
-      <pubDate>Wed, 25 Mar 2026 11:30:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.imaegoo.com/2026/openclaw-start/</guid>
-      <source url="https://www.imaegoo.com">iMaeGoo</source>
-    </item>
-    <item>
       <title>你在做全栈吗？你想要前后端统一的热重载吗？</title>
       <link>https://2x.nz/posts/concurrently/</link>
       <description>经常做全栈的小伙伴们都知道，写完后端看效果要dev，写完前端看效果也要dev，那么有没有一劳永逸的解决方案呢？</description>
@@ -303,15 +249,6 @@
       <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
     <item>
-      <title>盘点手里的电子产品传家宝</title>
-      <link>https://www.imaegoo.com/2026/my-prized-tech-heirloom/</link>
-      <description>2025~2026 年，内存价格疯涨，连我妈都破天荒问我家里有没有不用的内存条，涨到什么程度了呢？ 26 款比亚迪秦低配版直接缩水到 4G 内存 16G 存储； 海力士 256G DDR5 6400 内存的价格已经来到 79999 一根，可以买一辆比亚迪秦； 小米 17 Ultra 都能卖到 9000 了，欧版更是卖到一万六； 3 年前一加曾宣传全面淘汰 8G 内存手机，今年返璞归真，自己先用回了</description>
-      <author>iMaeGoo (https://www.imaegoo.com)</author>
-      <pubDate>Thu, 05 Mar 2026 10:30:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.imaegoo.com/2026/my-prized-tech-heirloom/</guid>
-      <source url="https://www.imaegoo.com">iMaeGoo</source>
-    </item>
-    <item>
       <title>页脚魔改(Nuxt版本)</title>
       <link>https://www.wxuyu.top/2026/03/footernuxtmeihua</link>
       <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
@@ -328,15 +265,6 @@
       <pubDate>Sun, 01 Mar 2026 12:40:00 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/eabede01/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
-    </item>
-    <item>
-      <title>基于 7z 的 NAS 到网盘备份解决方案，支持增量、分卷、加密、压缩</title>
-      <link>https://www.imaegoo.com/2026/nas-backup/</link>
-      <description>故事背景 曾经，我组建了一个极空间的 NAS。往里面塞了两块 12T 的硬盘，将 20 年来的照片，音乐，电影，游戏、代码、文档都导了进去。虽然两块硬盘互为备份的机制一定程度解决了硬盘可能出现的寿命问题，但心里总是没底，毕竟两块硬盘在物理层面是放在一起的，万一出个什么断电或者天灾什么的，两块硬盘一起坏了怎么办？将数据备份到网盘是一个不错的选择。但问题马上出现，NAS 上的文件至少有几十万到上百万，</description>
-      <author>iMaeGoo (https://www.imaegoo.com)</author>
-      <pubDate>Thu, 26 Feb 2026 13:44:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.imaegoo.com/2026/nas-backup/</guid>
-      <source url="https://www.imaegoo.com">iMaeGoo</source>
     </item>
     <item>
       <title>实习后买了一堆东西</title>
@@ -463,6 +391,78 @@
       <pubDate>Sun, 19 Oct 2025 15:35:20 GMT</pubDate>
       <guid isPermaLink="true">https://blog.quenan.cn/2025/made-electron-setup-for-nsis</guid>
       <source url="https://blog.quenan.cn/">鹊楠</source>
+    </item>
+    <item>
+      <title>Butterfly主题实现赞赏页面及侧边卡片</title>
+      <link>https://blog.liushen.fun/posts/deffcde0/</link>
+      <description>这里是清羽AI，这篇文章介绍了如何在Butterfly主题中实现赞赏页面及侧边卡片。作者分享了工作初期的感悟，决定完成赞赏页面的开发，并对其进行了优化，增加了小细节使其更有温度。文章详细描述了赞赏页面的两个主要部分：侧边栏的轮播展示和赞赏页面本身。侧边栏随机展示赞赏者，鼠标悬停时自动暂停，而赞赏页面采用纯静态设计，加载更快且有利于SEO。作者还提供了具体的教程，包括添加赞赏数据和实现侧边栏及赞赏页</description>
+      <author>liushen (https://www.liushen.fun/)</author>
+      <pubDate>Sun, 19 Oct 2025 09:10:21 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.liushen.fun/posts/deffcde0/</guid>
+      <source url="https://www.liushen.fun/">liushen</source>
+    </item>
+    <item>
+      <title>我的新博客</title>
+      <link>https://blog.quenan.cn/2025/my-new-blog</link>
+      <description>讲述关于我的新博客的故事。 点击查看全文</description>
+      <author>鹊楠 (https://blog.quenan.cn/)</author>
+      <pubDate>Thu, 16 Oct 2025 19:41:46 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.quenan.cn/2025/my-new-blog</guid>
+      <source url="https://blog.quenan.cn/">鹊楠</source>
+    </item>
+    <item>
+      <title>使用TinyAuth实现任意应用登录认证</title>
+      <link>https://blog.liushen.fun/posts/362bfd8b/</link>
+      <description>这里是清羽AI，这篇文章介绍了TinyAuth，一个基于nginx的轻量级验证器，可适配任何Web应用，提供可视化登录界面和灵活的身份验证方式。它支持第三方认证对接和本地账号密码登录，可与自建登录页面或通行证系统无缝衔接，实现“即插即用”的验证体验。TinyAuth通过环境变量或配置文件快速定义登录方式、验证规则及跳转逻辑，无需繁琐配置即可接入任意Docker化应用。前端界面采用现代化设计风格，可</description>
+      <author>liushen (https://www.liushen.fun/)</author>
+      <pubDate>Tue, 07 Oct 2025 08:20:21 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.liushen.fun/posts/362bfd8b/</guid>
+      <source url="https://www.liushen.fun/">liushen</source>
+    </item>
+    <item>
+      <title>谈谈不受欢迎的博客技术特征</title>
+      <link>https://blog.zhilu.site/2025/unpopular-blog-tech</link>
+      <description>从弹窗干扰到服务滥用，文章剖析博客网站「自以为在优化，实则在添堵」的负面技术特征。 点击查看全文</description>
+      <author>纸鹿 (https://blog.zhilu.site/)</author>
+      <pubDate>Tue, 07 Oct 2025 08:06:46 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhilu.site/2025/unpopular-blog-tech</guid>
+      <source url="https://blog.zhilu.site/">纸鹿</source>
+    </item>
+    <item>
+      <title>我们的设备被拿来做了什么：软件的背景行为</title>
+      <link>https://blog.zhilu.site/2025/background-behavior</link>
+      <description>软件为了利益添加不合用户预期的「背景行为」，无论早晚都会暴雷。你我都可能是「背景行为」的波及者，你享受了免费，你的设备在为你打工。 点击查看全文</description>
+      <author>纸鹿 (https://blog.zhilu.site/)</author>
+      <pubDate>Sun, 17 Aug 2025 17:16:02 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhilu.site/2025/background-behavior</guid>
+      <source url="https://blog.zhilu.site/">纸鹿</source>
+    </item>
+    <item>
+      <title>生成式AI正在生成</title>
+      <link>https://blog.zhilu.site/2025/ai-abuse</link>
+      <description>2025年初我对AI内容泛滥感到不适，但察觉内容空洞的人只有少数。生成式AI在2025一整年迭代太快，以至于2026年初整理好的这些文字显得有些过时。 点击查看全文</description>
+      <author>纸鹿 (https://blog.zhilu.site/)</author>
+      <pubDate>Tue, 10 Jun 2025 13:52:43 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhilu.site/2025/ai-abuse</guid>
+      <source url="https://blog.zhilu.site/">纸鹿</source>
+    </item>
+    <item>
+      <title>前端字体二三事</title>
+      <link>https://blog.zhilu.site/2025/font-tips</link>
+      <description>前端字体排版有许多细节需要注意，文章从我的实际开发经验出发，介绍合成字形、对齐技巧、排版优化，以及自己的一些踩坑心得。 点击查看全文</description>
+      <author>纸鹿 (https://blog.zhilu.site/)</author>
+      <pubDate>Wed, 16 Apr 2025 00:49:50 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhilu.site/2025/font-tips</guid>
+      <source url="https://blog.zhilu.site/">纸鹿</source>
+    </item>
+    <item>
+      <title>深色模式开发的最佳实践</title>
+      <link>https://blog.zhilu.site/2025/dark-mode-guide</link>
+      <description>前端深色模式不止于 prefers-color-scheme，完整解析自动检测、手动切换的实现方案，解决闪屏、样式冲突、变量管理等常见痛点，提供稳健的深色模式最佳实践。 点击查看全文</description>
+      <author>纸鹿 (https://blog.zhilu.site/)</author>
+      <pubDate>Mon, 14 Apr 2025 02:07:16 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhilu.site/2025/dark-mode-guide</guid>
+      <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
   </channel>
 </rss>
