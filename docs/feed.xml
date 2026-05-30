@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sat, 30 May 2026 02:46:20 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 30 May 2026 06:43:05 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何判断一个文章是不是AI写的？图片、视频、文章AI检测方法</title>
+      <link>https://blog.zhheo.com/p/56yusy1w.html</link>
+      <description>这篇文章介绍了腾讯朱雀AI检测平台的实测体验。作者分别使用豆包专家模型和ChatGPT 5.5生成西瓜科普文章来挑战朱雀的文本检测能力，发现即使是优化提示词后的二次生成也难以突破识别，朱雀对AI文本的检测非常准确。在图片检测方面，纯AI生成图片的检测率接近100%，真实图片加AI扩图的检测率仅4.7%，而AI调色会显著提升检测率。经过多轮测试，朱雀在文本和图片两个维度都表现出色，可作为主力AI检测</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Fri, 29 May 2026 07:23:43 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/56yusy1w.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>分享一下我现在都在使用哪些AI工具，以及我的的AI生产力状况</title>
       <link>https://blog.zhheo.com/p/ug37qbz9.html</link>
@@ -138,15 +147,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Wed, 29 Apr 2026 02:10:08 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/920gpt1r.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>洪绘切图发布！如何将一个图片平均切图？按照固定距离或者网格切图？</title>
-      <link>https://blog.zhheo.com/p/zg5upnsy.html</link>
-      <description>这篇文章介绍了在制作公众号长文、电商详情等场景的大长图时，如何通过先完成整张长图设计、再进行切片的方式兼顾展示效果与加载性能。文章指出，Photoshop 自带切片工具在频繁调整长图尺寸和复杂修改时不够顺手，因此推荐使用“洪绘切图”这类更轻量的工具，支持平均切图、按距离切图以及自定义图片格式。整体流程简单直观，适合快速将大长图无缝拆分并导出，提高长图制作效率。</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Mon, 27 Apr 2026 06:54:33 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/zg5upnsy.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
