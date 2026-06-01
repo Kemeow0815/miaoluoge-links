@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Mon, 01 Jun 2026 03:40:50 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2026 09:22:31 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>建站四年，从Hexo换到Astro</title>
+      <link>https://blog.liushen.fun/posts/acf06c11/</link>
+      <description>这里是清羽AI，这篇文章记录了站长清羽飞扬将博客从Hexo框架迁移至Astro的完整重构历程。作者回顾了因Hexo构建速度缓慢、性能受限而寻求新框架的过程，在对比Hugo、NextJS等方案后最终选择Astro，并借助AI工具大幅缩短开发周期。文章重点介绍了迁移过程中保持原有链接结构与SEO稳定性的策略，包括自定义abbrlink插件、文章元数据迁移、外挂标签DSL化改造等核心工作。同时详细阐述了</description>
+      <author>liushen (https://www.liushen.fun/)</author>
+      <pubDate>Sun, 31 May 2026 18:10:21 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.liushen.fun/posts/acf06c11/</guid>
+      <source url="https://www.liushen.fun/">liushen</source>
+    </item>
     <item>
       <title>如何判断一个文章是不是AI写的？图片、视频、文章AI检测方法</title>
       <link>https://blog.zhheo.com/p/56yusy1w.html</link>
@@ -453,15 +462,6 @@
       <author>鹊楠 (https://blog.quenan.cn/)</author>
       <pubDate>Tue, 28 Oct 2025 21:06:40 GMT</pubDate>
       <guid isPermaLink="true">https://blog.quenan.cn/2025/new-laptop-setup</guid>
-      <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>使用Nsis构建一个Electron应用安装包</title>
-      <link>https://blog.quenan.cn/2025/made-electron-setup-for-nsis</link>
-      <description>关于如何使用Nsis构建一个Electron的安装包过程 点击查看全文</description>
-      <author>鹊楠 (https://blog.quenan.cn/)</author>
-      <pubDate>Sun, 19 Oct 2025 15:35:20 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.quenan.cn/2025/made-electron-setup-for-nsis</guid>
       <source url="https://blog.quenan.cn/">鹊楠</source>
     </item>
   </channel>
