@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Thu, 04 Jun 2026 03:39:44 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 04 Jun 2026 08:17:29 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何让OpenClaw调用你的百度网盘？百度网盘官方Skill帮你上传、下载与分享</title>
+      <link>https://blog.zhheo.com/p/rozgxwdq.html</link>
+      <description>这篇文章介绍了作者将公众号资源分享从夸克网盘迁移到百度网盘的过程。作者发现很多用户没有夸克网盘或不想安装，而百度网盘的用户覆盖面更广，于是决定全面切换。通过研究发现了百度网盘官方推出的 CLI 和 Skill 工具，支持上传、下载、分享以及通过链接下载文件等功能，能够方便地完成网盘迁移。文章还分享了该 Skill 的安装方式，可通过 ClawHub 一键安装，并通过扫码授权登录使用。</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 04 Jun 2026 03:36:15 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/rozgxwdq.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>建站四年，从Hexo换到Astro</title>
       <link>https://blog.liushen.fun/posts/acf06c11/</link>
@@ -24,7 +33,7 @@
       <source url="https://www.liushen.fun/">liushen</source>
     </item>
     <item>
-      <title>如何判断一个文章是不是AI写的？图片、视频、文章AI检测方法</title>
+      <title>如何判断一个文章是不是AI写的？文字、视频、图片AI检测方法</title>
       <link>https://blog.zhheo.com/p/56yusy1w.html</link>
       <description>这篇文章介绍了腾讯朱雀AI检测平台的实测体验。作者分别使用豆包专家模型和ChatGPT 5.5生成西瓜科普文章来挑战朱雀的文本检测能力，发现即使是优化提示词后的二次生成也难以突破识别，朱雀对AI文本的检测非常准确。在图片检测方面，纯AI生成图片的检测率接近100%，真实图片加AI扩图的检测率仅4.7%，而AI调色会显著提升检测率。经过多轮测试，朱雀在文本和图片两个维度都表现出色，可作为主力AI检测</description>
       <author>张洪heo (https://blog.zhheo.com/)</author>
@@ -147,15 +156,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Wed, 29 Apr 2026 06:28:12 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/hv4xgjxl.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>如何将小米CodingPlan的Mimo模型接入到OpenClaw</title>
-      <link>https://blog.zhheo.com/p/920gpt1r.html</link>
-      <description>这篇文章介绍了小米 MiMo 模型接入 OpenClaw（龙虾）的配置方法与实际使用体验。作者通过小米 Token Plan 获得免费额度后，将 MiMo V2.5 系列模型配置到 OpenClaw 中。文章详细说明了配置步骤：需要在 openclaw.json 中新增 provider（建议命名为 xiaomi-coding 以区分预置网关），删除 auth 字段，并配置对应的模型 ID 和参数</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Wed, 29 Apr 2026 02:10:08 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/920gpt1r.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
