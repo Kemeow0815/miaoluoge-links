@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Wed, 10 Jun 2026 03:23:57 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jun 2026 08:04:11 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>这才是我心目中AI博客的样子</title>
+      <link>https://blog.zhheo.com/p/vp4ate1j.html</link>
+      <description>这篇文章介绍了作者在博客中全新上线的HeoBlogAI对话功能。与之前基于知识库的洪墨AI不同，HeoBlogAI从博客级别进行深度接入，无需数据库即可读取页面内容，通过调用搜索功能访问感兴趣的内容并针对当前页面进行对话。文章展示了HeoBlogAI的核心功能：文章建议可在页面跳转后继续保持对话、文章介绍能直接无需数据库读取页面、以及音乐控制和播放等组件功能的适配。作者表示虽然这个功能娱乐意义远大</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Tue, 09 Jun 2026 10:51:20 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/vp4ate1j.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>洪绘历史记录大更新：支持根据历史记录的AI对话</title>
       <link>https://blog.zhheo.com/p/i8c7l4eo.html</link>
@@ -157,15 +166,6 @@
       <pubDate>Mon, 18 May 2026 00:30:00 GMT</pubDate>
       <guid isPermaLink="true">https://www.imaegoo.com/2026/amap-ad/</guid>
       <source url="https://www.imaegoo.com">iMaeGoo</source>
-    </item>
-    <item>
-      <title>洪绘响度发布：测量视频LUFS工具，并支持转换视频到指定LUFS</title>
-      <link>https://blog.zhheo.com/p/bvj6caeg.html</link>
-      <description>这篇文章介绍了作者开发的一款 macOS 视频响度调节工具&quot;洪绘响度&quot;。作者此前科普过 LUFS（响度单位）的概念，并分享了 ffmpeg 命令来调整视频响度，但每次手动执行代码过于繁琐。为此，他开发了这款免费小工具，界面简洁，支持拖拽导入视频，可直观显示视频响度数值，内置常用响度标准（如 -14 LUFS、-16 LUFS 等）并支持自定义标准，点击转换即可快速完成响度调整。目前仅支持 macO</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Mon, 11 May 2026 06:40:33 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/bvj6caeg.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
       <title>黔山赴夏，清风入怀</title>
