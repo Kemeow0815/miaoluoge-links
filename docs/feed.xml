@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Fri, 12 Jun 2026 03:35:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 12 Jun 2026 08:22:08 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>HeoSticker3D发布：3D形态的Heo表情，个人免费使用</title>
+      <link>https://blog.zhheo.com/p/mjpbdtsh.html</link>
+      <description>这篇文章介绍了作者利用 AI 图像生成工具 image2 打造的一套 3D 风格 Heo 表情包。作者在偶然间产生了将表情制作成 3D 小黄脸的想法，经过反复调试提示词、大量生成输出、二次裁剪和后期处理等流程，最终完成了这套 3D 版本的 HeoSticker。这套表情不仅适用于个人网站评论区，也可以作为插图等设计元素使用，面向个人用户免费开放。文章还介绍了基于 HeoID 的自助授权系统，填写名</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 11 Jun 2026 05:23:23 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/mjpbdtsh.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>这才是我心目中AI博客的样子</title>
       <link>https://blog.zhheo.com/p/vp4ate1j.html</link>
@@ -147,15 +156,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Tue, 19 May 2026 04:37:27 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/rdlrcfqe.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>免费可商用字体推荐：寒蝉端黑宋下载</title>
-      <link>https://blog.zhheo.com/p/jsrckoff.html</link>
-      <description>这篇文章介绍了基于思源宋体改造的 ChillDuanHeiSong 字体项目。该字体支持偏瘦和偏宽两种宋体风格，适合雅致场景的使用。但项目安装时存在不支持中文名称和多字重的问题，导致被误安装成多个字体。作者针对这一缺陷进行了修复，制作了修复版并展示了预览效果，最后提供了下载地址。</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Mon, 18 May 2026 08:17:16 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/jsrckoff.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
