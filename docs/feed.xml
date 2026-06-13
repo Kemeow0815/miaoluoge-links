@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sat, 13 Jun 2026 03:23:19 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 13 Jun 2026 07:42:52 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>迁移Linux到新硬盘</title>
+      <link>https://2x.nz/posts/move-linux/</link>
+      <description>从旧硬盘迁移Linux到新硬盘，包括硬盘对拷、UUID修复、GRUB引导重建和fstab更新</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Fri, 12 Jun 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/move-linux/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
     <item>
       <title>HeoSticker3D发布：3D形态的Heo表情，个人免费使用</title>
       <link>https://blog.zhheo.com/p/mjpbdtsh.html</link>
@@ -265,15 +274,6 @@
       <pubDate>Sat, 04 Apr 2026 16:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/381a41ac/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
-    </item>
-    <item>
-      <title>握草，用浏览器检测你的NAT类型？！</title>
-      <link>https://2x.nz/posts/check-nat-webrtc/</link>
-      <description>众所周知，NAT类型的检测并不是什么门槛，但是，如果我说纯浏览器也可以实现检测呢...</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Sat, 04 Apr 2026 13:46:01 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/check-nat-webrtc/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>Windows 11 26H1 显示所有托盘图标</title>
