@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Wed, 17 Jun 2026 03:43:19 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jun 2026 08:59:55 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>重要照片一定要备份，手机养成照片备份的好习惯</title>
+      <link>https://blog.zhheo.com/p/cyw9sqnh.html</link>
+      <description>这篇文章通过同事误删照片导致多设备同步丢失的真实案例，详细介绍了iPhone和Apple设备的iCloud照片同步机制。首先解释了iCloud照片开关打开后，照片属于AppleID而非单个设备，删除操作会在所有设备同步的原理。然后指出两个关键错误操作：误以为照片属于设备而随意删除，以及发现旧手机后第一时间联网导致二次丢失。最后给出备份建议，推荐至少双备份方案，包括足额iCloud、Mac本地原片、</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Wed, 17 Jun 2026 03:11:57 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/cyw9sqnh.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>vibe-coding个人实践</title>
       <link>https://blog.liushen.fun/posts/67261b47/</link>
@@ -165,15 +174,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 21 May 2026 03:02:13 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/viqyx0td.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>如何给自己创作的歌曲生成歌词文件？手打逐字歌词lrc文件教程</title>
-      <link>https://blog.zhheo.com/p/rdlrcfqe.html</link>
-      <description>这篇文章介绍了如何为原创歌曲制作逐字LRC歌词文件。作者分享使用amll-ttml-tool在线工具的打轴流程，包括导入歌曲与歌词、一键分词拆解歌词、通过F/G/H快捷键逐字标记时间轴（F标记起始、G标记每个字、H标记长空白停顿时），以及导出ESLyRiC格式生成带逐字时间戳的歌词文件。文章以“还在写的人”歌曲为例，展示了从打轴到最终LRC歌词效果的完整工作流，适合有自创歌曲需要手动制作歌词的用户</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Tue, 19 May 2026 04:37:27 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/rdlrcfqe.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
