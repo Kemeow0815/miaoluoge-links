@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Thu, 18 Jun 2026 03:35:08 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jun 2026 08:42:29 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难</title>
+      <link>https://blog.zhheo.com/p/sir4kfs9.html</link>
+      <description>这篇文章介绍了支付宝最新推出的AI版本的实际体验。作者通过邀请码提前体验了新版AI支付宝，发现界面确实有所优化，类似豆包的简洁设计，支持语音输入和侧边栏消息日程显示。但在实际使用中暴露出严重问题：AI无法操作小程序、只能唤出界面；在团购券购买场景中，商品详情无法打开，AI回答的商品信息与实际不符，购买后发现不支持的商品却被告知支持；出现幻觉后AI推卸责任给商家；退款流程复杂且没有赔偿机制。作者认为</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 18 Jun 2026 02:27:38 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/sir4kfs9.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>重要照片一定要备份，手机养成照片备份的好习惯</title>
       <link>https://blog.zhheo.com/p/cyw9sqnh.html</link>
@@ -165,15 +174,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 21 May 2026 04:27:16 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/7a59rx04.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>为啥别人用Image2做的图那么好看？我的却特别丑？如何模仿别人的风格作图？</title>
-      <link>https://blog.zhheo.com/p/viqyx0td.html</link>
-      <description>这篇文章介绍了用 AI 模仿图片风格时常见的误区和正确流程。很多人看到社交媒体上的 AI 出图后直接用&quot;记住这张照片的风格&quot;这类 prompt，结果图片很丑——核心问题在于依赖上下文记忆和把风格分析与生图任务混在一起。作者推荐的标准化流程是：先用 Thinking 模型提取参考图的风格关键词，再用关键词+参考图来生图，且全程保持关键词可编辑、随时删减不需要的描述。简单来说就是&quot;拆分任务、先分析再生</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 21 May 2026 03:02:13 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/viqyx0td.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
