@@ -11,9 +11,27 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Mon, 29 Jun 2026 03:33:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2026 08:55:38 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>小米平板8Pro上手：便宜且流畅的好平板，安卓平板的高效令人印象深刻</title>
+      <link>https://blog.zhheo.com/p/fadgmjtw.html</link>
+      <description>这篇文章介绍了作者从 iPad Air 3 转向小米平板 8 Pro 的使用体验。作者因 iPadOS 26 升级后卡顿且不支持后续更新，最终选择以约 2600 元入手小米平板 8 Pro。文章从外观做工、系统流畅度、应用适配等方面进行了详细对比，认为安卓平板在影音播放、语音输入、广告跳过、人脸识别解锁等方面效率远超 iPad。同时作者也指出了底部小黑条适配不佳、游戏账号不互通等问题。整体而言，作</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Mon, 29 Jun 2026 02:45:48 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/fadgmjtw.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>我与你共度的七日 - 台本</title>
+      <link>https://2x.nz/posts/7days-xiluo/</link>
+      <description>开场白 深夜，就在我漫无目的在Steam中鉴赏GalGame并和粉丝们吹牛逼的时候，偶然发现这么一款神秘的游戏“我与你共度的七日”。 首先我就被它独特的画风吸引了。仔细一看，我去！居然还是“病娇”“监禁”“心理恐怖“三大神Tag，这下不得不玩了。再看价格，9.9，那还说啥了，直接买！ 在游戏下载的过程中，简单看了下简介，很好，依旧失去记忆，依 旧神秘粉毛女，依旧秒开仙人模式，看来今晚注定是个不眠之</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Sun, 28 Jun 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/7days-xiluo/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
     <item>
       <title>洪绘动图发布：将视频转换为帧图或者GIF并且限制只有5MB，APNG、WEBP动图生成工具</title>
       <link>https://blog.zhheo.com/p/9yuhxjpl.html</link>
@@ -150,15 +168,6 @@
       <source url="https://www.imaegoo.com">iMaeGoo</source>
     </item>
     <item>
-      <title>为OpenClaw搭建一个免费的搜索引擎，如何让OpenClaw搜索网页内容</title>
-      <link>https://blog.zhheo.com/p/9p755adr.html</link>
-      <description>这篇文章介绍了如何用 SearXNG 搭建免费开源的自建搜索引擎，替代之前频繁触发限流的 DuckDuckGo。文章通过 Docker Compose 方式部署 SearXNG 和 Valkey 缓存服务，配置了 Google、Bing、百度、DuckDuckgo 四个搜索引擎，并详细说明了配置文件的编写要点，包括 secret_key 设置、搜索格式、UI 等参数。部署完成后通过 OpenCla</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Fri, 22 May 2026 03:11:38 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/9p755adr.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
       <title>新版Win11远程桌面/RDP突然连不上？！百分百教你解决！</title>
       <link>https://2x.nz/posts/fuck-mswin11-rdp/</link>
       <description>今天手头突然要用一个老的Win7 32位系统来远程开发，自然是无法用UU远程了，然后RDP又给我整这出...</description>
@@ -265,15 +274,6 @@
       <pubDate>Sat, 11 Apr 2026 06:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://www.wxuyu.top/2026/04/essaynuxtpage</guid>
       <source url="https://www.wxuyu.top">絮语</source>
-    </item>
-    <item>
-      <title>WTF？免费优质线路2c4g VPS！免费GLM模型无限用！免费Opus 4.6！</title>
-      <link>https://2x.nz/posts/what-the-fuck-claw-replit/</link>
-      <description>2026年4月6日，这天凌晨...神了...</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Sun, 05 Apr 2026 18:17:20 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/what-the-fuck-claw-replit/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>ChronoFrame - 一款优雅的瀑布流相册系统</title>
