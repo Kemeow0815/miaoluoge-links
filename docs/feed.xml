@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Thu, 02 Jul 2026 02:54:01 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jul 2026 07:27:37 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenClaw Workboard 功能上手：让 Agent 自己干活，你只管盯进度</title>
+      <link>https://blog.zhheo.com/p/s3li91qz.html</link>
+      <description>这篇文章介绍了OpenClaw新增的Workboard工作板功能，它是一个Kanban看板，用来追踪AI agent后台任务的执行状态。Workboard把每件事变成一张卡片，状态自动更新为running、review、done或blocked，不用在聊天记录里反复追问进度。文章讲了核心功能、适用场景（批量下载、多服务器运维、多步骤内容创作等）、安装方式和用法，以及与Cron的区别。长任务适合Wo</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Wed, 01 Jul 2026 05:20:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/s3li91qz.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>小米平板8Pro上手：便宜且流畅的好平板，安卓平板的高效令人印象深刻</title>
       <link>https://blog.zhheo.com/p/fadgmjtw.html</link>
@@ -147,15 +156,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Fri, 29 May 2026 07:23:43 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/56yusy1w.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>分享一下我现在都在使用哪些AI工具，以及我的的AI生产力状况</title>
-      <link>https://blog.zhheo.com/p/ug37qbz9.html</link>
-      <description>这篇文章介绍了作者目前在用的AI工具集，涵盖设计、日常生活和编程三大领域。个人助手方面，作者使用OpenClaw作为主力工具，认为它像实习生需要不断调教，但一旦教好就能稳定产出，并且本地存储记忆文件方便迁移，日常通过微信远程操作电脑处理琐事。图片生成使用ChatGPT Image2，主要用于提取灵感、拆分海报素材和洗版权图片，质量高但速度慢。扩图用即梦的画布模式，操作直观方便。抠图用豆包，拖拽图片</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Tue, 26 May 2026 05:18:37 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/ug37qbz9.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
