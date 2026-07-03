@@ -11,9 +11,27 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Fri, 03 Jul 2026 02:37:11 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 06:58:24 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>豆言豆语Skill发布：让AI学会豆包的毒舌说话风格</title>
+      <link>https://blog.zhheo.com/p/ojxzvqar.html</link>
+      <description>这篇文章介绍了豆言豆语，一个 OpenClaw skill，可以让 AI 模仿字节豆包的说话风格。核心特点是&quot;最直白、最不绕弯&quot;的排比句式，收录了全网流传的经典原句和衍生短句。文章展示了多个实际回答效果，包括 Mac 涨价、朋友借钱、宽带咨询等场景，并提供了一键安装命令。</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 02 Jul 2026 11:04:48 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/ojxzvqar.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>美团longcat上手：缓存免费，主打便宜，就是速度太慢，思考时间looooong</title>
+      <link>https://blog.zhheo.com/p/e1l2qom9.html</link>
+      <description>这篇文章介绍了美团新发布的LongCat-2.0模型的上手体验。LongCat-2.0使用国产芯片训练，定价比小米mimo略贵，但核心亮点是缓存命中时免token费（小米仍扣积分）。文章测试了OpenClaw接入和Claude Code vibecoding两个场景，发现LongCat速度与mimo基本持平，但思考时间明显更长。在OpenClaw多工具调用任务中偶有中断，Claude Code场景</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 02 Jul 2026 02:10:07 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/e1l2qom9.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>OpenClaw Workboard 功能上手：让 Agent 自己干活，你只管盯进度</title>
       <link>https://blog.zhheo.com/p/s3li91qz.html</link>
@@ -105,7 +123,7 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
-      <title>洪绘历史记录大更新：支持根据历史记录的AI对话</title>
+      <title>洪绘历史记录大更新：支持根据浏览器历史记录的AI对话</title>
       <link>https://blog.zhheo.com/p/i8c7l4eo.html</link>
       <description>这篇文章介绍了作者开发的浏览器插件「洪绘历史记录」的重大更新——全新的AI对话功能。用户可以通过自然语言与浏览历史进行交互，查询某网站上次访问时间、访问频次等个性化数据，无需手动翻找列表。插件内置趋势统计、页面内容分析等多种工具，相当于浏览器内的AI助手，支持popup和页面两种使用方式，覆盖Chrome和Edge双平台。付费模式提供按量付费和专业版两种选择，新用户可在福利页面领取免费金币体验AI</description>
       <author>张洪heo (https://blog.zhheo.com/)</author>
@@ -132,15 +150,6 @@
       <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
-      <title>如何让OpenClaw调用你的百度网盘？百度网盘官方Skill帮你上传、下载与分享</title>
-      <link>https://blog.zhheo.com/p/rozgxwdq.html</link>
-      <description>这篇文章介绍了作者将公众号资源分享从夸克网盘迁移到百度网盘的过程。作者发现很多用户没有夸克网盘或不想安装，而百度网盘的用户覆盖面更广，于是决定全面切换。通过研究发现了百度网盘官方推出的 CLI 和 Skill 工具，支持上传、下载、分享以及通过链接下载文件等功能，能够方便地完成网盘迁移。文章还分享了该 Skill 的安装方式，可通过 ClawHub 一键安装，并通过扫码授权登录使用。</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 04 Jun 2026 03:36:15 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/rozgxwdq.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
       <title>建站四年，从Hexo换到Astro</title>
       <link>https://blog.liushen.fun/posts/acf06c11/</link>
       <description>这里是清羽AI，这篇文章记录了站长清羽飞扬将博客从Hexo框架迁移至Astro的完整重构历程。作者回顾了因Hexo构建速度缓慢、性能受限而寻求新框架的过程，在对比Hugo、NextJS等方案后最终选择Astro，并借助AI工具大幅缩短开发周期。文章重点介绍了迁移过程中保持原有链接结构与SEO稳定性的策略，包括自定义abbrlink插件、文章元数据迁移、外挂标签DSL化改造等核心工作。同时详细阐述了</description>
@@ -148,15 +157,6 @@
       <pubDate>Sun, 31 May 2026 18:10:21 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/acf06c11/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
-    </item>
-    <item>
-      <title>如何判断一个文章是不是AI写的？文字、视频、图片AI检测方法</title>
-      <link>https://blog.zhheo.com/p/56yusy1w.html</link>
-      <description>这篇文章介绍了腾讯朱雀AI检测平台的实测体验。作者分别使用豆包专家模型和ChatGPT 5.5生成西瓜科普文章来挑战朱雀的文本检测能力，发现即使是优化提示词后的二次生成也难以突破识别，朱雀对AI文本的检测非常准确。在图片检测方面，纯AI生成图片的检测率接近100%，真实图片加AI扩图的检测率仅4.7%，而AI调色会显著提升检测率。经过多轮测试，朱雀在文本和图片两个维度都表现出色，可作为主力AI检测</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Fri, 29 May 2026 07:23:43 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/56yusy1w.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
       <title>浏览器直接访问正常，过了负载均衡就崩了？只因响应头里多了个空格</title>
