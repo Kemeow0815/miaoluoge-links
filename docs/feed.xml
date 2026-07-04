@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sat, 04 Jul 2026 02:34:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 04 Jul 2026 06:44:14 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>EmDash，拉完了</title>
+      <link>https://2x.nz/posts/emdash/</link>
+      <description>昨晚看到有群U说什么能部署在CF的WordPress，我看看怎么个事！</description>
+      <author>二叉树树 (https://2x.nz/)</author>
+      <pubDate>Fri, 03 Jul 2026 00:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://2x.nz/posts/emdash/</guid>
+      <source url="https://2x.nz/">二叉树树</source>
+    </item>
     <item>
       <title>豆言豆语Skill发布：让AI学会豆包的毒舌说话风格</title>
       <link>https://blog.zhheo.com/p/ojxzvqar.html</link>
@@ -256,15 +265,6 @@
       <pubDate>Mon, 13 Apr 2026 06:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://www.wxuyu.top/2026/04/hotnuxtpage</guid>
       <source url="https://www.wxuyu.top">絮语</source>
-    </item>
-    <item>
-      <title>让我们自建一个自己的CDN！</title>
-      <link>https://2x.nz/posts/self-host-cdn/</link>
-      <description>你有没有想过从0通过各种开源项目自己搭建一个CDN？今天就来教你！</description>
-      <author>二叉树树 (https://2x.nz/)</author>
-      <pubDate>Sat, 11 Apr 2026 16:21:41 GMT</pubDate>
-      <guid isPermaLink="true">https://2x.nz/posts/self-host-cdn/</guid>
-      <source url="https://2x.nz/">二叉树树</source>
     </item>
     <item>
       <title>说说页面（Nuxt版本）</title>
