@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Thu, 09 Jul 2026 02:37:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2026 07:35:46 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>混元hy3模型上手：腾讯送了云函数个人版6个月，怎么才能用上</title>
+      <link>https://blog.zhheo.com/p/2orxjo9r.html</link>
+      <description>这篇文章介绍了腾讯云混元 hy3 通过 CloudBase 赠送 10 亿 Token 的上手体验。作者从领取额度、开通模型、获取接口讲起，说明了如何在 OpenClaw 中以自定义 OpenAI 兼容模型接入 hy3 而无需安装插件。文章实测了 hy3 及同平台 deepseek 系列速度，指出 hy3 响应快但吞吐偏低、上下文仅 256K，基础任务尚可而复杂任务一般。最后介绍该模型已在 Heo</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Wed, 08 Jul 2026 03:08:54 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/2orxjo9r.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>给OpenClaw加上rm删除保护：防止AI误删你的整个电脑</title>
       <link>https://blog.zhheo.com/p/owiixgnk.html</link>
@@ -129,15 +138,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 11 Jun 2026 05:23:23 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/mjpbdtsh.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>这才是我心目中AI博客的样子</title>
-      <link>https://blog.zhheo.com/p/vp4ate1j.html</link>
-      <description>这篇文章介绍了作者在博客中全新上线的HeoBlogAI对话功能。与之前基于知识库的洪墨AI不同，HeoBlogAI从博客级别进行深度接入，无需数据库即可读取页面内容，通过调用搜索功能访问感兴趣的内容并针对当前页面进行对话。文章展示了HeoBlogAI的核心功能：文章建议可在页面跳转后继续保持对话、文章介绍能直接无需数据库读取页面、以及音乐控制和播放等组件功能的适配。作者表示虽然这个功能娱乐意义远大</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Tue, 09 Jun 2026 10:51:20 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/vp4ate1j.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
