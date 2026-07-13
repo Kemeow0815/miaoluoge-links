@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Mon, 13 Jul 2026 02:27:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 13 Jul 2026 06:49:50 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cloudflare/Vercel项目推荐(6)</title>
+      <link>https://blog.liushen.fun/posts/e4a369fc/</link>
+      <description>这里是清羽AI，这篇文章是 Cloudflare/Vercel 项目推荐系列第六期，推荐了 edgeever、EdgeMirror、edgeone-status、nodewarden、MiSub 和 How-To-Ask-Questions-The-Smart-Way 六个项目。文章从个人站长折腾和低成本部署的角度，介绍了在线笔记、边缘反代、EdgeOne 流量数据展示、无服务器密码库、订阅管理器</description>
+      <author>liushen (https://www.liushen.fun/)</author>
+      <pubDate>Sun, 12 Jul 2026 16:12:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.liushen.fun/posts/e4a369fc/</guid>
+      <source url="https://www.liushen.fun/">liushen</source>
+    </item>
     <item>
       <title>混元hy3模型上手：腾讯送了云函数个人版6个月，怎么才能用上</title>
       <link>https://blog.zhheo.com/p/2orxjo9r.html</link>
@@ -453,15 +462,6 @@
       <author>liushen (https://www.liushen.fun/)</author>
       <pubDate>Sun, 23 Nov 2025 10:00:21 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/6010fc85/</guid>
-      <source url="https://www.liushen.fun/">liushen</source>
-    </item>
-    <item>
-      <title>从Moments迁移到Ech0</title>
-      <link>https://blog.liushen.fun/posts/e0b4d5a/</link>
-      <description>这里是清羽AI，这篇文章讲述了作者从Moments迁移到Ech0的过程。作者在上班一个月后，感觉身心俱疲，但仍顺利完成第一个月的答辩。原本对简约界面的Ech0持观望态度，但随着版本更新功能完善，作者最终决定迁移过来，并结合PWA技术实现手机App般的体验。文章还介绍了部署Ech0的要求和教程，包括Docker部署和应用商店安装方法，以及前端魔改的详细步骤，使说说页面更加丰富和美观。作者期待未来Ec</description>
-      <author>liushen (https://www.liushen.fun/)</author>
-      <pubDate>Sun, 02 Nov 2025 14:00:21 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.liushen.fun/posts/e0b4d5a/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
     </item>
   </channel>
