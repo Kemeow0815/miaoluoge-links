@@ -11,9 +11,27 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Fri, 17 Jul 2026 02:21:26 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 17 Jul 2026 06:12:09 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>OpenClaw记忆系统升级：从memory-core到memory-lancedb-pro的迁移与配置</title>
+      <link>https://blog.zhheo.com/p/0kl9erod.html</link>
+      <description>这篇文章介绍了 OpenClaw 记忆系统插件的选择和配置过程。对比了 memory-core、memory-wiki、memory-lancedb 和 memory-lancedb-pro 四种主流插件的功能差异，重点分析了选择 memory-lancedb-pro 的三个核心理由：混合检索（向量+BM25）提升召回精度、LLM 驱动的智能提取和 Weibull 衰减遗忘机制、以及可控的数据导入</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 16 Jul 2026 04:17:53 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/0kl9erod.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>screenpipe：开源本地的 AI 记忆引擎，让电脑更懂你</title>
+      <link>https://blog.zhheo.com/p/94w0byur.html</link>
+      <description>这篇文章介绍了 screenpipe 这款开源的本地 AI 记忆引擎。它通过事件驱动的方式持续捕获屏幕和音频数据，在本地 SQLite 数据库中建立可全文搜索的数字记忆，让 AI 助手能够记住用户的工作上下文。文章详细说明了 screenpipe 的核心能力，包括自然语言搜索、视觉时间线、基于 markdown 定义的 Pipes 自动化管道系统、MCP 服务器支持，以及与 OpenClaw 的联</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Wed, 15 Jul 2026 16:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/94w0byur.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>Cloudflare/Vercel项目推荐(6)</title>
       <link>https://blog.liushen.fun/posts/e4a369fc/</link>
@@ -96,15 +114,6 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
-      <title>重要照片一定要备份，手机养成照片备份的好习惯</title>
-      <link>https://blog.zhheo.com/p/cyw9sqnh.html</link>
-      <description>这篇文章通过同事误删照片导致多设备同步丢失的真实案例，详细介绍了iPhone和Apple设备的iCloud照片同步机制。首先解释了iCloud照片开关打开后，照片属于AppleID而非单个设备，删除操作会在所有设备同步的原理。然后指出两个关键错误操作：误以为照片属于设备而随意删除，以及发现旧手机后第一时间联网导致二次丢失。最后给出备份建议，推荐至少双备份方案，包括足额iCloud、Mac本地原片、</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Wed, 17 Jun 2026 03:11:57 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/cyw9sqnh.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
       <title>vibe-coding个人实践</title>
       <link>https://blog.liushen.fun/posts/67261b47/</link>
       <description>这里是清羽AI，这篇文章记录了站长清羽飞扬在博客重构间隙对Vibe Coding的深度实践与经验总结。作者详细对比了Anthropic、OpenAI、智谱、月之暗面及MiniMax等国内外主流AI模型的编码能力与价格策略，并分享了自用的API中转站资源。文章重点介绍了Claude Code、Codex和KiloCode三款AI编程工具的配置方法与使用差异，同时探讨了如何基于真实项目上下文向AI提问</description>
@@ -112,15 +121,6 @@
       <pubDate>Sun, 14 Jun 2026 17:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/67261b47/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
-    </item>
-    <item>
-      <title>HeoSticker3D发布：3D形态的Heo表情，个人免费使用</title>
-      <link>https://blog.zhheo.com/p/mjpbdtsh.html</link>
-      <description>这篇文章介绍了作者利用 AI 图像生成工具 image2 打造的一套 3D 风格 Heo 表情包。作者在偶然间产生了将表情制作成 3D 小黄脸的想法，经过反复调试提示词、大量生成输出、二次裁剪和后期处理等流程，最终完成了这套 3D 版本的 HeoSticker。这套表情不仅适用于个人网站评论区，也可以作为插图等设计元素使用，面向个人用户免费开放。文章还介绍了基于 HeoID 的自助授权系统，填写名</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 11 Jun 2026 05:23:23 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/mjpbdtsh.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
       <title>建站四年，从Hexo换到Astro</title>
@@ -168,6 +168,15 @@
       <source url="https://www.liushen.fun/">liushen</source>
     </item>
     <item>
+      <title>用元宝写一个ServiceWorker</title>
+      <link>https://www.wxuyu.top/2026/04/nuxtserviceworker</link>
+      <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
+      <author>絮语 (https://www.wxuyu.top)</author>
+      <pubDate>Tue, 21 Apr 2026 06:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/04/nuxtserviceworker</guid>
+      <source url="https://www.wxuyu.top">絮语</source>
+    </item>
+    <item>
       <title>解决 Claude Code 安装或更新后 claude.exe 无法运行、claude native binary not installed</title>
       <link>https://www.imaegoo.com/2026/claude-code-native-binary-not-installed/</link>
       <description>今天在 Windows 或 macOS 上安装或更新 Claude Code 后，运行 claude 命令却报错 claude native binary not installed（macOS）、程序 claude.exe 无法运行（Windows）。折腾了一番终于搞清楚了原因。 原因分析 Claude Code 自 2.1.113 版本开始改为分发二进制包，不再分发 JS 源码。 用 npm </description>
@@ -177,12 +186,12 @@
       <source url="https://www.imaegoo.com">iMaeGoo</source>
     </item>
     <item>
-      <title>热搜页面（Nuxt版本）</title>
-      <link>https://www.wxuyu.top/2026/04/hotnuxtpage</link>
+      <title>用Codex写一个热搜页面</title>
+      <link>https://www.wxuyu.top/2026/04/nuxthotpage</link>
       <description>该文章主要写了对于低价机器的试水，并提醒是超开类型的机器。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
       <author>絮语 (https://www.wxuyu.top)</author>
       <pubDate>Mon, 13 Apr 2026 06:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.wxuyu.top/2026/04/hotnuxtpage</guid>
+      <guid isPermaLink="true">https://www.wxuyu.top/2026/04/nuxthotpage</guid>
       <source url="https://www.wxuyu.top">絮语</source>
     </item>
     <item>
@@ -327,15 +336,6 @@
       <author>絮语 (https://www.wxuyu.top)</author>
       <pubDate>Tue, 03 Feb 2026 02:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://www.wxuyu.top/2026/02/macbookperformanctest</guid>
-      <source url="https://www.wxuyu.top">絮语</source>
-    </item>
-    <item>
-      <title>随笔：大容量主机测试</title>
-      <link>https://www.wxuyu.top/2026/01/vpstalk-2</link>
-      <description>该文章主要写了对于大容量硬盘主机的试水。在测试的过程中发现机器性能较高，且展示出机器的具体价格，并单独列出只有精简版未采用完整版测试。 点击查看全文</description>
-      <author>絮语 (https://www.wxuyu.top)</author>
-      <pubDate>Fri, 30 Jan 2026 02:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.wxuyu.top/2026/01/vpstalk-2</guid>
       <source url="https://www.wxuyu.top">絮语</source>
     </item>
     <item>
