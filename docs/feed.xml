@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sat, 18 Jul 2026 02:05:42 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 18 Jul 2026 06:01:25 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>给 SearXNG 接入豆包搜索，解决 OpenClaw 信源难题</title>
+      <link>https://blog.zhheo.com/p/1ffvrvyd.html</link>
+      <description>这篇文章介绍了如何将豆包搜索接入 SearXNG 聚合搜索引擎，解决 OpenClaw 搜索信源不稳定的问题。文章详细讲解了两种接入方式：通过普通 API Key 接入和通过方舟 Agent Plan 接入，涵盖了 json_engine 的配置方法、request_body 大括号转义的注意事项、引擎命名规范以及配置后的验证方法。对于使用 SearXNG 的用户来说，增加豆包搜索这个稳定信源可以</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Fri, 17 Jul 2026 05:08:17 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/1ffvrvyd.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>OpenClaw记忆系统升级：从memory-core到memory-lancedb-pro的迁移与配置</title>
       <link>https://blog.zhheo.com/p/0kl9erod.html</link>
@@ -102,15 +111,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 25 Jun 2026 05:43:40 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/9yuhxjpl.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>AI支付宝上手：内容全靠编，出问题甩锅给商家，付款快退款难</title>
-      <link>https://blog.zhheo.com/p/sir4kfs9.html</link>
-      <description>这篇文章介绍了支付宝最新推出的AI版本的实际体验。作者通过邀请码提前体验了新版AI支付宝，发现界面确实有所优化，类似豆包的简洁设计，支持语音输入和侧边栏消息日程显示。但在实际使用中暴露出严重问题：AI无法操作小程序、只能唤出界面；在团购券购买场景中，商品详情无法打开，AI回答的商品信息与实际不符，购买后发现不支持的商品却被告知支持；出现幻觉后AI推卸责任给商家；退款流程复杂且没有赔偿机制。作者认为</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 18 Jun 2026 02:27:38 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/sir4kfs9.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
