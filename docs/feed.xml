@@ -11,9 +11,27 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Fri, 24 Jul 2026 02:22:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 06:22:08 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>腾讯miora上手：设计师又又又失业的一集？</title>
+      <link>https://blog.zhheo.com/p/lw65vj43.html</link>
+      <description>这篇文章介绍了腾讯新推出的AI设计工具miora的上手体验。作者尝试用miora为洪绘品牌制作品牌视觉全案，提交了IP角色和logo后，工具会先询问需求来明确方向，但生成速度极慢，且生成结果完全没有遵循提供的素材。折腾半天最终效果是全英文全案，角色和logo只是把正面照原样放上去，没有任何设计处理。与即梦对比后发现即梦连类似的图都出不了，所以miora并非完全无用。整体来看，miora本质是文字模</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 23 Jul 2026 03:31:16 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/lw65vj43.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>Mac 合盖不休眠：用 pmset 彻底禁止系统睡眠</title>
+      <link>https://blog.zhheo.com/p/xvupxvv6.html</link>
+      <description>这篇文章介绍了如何使用 macOS 的 pmset 命令彻底禁止系统睡眠，解决 AlDente 限充放电时合盖被强制休眠的问题。通过两行终端命令 disablesleep 1 和 sleep 0，可以在任何场景下——无论合盖开盖、插电放电——阻止系统进入休眠状态，同时不影响显示器的正常关闭。文章还对比了 pmset 与 Amphetamine 等应用层方案的区别，解释了为什么系统级设置更可靠。</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 23 Jul 2026 02:48:01 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/xvupxvv6.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>如何用 OpenClaw 配置早报晚报，科技新闻信源、微博热搜获取</title>
       <link>https://blog.zhheo.com/p/u61vslr3.html</link>
@@ -93,24 +111,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 02 Jul 2026 02:10:07 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/e1l2qom9.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>OpenClaw Workboard 功能上手：让 Agent 自己干活，你只管盯进度</title>
-      <link>https://blog.zhheo.com/p/s3li91qz.html</link>
-      <description>这篇文章介绍了OpenClaw新增的Workboard工作板功能，它是一个Kanban看板，用来追踪AI agent后台任务的执行状态。Workboard把每件事变成一张卡片，状态自动更新为running、review、done或blocked，不用在聊天记录里反复追问进度。文章讲了核心功能、适用场景（批量下载、多服务器运维、多步骤内容创作等）、安装方式和用法，以及与Cron的区别。长任务适合Wo</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Wed, 01 Jul 2026 05:20:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/s3li91qz.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>小米平板8Pro上手：便宜且流畅的好平板，安卓平板的高效令人印象深刻</title>
-      <link>https://blog.zhheo.com/p/fadgmjtw.html</link>
-      <description>这篇文章介绍了作者从 iPad Air 3 转向小米平板 8 Pro 的使用体验。作者因 iPadOS 26 升级后卡顿且不支持后续更新，最终选择以约 2600 元入手小米平板 8 Pro。文章从外观做工、系统流畅度、应用适配等方面进行了详细对比，认为安卓平板在影音播放、语音输入、广告跳过、人脸识别解锁等方面效率远超 iPad。同时作者也指出了底部小黑条适配不佳、游戏账号不互通等问题。整体而言，作</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Mon, 29 Jun 2026 02:45:48 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/fadgmjtw.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
