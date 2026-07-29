@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Wed, 29 Jul 2026 02:13:22 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 06:27:28 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>报错回顾：给OpenClaw添加错误行为记忆机制，让自己写的skill不断成长</title>
+      <link>https://blog.zhheo.com/p/0x4n7juy.html</link>
+      <description>OpenClaw 在执行任务时常常会遇到一些零碎的小报错，虽然它会自己尝试寻找解决方法并修复，但修复的过程和结论并没有被持久化。下次遇到同样的问题，它又要从头排查一遍。为了解决这个问题，我写了一个「报错回顾」skill——它能自动扫描会话中的工具调用报错，分析根因、分类、去重，并将修复方案持久化到文档中，让 OpenClaw 真正从错误中学习。</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Wed, 29 Jul 2026 02:20:57 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/0x4n7juy.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>腾讯miora上手：设计师又又又失业的一集？</title>
       <link>https://blog.zhheo.com/p/lw65vj43.html</link>
@@ -102,15 +111,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 02 Jul 2026 11:04:48 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/ojxzvqar.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>美团longcat上手：缓存免费，主打便宜，就是速度太慢，思考时间looooong</title>
-      <link>https://blog.zhheo.com/p/e1l2qom9.html</link>
-      <description>这篇文章介绍了美团新发布的LongCat-2.0模型的上手体验。LongCat-2.0使用国产芯片训练，定价比小米mimo略贵，但核心亮点是缓存命中时免token费（小米仍扣积分）。文章测试了OpenClaw接入和Claude Code vibecoding两个场景，发现LongCat速度与mimo基本持平，但思考时间明显更长。在OpenClaw多工具调用任务中偶有中断，Claude Code场景</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 02 Jul 2026 02:10:07 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/e1l2qom9.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
