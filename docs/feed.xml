@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sat, 08 Aug 2026 01:16:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 04:52:00 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>洪绘敲木鱼支持“竹知了”模式了，可以自定义音效的电子竹知了App</title>
+      <link>https://blog.zhheo.com/p/0zlnja8m.html</link>
+      <description>这篇文章介绍了洪绘敲木鱼App新增的竹知了模式。作者看到竹知了玩具很火，决定不单独做新应用，而是直接在敲木鱼中加入竹知了模式，让老用户无缝体验。文章演示了使用方法：添加竹知了音效后，点击左上角摇晃按钮激活摇晃状态，即可开启竹知了开关，获得爽快的震动反馈和随竹知了发声规律变化的声音。为此，音频播放引擎和震动引擎都进行了重构。此外，任意音效和自定义音效都能开启竹知了模式摇晃，相当于所有音效都多了一种玩</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Fri, 07 Aug 2026 08:58:40 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/0zlnja8m.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>垃圾京东云</title>
       <link>https://www.imaegoo.com/2026/fk-jdcloud/</link>
@@ -121,15 +130,6 @@
       <pubDate>Sun, 12 Jul 2026 16:12:00 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/e4a369fc/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
-    </item>
-    <item>
-      <title>混元hy3模型上手：腾讯送了云函数个人版6个月，怎么才能用上</title>
-      <link>https://blog.zhheo.com/p/2orxjo9r.html</link>
-      <description>这篇文章介绍了腾讯云混元 hy3 通过 CloudBase 赠送 10 亿 Token 的上手体验。作者从领取额度、开通模型、获取接口讲起，说明了如何在 OpenClaw 中以自定义 OpenAI 兼容模型接入 hy3 而无需安装插件。文章实测了 hy3 及同平台 deepseek 系列速度，指出 hy3 响应快但吞吐偏低、上下文仅 256K，基础任务尚可而复杂任务一般。最后介绍该模型已在 Heo</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Wed, 08 Jul 2026 03:08:54 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/2orxjo9r.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
       <title>vibe-coding个人实践</title>
