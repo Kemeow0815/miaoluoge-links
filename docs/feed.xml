@@ -11,9 +11,27 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sat, 15 Aug 2026 01:00:27 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 04:24:54 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>给DeepSeek-V4-Flash借一双眼睛：ZCode视觉子Agent方案</title>
+      <link>https://blog.zhheo.com/p/3gr7k8xj.html</link>
+      <description>这篇文章介绍了作者使用 **deepseek-v4-flash** 作为 ZCode 主力模型时遇到的**识图困扰**：纯文本模型看不了图，截图发过去只剩文件路径。作者通过开源项目 **zcode-deepseek-eye** 给模型“借了一双眼睛”，挂一个支持视觉的**子 Agent** 自动读图并回灌文字描述。文章详细讲解了视觉子 Agent 的**工作原理**、安装步骤（skill 安装、双</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Fri, 14 Aug 2026 09:46:33 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/3gr7k8xj.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
+    <item>
+      <title>Mole Mac 上手：界面精美，优秀好用的Mac清理工具</title>
+      <link>https://blog.zhheo.com/p/lgodvfdh.html</link>
+      <description>这篇文章介绍了作者在用过CleanMyMac、柠檬清理等多款Mac清理工具后，最终发现并上手新工具**Mole**的体验。文章详细评测了Mole的**五大核心功能**：软件清理、应用卸载、系统优化、磁盘分析和状态看板，其中应用列表秒加载、启动项展示精准，优化可重建系统缓存并重启iCloud，磁盘分析能发现AE运行时产生的**50多GB缓存**。作者还分享了让**OpenClaw接入Mole命令行*</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Fri, 14 Aug 2026 08:22:19 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/lgodvfdh.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>Agentation 油猴脚本：让AI指哪改哪,配合 Claude Code 的开发神器</title>
       <link>https://blog.zhheo.com/p/wh8h2uop.html</link>
@@ -111,24 +129,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 23 Jul 2026 03:31:16 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/lw65vj43.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>Mac 合盖不休眠：用 pmset 彻底禁止系统睡眠</title>
-      <link>https://blog.zhheo.com/p/xvupxvv6.html</link>
-      <description>这篇文章介绍了如何使用 macOS 的 **pmset 命令**彻底**禁止系统睡眠**，解决 **AlDente** 限充放电时合盖被强制休眠的问题。通过两行终端命令 **disablesleep 1** 和 **sleep 0**，可以在任何场景下——无论合盖开盖、插电放电——阻止系统进入休眠状态，同时不影响显示器的正常关闭。文章还对比了 pmset 与 **Amphetamine** 等应用</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 23 Jul 2026 02:48:01 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/xvupxvv6.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>如何用 OpenClaw 配置早报晚报，科技新闻信源、微博热搜获取</title>
-      <link>https://blog.zhheo.com/p/u61vslr3.html</link>
-      <description>这篇文章介绍了如何用 **OpenClaw** 配置**每日早报和晚报**，包括通过 **Cron** 定时生成天气、科技新闻、**微博热搜**和任务执行情况，并整理成 **HTML 邮件**发送。文章还说明了**腾讯 Agent Mail** 的安装授权流程、微博热搜的抓取与链接处理方法，以及 **PrismFlowAgent、HEX2077 和 HeoNews RSS** 三种新闻信源方案，同</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Mon, 20 Jul 2026 05:15:38 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/u61vslr3.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
