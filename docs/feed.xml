@@ -11,9 +11,27 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Thu, 20 Aug 2026 01:00:22 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 04:32:48 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>跨域预检请求失败问题分析</title>
+      <link>https://www.imaegoo.com/2026/cors-issue-analysis/</link>
+      <description>问题描述 浏览器发送 OPTIONS 预检请求后，Nginx 返回了 204 响应，且 Access-Control-Allow-Headers 设置为 *，但浏览器仍然报错： 1 2 3 Access to XMLHttpRequest at &apos;http://.../api/...&apos; from origin &apos;http://...&apos; has been blocked by CORS policy</description>
+      <author>iMaeGoo (https://www.imaegoo.com)</author>
+      <pubDate>Wed, 19 Aug 2026 06:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://www.imaegoo.com/2026/cors-issue-analysis/</guid>
+      <source url="https://www.imaegoo.com">iMaeGoo</source>
+    </item>
+    <item>
+      <title>分享一下博客的全新聚合搜索</title>
+      <link>https://blog.zhheo.com/p/mgii3qy1.html</link>
+      <description>这篇文章介绍了博主对博客搜索功能的一次重要重构。作者发现个人博客文章量少，站内搜索覆盖面有限，于是将自建的**博客聚合平台洪绘星空**直接接入博客搜索窗口，实现了**跨平台聚合搜索**。现在用户可以在搜索框中搜索洪绘星空收录的所有作者文章，搜索范围覆盖**友链博主、站内文章、洪绘星空文章以及评论**，大大拓展了搜索覆盖面，让博客搜索变得更加全面，在搜索泛领域内容时甚至可以作为**搜索引擎的平替**</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Wed, 19 Aug 2026 05:55:39 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/mgii3qy1.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>给DeepSeek-V4-Flash借一双眼睛：ZCode视觉子Agent方案</title>
       <link>https://blog.zhheo.com/p/3gr7k8xj.html</link>
@@ -120,15 +138,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Wed, 29 Jul 2026 02:20:57 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/0x4n7juy.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>腾讯miora上手：设计师又又又失业的一集？</title>
-      <link>https://blog.zhheo.com/p/lw65vj43.html</link>
-      <description>这篇文章介绍了腾讯新推出的**AI设计工具miora**的上手体验。作者尝试用miora为**洪绘品牌**制作品牌视觉全案，提交了**IP角色和logo**后，工具会先询问需求来明确方向，但**生成速度极慢**，且生成结果完全没有遵循提供的素材。折腾半天最终效果是**全英文全案**，角色和logo只是把正面照原样放上去，没有任何设计处理。与**即梦**对比后发现即梦连类似的图都出不了，所以mior</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 23 Jul 2026 03:31:16 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/lw65vj43.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
@@ -418,15 +427,6 @@
       <pubDate>Tue, 07 Oct 2025 08:06:46 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhilu.site/2025/unpopular-blog-tech</guid>
       <source url="https://blog.zhilu.site/">纸鹿</source>
-    </item>
-    <item>
-      <title>卸载百度网盘智能看图</title>
-      <link>https://www.imaegoo.com/2025/uninstall-netdisk-image-viewer/</link>
-      <description>复制代码，粘贴到记事本，保存为 bat 文件，右键以管理员身份运行。 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 @echo off echo 百度网盘智能看图卸载工具 echo 请以管理员身份运行此脚本！ echo. echo</description>
-      <author>iMaeGoo (https://www.imaegoo.com)</author>
-      <pubDate>Tue, 02 Sep 2025 00:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://www.imaegoo.com/2025/uninstall-netdisk-image-viewer/</guid>
-      <source url="https://www.imaegoo.com">iMaeGoo</source>
     </item>
     <item>
       <title>我们的设备被拿来做了什么：软件的背景行为</title>
