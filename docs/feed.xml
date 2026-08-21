@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Fri, 21 Aug 2026 01:03:52 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 04:33:16 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>个人小项目vibecoding方案推荐：opencode spark 1.2 和 zcode</title>
+      <link>https://blog.zhheo.com/p/1bwuf82b.html</link>
+      <description>这篇文章介绍了**个人小项目 vibecoding** 的两套高性价比方案：其一 **zcode** 智能与调试稳定性均衡；其二 **OpenCode** 新推 **muse-spark-1.2-contributor**，以数据用于训练换低价。实测 5000 万 token 仅花 **0.28 美元**，速度稳定性优于 DeepSeek V4 Flash 且智能相当。文中还讲用 OpenCode</description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Thu, 20 Aug 2026 05:05:32 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/1bwuf82b.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>跨域预检请求失败问题分析</title>
       <link>https://www.imaegoo.com/2026/cors-issue-analysis/</link>
@@ -129,15 +138,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 06 Aug 2026 03:56:00 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/z1fmm8ee.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>报错回顾：给OpenClaw添加错误行为记忆机制，让自己写的skill不断成长</title>
-      <link>https://blog.zhheo.com/p/0x4n7juy.html</link>
-      <description>**OpenClaw** 在执行任务时常常会遇到一些零碎的**小报错**，虽然它会自己尝试寻找解决方法并修复，但修复的过程和结论并没有被持久化。下次遇到同样的问题，它又要从头排查一遍。为了解决这个问题，我写了一个「**报错回顾**」**skill**——它能自动扫描会话中的工具调用报错，**分析根因**、**分类、去重**，并将修复方案**持久化**到文档中，让 OpenClaw 真正从错误中学习</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Wed, 29 Jul 2026 02:20:57 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/0x4n7juy.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
