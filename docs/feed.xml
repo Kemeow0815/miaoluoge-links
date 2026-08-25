@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Tue, 25 Aug 2026 01:01:59 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 04:34:15 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ntfsmac 上手：不关 SIP 让 Mac 读写 NTFS 和 ext 硬盘</title>
+      <link>https://blog.zhheo.com/p/ucrz6hhg.html</link>
+      <description>这篇文章介绍了**ntfsmac**这款 Mac 磁盘工具。它把 NTFS 写入交给一个**轻量 Linux 微虚拟机**（libkrun + ntfs-3g），再经 NFS 挂回 macOS，全程**无需关闭 SIP、无需安装内核扩展**，也绕开了系统扩展审批。除 NTFS 外还支持 **ext2/3/4** 分区与多盘挂载。文章讲运行原理、**性能占用**、安装命令和权限注意事项，适合不想关 </description>
+      <author>张洪heo (https://blog.zhheo.com/)</author>
+      <pubDate>Mon, 24 Aug 2026 05:31:42 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhheo.com/p/ucrz6hhg.html</guid>
+      <source url="https://blog.zhheo.com/">张洪heo</source>
+    </item>
     <item>
       <title>个人小项目vibecoding方案推荐：opencode spark 1.2 和 zcode</title>
       <link>https://blog.zhheo.com/p/1bwuf82b.html</link>
@@ -105,7 +114,7 @@
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
-      <title>垃圾京东云</title>
+      <title>谨慎选择京东云</title>
       <link>https://www.imaegoo.com/2026/fk-jdcloud/</link>
       <description>贪便宜买的三年京东云，年年都能给你整点不一样的惊吓😂。阿里云腾讯云用了十来年都没碰到过一次糟心事。 2023 年 10 月买的京东云轻量云主机，有效期 3 年。 2024 年 3 月，发现硬盘 I/O 严重问题，最低时仅有 3MB/s，可以看我之前发的这篇文章，即使后来客服给换成了 SSD，也只达到勉强能用的 60MB/s，不是哥们，我家监控的 TF 卡都比这个快… 2025 年 7 月，服务不</description>
       <author>iMaeGoo (https://www.imaegoo.com)</author>
@@ -129,15 +138,6 @@
       <author>张洪heo (https://blog.zhheo.com/)</author>
       <pubDate>Thu, 06 Aug 2026 08:44:45 GMT</pubDate>
       <guid isPermaLink="true">https://blog.zhheo.com/p/kiazx47a.html</guid>
-      <source url="https://blog.zhheo.com/">张洪heo</source>
-    </item>
-    <item>
-      <title>WebMCP适配教程：为浏览器AI预备好，让网页向 AI 提供工具，本博客已支持</title>
-      <link>https://blog.zhheo.com/p/z1fmm8ee.html</link>
-      <description>本文介绍 **WebMCP**（**Web Model Context Protocol**），一个让网页把自身功能**注册成工具**、供浏览器内 **AI 代理**直接调用的 **W3C 标准提案**。从 **MCP** 的背景讲起，对比两者区别，说明当前的**浏览器兼容性**现状和两种开发方式，最后介绍本博客已上线的 WebMCP 实现：搜索、导航、音乐、播客、评论等 **15 个工具**以及</description>
-      <author>张洪heo (https://blog.zhheo.com/)</author>
-      <pubDate>Thu, 06 Aug 2026 03:56:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhheo.com/p/z1fmm8ee.html</guid>
       <source url="https://blog.zhheo.com/">张洪heo</source>
     </item>
     <item>
