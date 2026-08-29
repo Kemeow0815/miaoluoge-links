@@ -33,17 +33,6 @@
     "screenshot": "https://cdn.jsdmirror.com/gh/zsxcoder/github-img@main/img/quenan.avif"
   },
   {
-    "name": "张洪heo",
-    "title": "张洪heo",
-    "desc": "分享设计与科技生活",
-    "avatarType": "url",
-    "avatar": "https://img.zhheo.com/i/67d8fa75943e4.webp",
-    "github": "zhheo",
-    "website": "https://blog.zhheo.com/",
-    "feed": "https://blog.zhheo.com/rss.xml",
-    "screenshot": "https://imgbed.050815.xyz/file/cover/timetable/image.webp"
-  },
-  {
     "name": "絮语",
     "title": "闻絮语",
     "desc": "凡尘修行悟道，叩问仙缘之境",
@@ -53,16 +42,5 @@
     "website": "https://www.wxuyu.top",
     "feed": "https://www.wxuyu.top/atom.xml",
     "screenshot": "https://imgbed.268682.xyz/v2/wFOi4UQ.png"
-  },
-  {
-    "name": "iMaeGoo",
-    "title": "iMaeGoo’s Blog",
-    "desc": "虹墨空间站",
-    "avatarType": "url",
-    "avatar": "https://cdn.jsdelivr.net/npm/imaegoo/avatar.jpg",
-    "github": "imaegoo",
-    "website": "https://www.imaegoo.com",
-    "feed": "https://www.imaegoo.com/atom.xml",
-    "screenshot": "https://cdn.jsdmirror.com/gh/Kemeow0815/img@main/img/iMaeGoo.webp"
   }
 ]
