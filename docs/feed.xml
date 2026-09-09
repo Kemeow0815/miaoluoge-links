@@ -11,9 +11,18 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Wed, 09 Sep 2026 02:53:18 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 08:34:19 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>近期开发的四个开源项目</title>
+      <link>https://blog.liushen.fun/posts/6a6de263/</link>
+      <description>这里是清羽AI，这篇文章介绍了站长清羽飞扬近期维护与开发的四个开源项目。首先是对Artalk评论系统的增强，新增了AI内容审核、关键词拦截、AI评论助手及重构后的管理后台，在保留接口兼容的同时提升了反垃圾与互动能力。其次是Memora相册项目，基于Chronoframe重构为Go后端与纯静态前端，接入高德地图替代海外服务，并引入FFmpeg处理与懒加载优化。第三个是hubProxy镜像加速工具，新</description>
+      <author>liushen (https://www.liushen.fun/)</author>
+      <pubDate>Tue, 08 Sep 2026 18:12:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.liushen.fun/posts/6a6de263/</guid>
+      <source url="https://www.liushen.fun/">liushen</source>
+    </item>
     <item>
       <title>朋友圈大改</title>
       <link>https://www.wxuyu.top/2026/08/circlepage</link>
@@ -202,15 +211,6 @@
       <pubDate>Tue, 23 Dec 2025 02:00:00 GMT</pubDate>
       <guid isPermaLink="true">https://www.wxuyu.top/2025/12/commentadd</guid>
       <source url="https://www.wxuyu.top">絮语</source>
-    </item>
-    <item>
-      <title>部署一只麦麦QQ机器人</title>
-      <link>https://blog.liushen.fun/posts/83890fe8/</link>
-      <description>这里是清羽AI，这篇文章主要介绍了如何部署麦麦QQ机器人。作者在成都出差期间重新拾起了这个项目，并详细分享了部署教程。麦麦是一个基于大语言模型构建的可交互智能体，旨在模拟真实人类的语言习惯和行为。文章首先介绍了项目的前置要求和文件准备，包括服务器配置、API额度、Linux知识等，然后详细描述了使用Docker进行部署的步骤，包括文件结构、配置修改和启动命令。最后，作者分享了WebUI的使用方法，</description>
-      <author>liushen (https://www.liushen.fun/)</author>
-      <pubDate>Sun, 21 Dec 2025 15:00:21 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.liushen.fun/posts/83890fe8/</guid>
-      <source url="https://www.liushen.fun/">liushen</source>
     </item>
     <item>
       <title>新笔记本的开荒</title>
