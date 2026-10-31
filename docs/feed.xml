@@ -11,7 +11,7 @@
     <copyright>© 2026 克喵の友链屋</copyright>
     <managingEditor>Kemeow0815</managingEditor>
     <webMaster>Kemeow0815</webMaster>
-    <lastBuildDate>Sat, 31 Oct 2026 03:54:01 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 10:09:14 GMT</lastBuildDate>
     <ttl>60</ttl>
     <atom:link href="https://www.268682.xyz/feed.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -76,6 +76,15 @@
       <pubDate>Mon, 04 May 2026 12:50:21 GMT</pubDate>
       <guid isPermaLink="true">https://blog.liushen.fun/posts/1968ba6c/</guid>
       <source url="https://www.liushen.fun/">liushen</source>
+    </item>
+    <item>
+      <title>不在大学</title>
+      <link>https://blog.zhilu.site/2026/out-of-campus</link>
+      <description>在2026年的春天，不断在北京与西安往返。春节、实验室周年庆、毕设两次线下代码验收、答辩，在车轮上一趟又一趟，将去向何方…… 点击查看全文</description>
+      <author>纸鹿 (https://blog.zhilu.site/)</author>
+      <pubDate>Sun, 03 May 2026 02:47:48 GMT</pubDate>
+      <guid isPermaLink="true">https://blog.zhilu.site/2026/out-of-campus</guid>
+      <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
     <item>
       <title>用元宝写一个ServiceWorker</title>
@@ -364,15 +373,6 @@
       <pubDate>Tue, 27 Feb 2024 12:55:35 GMT</pubDate>
       <guid isPermaLink="true">https://blog.quenan.cn/2024/activateidm</guid>
       <source url="https://blog.quenan.cn/">鹊楠</source>
-    </item>
-    <item>
-      <title>Windows 安装指南</title>
-      <link>https://blog.zhilu.site/2023/windows-setup-guide</link>
-      <description>使用 Ventoy、微 PE、Dism++ 安装系统，绕过账户限制并激活 Office 与 Windows，合理分区布局使数据安全有序。 点击查看全文</description>
-      <author>纸鹿 (https://blog.zhilu.site/)</author>
-      <pubDate>Sun, 24 Sep 2023 04:00:00 GMT</pubDate>
-      <guid isPermaLink="true">https://blog.zhilu.site/2023/windows-setup-guide</guid>
-      <source url="https://blog.zhilu.site/">纸鹿</source>
     </item>
   </channel>
 </rss>
